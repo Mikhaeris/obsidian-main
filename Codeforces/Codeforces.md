@@ -1,0 +1,80 @@
+Count: 74
+
+want: 131A
+
+| N     | link                                     |
+| ----- | ---------------------------------------- |
+| 1A    | [[Theatre Square]]                       |
+| 4A    | [[Watermelon]]                           |
+| 4C    | [[Registration system]]                  |
+| 25A   | [[IQ test]]                              |
+| 32B   | [[Borze]]                                |
+| 41A   | [[Translation]]                          |
+| 43A   | [[Football2]]                            |
+| 58A   | [[Chat room]]                            |
+| 59A   | [[Word]]                                 |
+| 61A   | [[Ultra-Fast Mathematician]]             |
+| 69A   | [[Young Physicist]]                      |
+| 71A   | [[Way Too Long Words]]                   |
+| 96A   | [[Football]]                             |
+| 110A  | [[Nearly Lucky Number]]                  |
+| 112A  | [[Petya and Strings]]                    |
+| 116A  | [[Tram]]                                 |
+| 118A  | [[String Task]]                          |
+| 133A  | [[HQ9+]]                                 |
+| 141A  | [[Amusing Joke]]                         |
+| 144A  | [[Arrival of the General]]               |
+| 155A  | [[I_love_%username%]]                    |
+| 158A  | [[Next Round]]                           |
+| 208A  | [[Dubstep]]                              |
+| 228A  | [[Is your horseshoe on the other hoof?]] |
+| 230A  | [[Dragons]]                              |
+| 231A  | [[Team]]                                 |
+| 236A  | [[Boy or Girl]]                          |
+| 263A  | [[Beautiful Matrix]]                     |
+| 266B  | [[Queue at the School]]                  |
+| 281A  | [[Word Capitalization]]                  |
+| 282A  | [[Bit++]]                                |
+| 337A  | [[Puzzles]]                              |
+| 339A  | [[Helpful Maths]]                        |
+| 405A  | [[Gravity Flip]]                         |
+| 427A  | [[Police Recruits]]                      |
+| 431A  | [[Black Square]]                         |
+| 443A  | [[Anton and Letters]]                    |
+| 467A  | [[George and Accommodation]]             |
+| 469A  | [[I Wanna Be the Guy]]                   |
+| 472A  | [[Design Tutorial Learn from Math]]      |
+| 486A  | [[Calculating Function]]                 |
+| 510A  | [[Fox And Snake]]                        |
+| 520A  | [[Pangram]]                              |
+| 546A  | [[Soldier and Bananas]]                  |
+| 579A  | [[Raising Bacteria]]                     |
+| 580A  | [[Kefa and First Steps]]                 |
+| 581A  | [[Vasya the Hipster]]                    |
+| 703A  | [[Mishka and Game]]                      |
+| 705A  | [[Hulk]]                                 |
+| 723A  | [[The New Year Meeting Friends]]         |
+| 734A  | [[Anton and Danik]]                      |
+| 750A  | [[New Year and Hurry]]                   |
+| 758A  | [[Holiday Of Equality]]                  |
+| 785A  | [[Anton and Polyhedrons]]                |
+| 791A  | [[Bear and Big Brother]]                 |
+| 977A  | [[Wrong Subtraction]]                    |
+| 1030A | [[In Search of an Easy Problem]]         |
+| 1335A | [[Candies and Two Sisters]]              |
+| 1352A | [[Sum of Round Numbers]]                 |
+| 1512A | [[Spy Detected!]]                        |
+| 1560A | [[Dislike of Threes]]                    |
+| 1669A | [[Division?]]                            |
+| 1676A | [[Lucky?]]                               |
+| 1692A | [[Marathon]]                             |
+| 1703A | [[YES или YES?]]                         |
+| 1742A | [[Sum]]                                  |
+| 1760A | [[Medium Number]]                        |
+| 1791A | [[Codeforces Checking]]                  |
+| 1807A | [[Plus or Minus]]                        |
+| 1829A | [[Blank Space]]                          |
+| 1873A | [[Short Sort]]                           |
+| 1873B | [[Good Kid]]                             |
+| 1915A | [[Odd One Out]]                          |
+| 1999A | [[A+B Again?]]                           |
