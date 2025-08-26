@@ -1,5 +1,5 @@
 
-Count: 123
+Count: 124
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -108,12 +108,14 @@ Count: 123
 | 2469 | [[Convert the Temperature]]                                          |
 | 2529 | [[Maximum Count of Positive Integer and Negative Integer]]           |
 | 2566 | [[Maximum Difference by Remapping a Digit]]                          |
+| 2828 | [[Check if a String Is an Acronym of Words]]                         |
 | 2843 | [[Count Symmetric Integers]]                                         |
 | 2894 | [[Divisible and Non-divisible Sums Difference]]                      |
 | 2900 | [[Longest Unequal Adjacent Groups Subsequence I]]                    |
 | 2918 | [[Minimum Equal Sum of Two Arrays After Replacing Zeros]]            |
 | 2942 | [[Find Words Containing Character]]                                  |
 | 2965 | [[Find Missing and Repeated Values]]                                 |
+| 3000 | [[Maximum Area of Longest Diagonal Rectangle]]                       |
 | 3024 | [[Type of Triangle]]                                                 |
 | 3110 | [[Score of a String]]                                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
@@ -125,4 +127,3 @@ Count: 123
 | 3432 | [[Count Partitions with Even Sum Difference]]                        |
 | 3442 | [[Maximum Difference Between Even and Odd Frequency I]]              |
 | 3467 | [[Transform Array by Parity]]                                        |
-| 2828 | [[Check if a String Is an Acronym of Words]]                         |
