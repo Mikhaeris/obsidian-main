@@ -1,4 +1,4 @@
-Count: 74
+Count: 75
 
 want: 131A
 
@@ -74,6 +74,7 @@ want: 131A
 | 1791A | [[Codeforces Checking]]                  |
 | 1807A | [[Plus or Minus]]                        |
 | 1829A | [[Blank Space]]                          |
+| 1850A | [[To My Critics]]                        |
 | 1873A | [[Short Sort]]                           |
 | 1873B | [[Good Kid]]                             |
 | 1915A | [[Odd One Out]]                          |
