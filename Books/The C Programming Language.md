@@ -731,6 +731,19 @@ rp->pt1.x
 ```
 -
 	6.3. Массивы структур
-			
+```c
+/* Объявление и определение массива структур */
+struct key {
+	char *word;
+	int coint;
+} keytab[NKEYS];
+/* или */
+struct key {
+	char *word;
+	int count;
+}
+
+struct key keytab[NKEYS];
+```
 Продолжение - 5.12
 cтраница 133
