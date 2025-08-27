@@ -761,5 +761,8 @@ sizeof keytab;
 sizeof(struct key);
 sizeof keytab[0];
 ```
+-
+	6.4. Указатели на структуры
+		
 Продолжение - 5.12
 cтраница 133
