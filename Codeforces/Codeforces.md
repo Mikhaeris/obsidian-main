@@ -1,4 +1,4 @@
-Count: 75
+Count: 76
 
 want: 131A
 
@@ -40,6 +40,7 @@ want: 131A
 | 405A  | [[Gravity Flip]]                         |
 | 427A  | [[Police Recruits]]                      |
 | 431A  | [[Black Square]]                         |
+| 432A  | [[Choosing Teams]]                       |
 | 443A  | [[Anton and Letters]]                    |
 | 467A  | [[George and Accommodation]]             |
 | 469A  | [[I Wanna Be the Guy]]                   |
