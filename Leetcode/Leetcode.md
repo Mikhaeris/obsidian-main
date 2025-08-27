@@ -1,5 +1,5 @@
 
-Count: 124
+Count: 125
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -76,6 +76,7 @@ Count: 124
 | 1342 | [[Number of Steps to Reduce a Number to Zero]]                       |
 | 1346 | [[Check If N and Its Double Exist]]                                  |
 | 1394 | [[Find Lucky Integer in an Array]]                                   |
+| 1413 | [[Minimum Value to Get Positive Step by Step Sum]]                   |
 | 1431 | [[Kids With the Greatest Number of Candies]]                         |
 | 1456 | [[Maximum Number of Vowels in a Substring of Given Length]]          |
 | 1480 | [[Running Sum of 1d Array]]                                          |
