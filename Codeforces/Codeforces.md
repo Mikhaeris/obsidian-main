@@ -1,4 +1,4 @@
-Count: 76
+Count: 77
 
 want: 131A
 
@@ -46,6 +46,7 @@ want: 131A
 | 469A  | [[I Wanna Be the Guy]]                   |
 | 472A  | [[Design Tutorial Learn from Math]]      |
 | 486A  | [[Calculating Function]]                 |
+| 490A  | [[Team Olympiad]]                        |
 | 510A  | [[Fox And Snake]]                        |
 | 520A  | [[Pangram]]                              |
 | 546A  | [[Soldier and Bananas]]                  |
