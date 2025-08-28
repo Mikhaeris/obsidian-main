@@ -1,5 +1,5 @@
 
-Count: 125
+Count: 126
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -42,6 +42,7 @@ Count: 125
 | 349  | [[Intersection of Two Arrays]]                                       |
 | 374  | [[Guess Number Higher or Lower]]                                     |
 | 383  | [[Ransom Note]]                                                      |
+| 387  | [[First Unique Character in a String]]                               |
 | 392  | [[Is Subsequence]]                                                   |
 | 412  | [[Fizz Buzz]]                                                        |
 | 414  | [[Third Maximum Number]]                                             |
