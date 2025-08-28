@@ -1,5 +1,5 @@
 
-Count: 126
+Count: 127
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -33,6 +33,7 @@ Count: 126
 | 209  | [[Minimum Size Subarray Sum]]                                        |
 | 217  | [[Contains Duplicate]]                                               |
 | 231  | [[Power of Two]]                                                     |
+| 232  | [[Implement Queue using Stacks]]                                     |
 | 242  | [[Valid Anagram]]                                                    |
 | 283  | [[Move Zeroes]]                                                      |
 | 326  | [[Power of Three]]                                                   |
