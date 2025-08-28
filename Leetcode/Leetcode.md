@@ -1,5 +1,5 @@
 
-Count: 127
+Count: 128
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -111,6 +111,7 @@ Count: 127
 | 2469 | [[Convert the Temperature]]                                          |
 | 2529 | [[Maximum Count of Positive Integer and Negative Integer]]           |
 | 2566 | [[Maximum Difference by Remapping a Digit]]                          |
+| 2739 | [[Total Distance Traveled]]                                          |
 | 2828 | [[Check if a String Is an Acronym of Words]]                         |
 | 2843 | [[Count Symmetric Integers]]                                         |
 | 2894 | [[Divisible and Non-divisible Sums Difference]]                      |
