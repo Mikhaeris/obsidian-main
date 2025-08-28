@@ -30,7 +30,7 @@ public:
 	Решение: Пока в баке больше или равно 5 литрам, вычитаем из бака 5 литров и к пройденному расстоянию прибавляем 50 км. Если в дополнитлеьном баке есть топливо, то добавляем ы основной бак 1 литр и вычитаем из дополнительного 1 литр. В конце к пройденным километрам добавляем остатки, сколько получится проехать на оставшихся литрах в основном баке. Вернуть ответ.
 
 Answer2:
-	Time Complexity: O(N)
+	Time Complexity: O(1)
 	Space Complexity: O(1)
 Code:
 Solution:
@@ -86,20 +86,7 @@ Solution:
 class Solution {
 public:
 	int distanceTraveled(int mainTank, int additionalTank) {
-		int ans = 0;
-		while (mainTank >= 5) {
-			mainTank -= 5;
-			ans += 5 * 10;
-			  
-			if (additionalTank) {
-				mainTank++;
-				additionalTank--;
-			}
-		}
-		
-		ans += mainTank * 10;
-		  
-		return ans;
+		return (mainTank + min((mainTank - 1) / 4, additionalTank)) * 10;
 	}
 };
 ```
