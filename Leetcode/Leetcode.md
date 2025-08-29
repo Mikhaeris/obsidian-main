@@ -1,5 +1,5 @@
 
-Count: 129
+Count: 130
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -121,6 +121,7 @@ Count: 129
 | 2942 | [[Find Words Containing Character]]                                  |
 | 2965 | [[Find Missing and Repeated Values]]                                 |
 | 3000 | [[Maximum Area of Longest Diagonal Rectangle]]                       |
+| 3021 | [[Alice and Bob Playing Flower Game]]                                |
 | 3024 | [[Type of Triangle]]                                                 |
 | 3110 | [[Score of a String]]                                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
