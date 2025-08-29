@@ -1,4 +1,4 @@
-Count: 77
+Count: 78
 
 want: 131A
 
@@ -80,4 +80,5 @@ want: 131A
 | 1873A | [[Short Sort]]                           |
 | 1873B | [[Good Kid]]                             |
 | 1915A | [[Odd One Out]]                          |
+| 1985A | [[Creating Words]]                       |
 | 1999A | [[A+B Again?]]                           |
