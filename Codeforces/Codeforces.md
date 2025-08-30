@@ -1,4 +1,4 @@
-Count: 78
+Count: 79
 
 want: 131A
 
@@ -65,6 +65,7 @@ want: 131A
 | 1030A | [[In Search of an Easy Problem]]         |
 | 1335A | [[Candies and Two Sisters]]              |
 | 1352A | [[Sum of Round Numbers]]                 |
+| 1367A | [[Short Substrings]]                     |
 | 1512A | [[Spy Detected!]]                        |
 | 1560A | [[Dislike of Threes]]                    |
 | 1669A | [[Division?]]                            |
