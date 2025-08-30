@@ -1,5 +1,5 @@
 
-Count: 130
+Count: 131
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -82,6 +82,7 @@ Count: 130
 | 1431 | [[Kids With the Greatest Number of Candies]]                         |
 | 1456 | [[Maximum Number of Vowels in a Substring of Given Length]]          |
 | 1480 | [[Running Sum of 1d Array]]                                          |
+| 1486 | [[XOR Operation in an Array]]                                        |
 | 1493 | [[Longest Subarray of 1's After Deleting One Element]]               |
 | 1550 | [[Three Consecutive Odds]]                                           |
 | 1672 | [[Richest Customer Wealth]]                                          |
