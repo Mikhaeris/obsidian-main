@@ -1003,5 +1003,6 @@ printf("%.*s", max, s);
 ```c
 int sprintf(char *string, char *format, arg1, arg2, ...)
 ```
+.
 Продолжение - 7
 cтраница 164
