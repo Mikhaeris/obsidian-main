@@ -1,4 +1,4 @@
-Count: 79
+Count: 80
 
 want: 131A
 
@@ -81,5 +81,6 @@ want: 131A
 | 1873A | [[Short Sort]]                           |
 | 1873B | [[Good Kid]]                             |
 | 1915A | [[Odd One Out]]                          |
+| 1950A | [[Stair, Peak, or Neither?]]             |
 | 1985A | [[Creating Words]]                       |
 | 1999A | [[A+B Again?]]                           |
