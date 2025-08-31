@@ -10,10 +10,10 @@ Space Complexity: O(1)
 void selection_sort(vector<int>& vec) {
     int n = vec.size();
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n - 1; ++i) {
         int min_idx = i;
 
-        for (int j = i; j < n; ++j) {
+        for (int j = i + 1; j < n; ++j) {
             if (vec[j] < vec[min_idx]) {
                 min_idx = j;
             }
