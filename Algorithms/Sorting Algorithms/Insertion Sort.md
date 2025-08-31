@@ -9,6 +9,7 @@ Space Complexity: O(1)
 ```cpp
 void insertion_sort(vector<int>& vec) {
 	int n = vec.size();
+	
     for (int i = 1; i < n; ++i) {
         int key = vec[i];
         int pos = i - 1;
