@@ -1,5 +1,5 @@
 
-Count: 132
+Count: 133
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -111,6 +111,7 @@ Count: 132
 | 2390 | [[Removing Stars From a String]]                                     |
 | 2410 | [[Maximum Matching of Players With Trainers]]                        |
 | 2469 | [[Convert the Temperature]]                                          |
+| 2520 | [[Count the Digits That Divide a Number]]                            |
 | 2529 | [[Maximum Count of Positive Integer and Negative Integer]]           |
 | 2566 | [[Maximum Difference by Remapping a Digit]]                          |
 | 2729 | [[Check if The Number is Fascinating]]                               |
