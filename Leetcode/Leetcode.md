@@ -1,5 +1,5 @@
 
-Count: 133
+Count: 134
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -78,6 +78,7 @@ Count: 133
 | 1323 | [[Maximum 69 Number]]                                                |
 | 1342 | [[Number of Steps to Reduce a Number to Zero]]                       |
 | 1346 | [[Check If N and Its Double Exist]]                                  |
+| 1374 | [[Generate a String With Characters That Have Odd Counts]]           |
 | 1394 | [[Find Lucky Integer in an Array]]                                   |
 | 1413 | [[Minimum Value to Get Positive Step by Step Sum]]                   |
 | 1431 | [[Kids With the Greatest Number of Candies]]                         |
