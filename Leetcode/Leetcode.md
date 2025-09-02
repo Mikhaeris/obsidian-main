@@ -1,5 +1,5 @@
 
-Count: 135
+Count: 136
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -138,3 +138,4 @@ Count: 135
 | 3432 | [[Count Partitions with Even Sum Difference]]                        |
 | 3442 | [[Maximum Difference Between Even and Odd Frequency I]]              |
 | 3467 | [[Transform Array by Parity]]                                        |
+| 2465 | [[Number of Distinct Averages]]                                      |
