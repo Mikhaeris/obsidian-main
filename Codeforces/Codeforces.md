@@ -1,4 +1,4 @@
-Count: 81
+Count: 82
 
 want: 131A
 
@@ -35,6 +35,7 @@ want: 131A
 | 266B  | [[Queue at the School]]                  |
 | 281A  | [[Word Capitalization]]                  |
 | 282A  | [[Bit++]]                                |
+| 313A  | [[Ilya and Bank Account]]                |
 | 337A  | [[Puzzles]]                              |
 | 339A  | [[Helpful Maths]]                        |
 | 405A  | [[Gravity Flip]]                         |
