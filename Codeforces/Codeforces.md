@@ -1,4 +1,4 @@
-Count: 82
+Count: 83
 
 want: 131A
 
@@ -16,6 +16,7 @@ want: 131A
 | 61A   | [[Ultra-Fast Mathematician]]             |
 | 69A   | [[Young Physicist]]                      |
 | 71A   | [[Way Too Long Words]]                   |
+| 80A   | [[Panoramix's Prediction]]               |
 | 96A   | [[Football]]                             |
 | 110A  | [[Nearly Lucky Number]]                  |
 | 112A  | [[Petya and Strings]]                    |
