@@ -1,5 +1,5 @@
 
-Count: 136
+Count: 137
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -112,10 +112,12 @@ Count: 136
 | 2390 | [[Removing Stars From a String]]                                     |
 | 2410 | [[Maximum Matching of Players With Trainers]]                        |
 | 2446 | [[Determine if Two Events Have Conflict]]                            |
+| 2465 | [[Number of Distinct Averages]]                                      |
 | 2469 | [[Convert the Temperature]]                                          |
 | 2520 | [[Count the Digits That Divide a Number]]                            |
 | 2529 | [[Maximum Count of Positive Integer and Negative Integer]]           |
 | 2566 | [[Maximum Difference by Remapping a Digit]]                          |
+| 2678 | [[Number of Senior Citizens]]                                        |
 | 2729 | [[Check if The Number is Fascinating]]                               |
 | 2739 | [[Total Distance Traveled]]                                          |
 | 2828 | [[Check if a String Is an Acronym of Words]]                         |
@@ -138,4 +140,3 @@ Count: 136
 | 3432 | [[Count Partitions with Even Sum Difference]]                        |
 | 3442 | [[Maximum Difference Between Even and Odd Frequency I]]              |
 | 3467 | [[Transform Array by Parity]]                                        |
-| 2465 | [[Number of Distinct Averages]]                                      |
