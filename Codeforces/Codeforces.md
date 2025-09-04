@@ -1,4 +1,4 @@
-Count: 83
+Count: 84
 
 want: 131A
 
@@ -39,6 +39,7 @@ want: 131A
 | 313A  | [[Ilya and Bank Account]]                |
 | 337A  | [[Puzzles]]                              |
 | 339A  | [[Helpful Maths]]                        |
+| 363B  | [[Fence]]                                |
 | 405A  | [[Gravity Flip]]                         |
 | 427A  | [[Police Recruits]]                      |
 | 431A  | [[Black Square]]                         |
