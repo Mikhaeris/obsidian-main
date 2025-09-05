@@ -143,3 +143,4 @@ Count: 140
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3516 | [[Find Closest Person]]                                              |
 | 1304 | [[Find N Unique Integers Sum up to Zero]]                            |
+| 3340 | [[Check Balanced String]]                                            |
