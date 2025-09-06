@@ -9,6 +9,7 @@ want: 131A
 | 4C    | [[Registration system]]                  |
 | 25A   | [[IQ test]]                              |
 | 32B   | [[Borze]]                                |
+| 34B   | [[Sale]]                                 |
 | 41A   | [[Translation]]                          |
 | 43A   | [[Football2]]                            |
 | 58A   | [[Chat room]]                            |
