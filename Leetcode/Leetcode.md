@@ -1,5 +1,5 @@
 
-Count: 138
+Count: 139
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -117,6 +117,7 @@ Count: 138
 | 2520 | [[Count the Digits That Divide a Number]]                            |
 | 2529 | [[Maximum Count of Positive Integer and Negative Integer]]           |
 | 2566 | [[Maximum Difference by Remapping a Digit]]                          |
+| 2586 | [[Count the Number of Vowel Strings in Range]]                       |
 | 2678 | [[Number of Senior Citizens]]                                        |
 | 2729 | [[Check if The Number is Fascinating]]                               |
 | 2739 | [[Total Distance Traveled]]                                          |
