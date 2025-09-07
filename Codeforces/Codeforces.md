@@ -1,4 +1,4 @@
-Count: 84
+Count: 85
 
 want: 131A
 
@@ -76,6 +76,7 @@ want: 131A
 | 1676A | [[Lucky?]]                               |
 | 1692A | [[Marathon]]                             |
 | 1703A | [[YES или YES?]]                         |
+| 1703B | [[ICPC Balloons]]                        |
 | 1742A | [[Sum]]                                  |
 | 1760A | [[Medium Number]]                        |
 | 1791A | [[Codeforces Checking]]                  |
