@@ -75,6 +75,7 @@ Count: 140
 | 1233 | [[Remove Sub-Folders from the Filesystem]]                           |
 | 1290 | [[Convert Binary Number in a Linked List to Integer]]                |
 | 1299 | [[Replace Elements with Greatest Element on Right Side]]             |
+| 1304 | [[Find N Unique Integers Sum up to Zero]]                            |
 | 1323 | [[Maximum 69 Number]]                                                |
 | 1342 | [[Number of Steps to Reduce a Number to Zero]]                       |
 | 1346 | [[Check If N and Its Double Exist]]                                  |
@@ -135,6 +136,7 @@ Count: 140
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
 | 3304 | [[Find the K-th Character in String Game I]]                         |
 | 3330 | [[Find the Original Typed String I]]                                 |
+| 3340 | [[Check Balanced String]]                                            |
 | 3355 | [[Zero Array Transformation I]]                                      |
 | 3392 | [[Count Subarrays of Length Three With a Condition]]                 |
 | 3423 | [[Maximum Difference Between Adjacent Elements in a Circular Array]] |
@@ -142,5 +144,3 @@ Count: 140
 | 3442 | [[Maximum Difference Between Even and Odd Frequency I]]              |
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3516 | [[Find Closest Person]]                                              |
-| 1304 | [[Find N Unique Integers Sum up to Zero]]                            |
-| 3340 | [[Check Balanced String]]                                            |
