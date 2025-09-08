@@ -1,5 +1,5 @@
 
-Count: 140
+Count: 142
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -95,6 +95,7 @@ Count: 140
 | 1768 | [[Merge Strings Alternately]]                                        |
 | 1800 | [[Maximum Ascending Subarray Sum]]                                   |
 | 1816 | [[Truncate Sentence]]                                                |
+| 1844 | [[Replace All Digits with Characters]]                               |
 | 1863 | [[Sum of All Subset XOR Totals]]                                     |
 | 1880 | [[Check if Word Equals Summation of Two Words]]                      |
 | 1920 | [[Build Array from Permutation]]                                     |
