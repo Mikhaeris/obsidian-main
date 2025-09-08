@@ -1,5 +1,5 @@
 
-Count: 142
+Count: 143
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -76,6 +76,7 @@ Count: 142
 | 1290 | [[Convert Binary Number in a Linked List to Integer]]                |
 | 1299 | [[Replace Elements with Greatest Element on Right Side]]             |
 | 1304 | [[Find N Unique Integers Sum up to Zero]]                            |
+| 1317 | [[Convert Integer to the Sum of Two No-Zero Integers]]               |
 | 1323 | [[Maximum 69 Number]]                                                |
 | 1342 | [[Number of Steps to Reduce a Number to Zero]]                       |
 | 1346 | [[Check If N and Its Double Exist]]                                  |
