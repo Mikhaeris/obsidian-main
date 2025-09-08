@@ -91,3 +91,4 @@ want: 131A
 | 1950A | [[Stair, Peak, or Neither?]]             |
 | 1985A | [[Creating Words]]                       |
 | 1999A | [[A+B Again?]]                           |
+| 1791C | [[Prepend and Append]]                   |
