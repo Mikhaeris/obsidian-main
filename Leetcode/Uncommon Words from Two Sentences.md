@@ -7,32 +7,42 @@ Solution:
 ```cpp
 class Solution {
 public:
-	vector<int> getNoZeroIntegers(int n) {
-		for (int i = 1; i < n; ++i) {
-			if (!haveZero(i) && !haveZero(n-i)) {
-				return {i, n-i};
+	vector<string> uncommonFromSentences(string s1, string s2) {
+		unordered_map<string, int> mp;
+		  
+		string temp;
+		for (int i = 0; i < s1.length(); ++i) {
+			if (s1[i] == ' ') {
+				++mp[temp];
+				temp = "";
+				continue;
+			}
+			temp += s1[i];
+		}
+		++mp[temp];
+		temp = "";
+		  
+		for (int i = 0; i < s2.length(); ++i) {
+			if (s2[i] == ' ') {
+				++mp[temp];
+				temp = "";
+				continue;
+			}
+			temp += s2[i];
+		}
+		++mp[temp];
+		  
+		vector<string> ans;
+		for (const auto& pr : mp) {
+			if (pr.second == 1) {
+				ans.push_back(pr.first);
 			}
 		}
 		  
-		return {-1, -1};
-	}
-	  
-private:
-	bool haveZero(int n) {
-		if (n == 0) {
-			return true;
-		}
-		while (n) {
-			if (n % 10 == 0) {
-				return true;
-			}
-			n /= 10;
-		}
-		  
-		return false;
+		return ans;
 	}
 };
 ```
 **Explanation:**
-	Цель: Дано число. Нужно вернуть два числа, сумма которых равна данному и оба чиса не должны содержать нулей.
-	Решение: Пройтись по всем числам от 1 до n. Для каждого i проверять, что i не содержит нулей и n-i не содержит нулей.
+	Цель: Даны две строки. Нужно найти в них слова которые не повторяются.
+	Решение: Записывать все слова в [[Hash table]] и после пройтись по таблице, добавляяя в ans только слова, которые не повторяются.
