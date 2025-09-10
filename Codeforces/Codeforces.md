@@ -1,4 +1,4 @@
-Count: 89
+Count: 90
 
 want: 131A
 
@@ -70,8 +70,10 @@ want: 131A
 | 1335A | [[Candies and Two Sisters]]              |
 | 1352A | [[Sum of Round Numbers]]                 |
 | 1367A | [[Short Substrings]]                     |
+| 1433A | [[Boring Apartments]]                    |
 | 1512A | [[Spy Detected!]]                        |
 | 1560A | [[Dislike of Threes]]                    |
+| 1619A | [[Square String?]]                       |
 | 1669A | [[Division?]]                            |
 | 1676A | [[Lucky?]]                               |
 | 1692A | [[Marathon]]                             |
@@ -81,6 +83,7 @@ want: 131A
 | 1742A | [[Sum]]                                  |
 | 1760A | [[Medium Number]]                        |
 | 1791A | [[Codeforces Checking]]                  |
+| 1791C | [[Prepend and Append]]                   |
 | 1807A | [[Plus or Minus]]                        |
 | 1829A | [[Blank Space]]                          |
 | 1829A | [[Love Story]]                           |
@@ -91,6 +94,4 @@ want: 131A
 | 1950A | [[Stair, Peak, or Neither?]]             |
 | 1985A | [[Creating Words]]                       |
 | 1999A | [[A+B Again?]]                           |
-| 1791C | [[Prepend and Append]]                   |
-| 1433A | [[Boring Apartments]]                    |
 
