@@ -1,4 +1,4 @@
-Count: 90
+Count: 91
 
 want: 131A
 
@@ -51,6 +51,7 @@ want: 131A
 | 472A  | [[Design Tutorial Learn from Math]]      |
 | 486A  | [[Calculating Function]]                 |
 | 490A  | [[Team Olympiad]]                        |
+| 492A  | [[Vanya and Cubes]]                      |
 | 510A  | [[Fox And Snake]]                        |
 | 520A  | [[Pangram]]                              |
 | 546A  | [[Soldier and Bananas]]                  |
