@@ -1,4 +1,4 @@
-Count: 91
+Count: 92
 
 want: 131A
 
@@ -68,6 +68,7 @@ want: 131A
 | 791A  | [[Bear and Big Brother]]                 |
 | 977A  | [[Wrong Subtraction]]                    |
 | 1030A | [[In Search of an Easy Problem]]         |
+| 1283A | [[Minutes Before the New Year]]          |
 | 1335A | [[Candies and Two Sisters]]              |
 | 1352A | [[Sum of Round Numbers]]                 |
 | 1367A | [[Short Substrings]]                     |
