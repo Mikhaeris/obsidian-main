@@ -1,5 +1,5 @@
 
-Count: 147
+Count: 148
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -150,3 +150,4 @@ Count: 147
 | 3516 | [[Find Closest Person]]                                              |
 | 2785 | [[Sort Vowels in a String]]                                          |
 | 1507 | [[Reformat Date]]                                                    |
+| 3227 | [[Vowels Game in a String]]                                          |
