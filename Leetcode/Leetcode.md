@@ -1,5 +1,5 @@
 
-Count: 146
+Count: 147
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -149,3 +149,4 @@ Count: 146
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3516 | [[Find Closest Person]]                                              |
 | 2785 | [[Sort Vowels in a String]]                                          |
+| 1507 | [[Reformat Date]]                                                    |
