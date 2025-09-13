@@ -1,5 +1,5 @@
 
-Count: 148
+Count: 149
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -89,6 +89,7 @@ Count: 148
 | 1480 | [[Running Sum of 1d Array]]                                          |
 | 1486 | [[XOR Operation in an Array]]                                        |
 | 1493 | [[Longest Subarray of 1's After Deleting One Element]]               |
+| 1507 | [[Reformat Date]]                                                    |
 | 1550 | [[Three Consecutive Odds]]                                           |
 | 1672 | [[Richest Customer Wealth]]                                          |
 | 1679 | [[Max Number of K-Sum Pairs]]                                        |
@@ -126,6 +127,7 @@ Count: 148
 | 2678 | [[Number of Senior Citizens]]                                        |
 | 2729 | [[Check if The Number is Fascinating]]                               |
 | 2739 | [[Total Distance Traveled]]                                          |
+| 2785 | [[Sort Vowels in a String]]                                          |
 | 2828 | [[Check if a String Is an Acronym of Words]]                         |
 | 2843 | [[Count Symmetric Integers]]                                         |
 | 2894 | [[Divisible and Non-divisible Sums Difference]]                      |
@@ -138,6 +140,7 @@ Count: 148
 | 3024 | [[Type of Triangle]]                                                 |
 | 3110 | [[Score of a String]]                                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
+| 3227 | [[Vowels Game in a String]]                                          |
 | 3304 | [[Find the K-th Character in String Game I]]                         |
 | 3330 | [[Find the Original Typed String I]]                                 |
 | 3340 | [[Check Balanced String]]                                            |
@@ -148,6 +151,4 @@ Count: 148
 | 3442 | [[Maximum Difference Between Even and Odd Frequency I]]              |
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3516 | [[Find Closest Person]]                                              |
-| 2785 | [[Sort Vowels in a String]]                                          |
-| 1507 | [[Reformat Date]]                                                    |
-| 3227 | [[Vowels Game in a String]]                                          |
+| 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
