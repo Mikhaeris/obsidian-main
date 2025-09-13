@@ -11,15 +11,19 @@ using namespace std;
 
 int main() {
     int t; cin >> t;
+    cin.ignore();
     for (int i = 0; i < t; ++i) {
-        int x, n; cin >> x >> n;
-        (n & 1)
-        ? cout << x << endl
-        : cout << 0 << endl;
+        int count = 0;
+        char c;
+        while ((c = getchar()) != '\n') {
+            (c == 'A') ? ++count : --count;
+        }
+
+        cout << ((count > 0) ? 'A' : 'B') << endl;
     }
     return 0;
 }
 ```
 **Explanation:**
-	Цель: D 
-	Решение: 24 - (h + 1) - т.е. скольок часов осталось минус этот до нового года умноженное на 60 плюс 60 - данное колиество минут.
+	Цель: Дана строка из 5 символов. Нужно азнуть каких символов больше 'A' или 'B'.
+	Решение: Один счетчик увеличивается и уменьшается.
