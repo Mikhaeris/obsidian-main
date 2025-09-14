@@ -1,4 +1,4 @@
-Count: 93
+Count: 94
 
 want: 131A
 
@@ -74,6 +74,7 @@ want: 131A
 | 1367A | [[Short Substrings]]                     |
 | 1433A | [[Boring Apartments]]                    |
 | 1512A | [[Spy Detected!]]                        |
+| 1520A | [[Do Not Be Distracted!]]                |
 | 1560A | [[Dislike of Threes]]                    |
 | 1619A | [[Square String?]]                       |
 | 1669A | [[Division?]]                            |
