@@ -1,5 +1,5 @@
 
-Count: 149
+Count: 150
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -138,6 +138,7 @@ Count: 149
 | 3000 | [[Maximum Area of Longest Diagonal Rectangle]]                       |
 | 3021 | [[Alice and Bob Playing Flower Game]]                                |
 | 3024 | [[Type of Triangle]]                                                 |
+| 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
 | 3110 | [[Score of a String]]                                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
 | 3227 | [[Vowels Game in a String]]                                          |
