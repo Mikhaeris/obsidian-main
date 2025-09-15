@@ -1,5 +1,5 @@
 
-Count: 150
+Count: 151
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -103,6 +103,7 @@ Count: 150
 | 1880 | [[Check if Word Equals Summation of Two Words]]                      |
 | 1920 | [[Build Array from Permutation]]                                     |
 | 1929 | [[Concatenation of Array]]                                           |
+| 1935 | [[Maximum Number of Words You Can Type]]                             |
 | 1957 | [[Delete Characters to Make Fancy String]]                           |
 | 1991 | [[Find the Middle Index in Array]]                                   |
 | 2016 | [[Maximum Difference Between Increasing Elements]]                   |
