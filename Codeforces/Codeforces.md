@@ -1,4 +1,4 @@
-Count: 94
+Count: 95
 
 want: 131A
 
@@ -79,6 +79,7 @@ want: 131A
 | 1619A | [[Square String?]]                       |
 | 1669A | [[Division?]]                            |
 | 1676A | [[Lucky?]]                               |
+| 1676B | [[Equal Candies]]                        |
 | 1692A | [[Marathon]]                             |
 | 1703A | [[YES или YES?]]                         |
 | 1703B | [[ICPC Balloons]]                        |
