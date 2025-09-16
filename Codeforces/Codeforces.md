@@ -1,4 +1,4 @@
-Count: 95
+Count: 96
 
 want: 131A
 
@@ -99,4 +99,5 @@ want: 131A
 | 1950A | [[Stair, Peak, or Neither?]]             |
 | 1985A | [[Creating Words]]                       |
 | 1999A | [[A+B Again?]]                           |
+| 1772A | [[A+B?]]                                 |
 
