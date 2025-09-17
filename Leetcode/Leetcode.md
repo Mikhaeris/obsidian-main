@@ -1,5 +1,5 @@
 
-Count: 152
+Count: 153
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -62,6 +62,7 @@ Count: 152
 | 735  | [[Asteroid Collision]]                                               |
 | 747  | [[Largest Number At Least Twice of Others]]                          |
 | 790  | [[Domino and Tromino Tiling]]                                        |
+| 804  | [[Unique Morse Code Words]]                                          |
 | 832  | [[Flipping an Image]]                                                |
 | 838  | [[Push Dominoes]]                                                    |
 | 884  | [[Uncommon Words from Two Sentences]]                                |
@@ -122,6 +123,7 @@ Count: 152
 | 2469 | [[Convert the Temperature]]                                          |
 | 2520 | [[Count the Digits That Divide a Number]]                            |
 | 2529 | [[Maximum Count of Positive Integer and Negative Integer]]           |
+| 2544 | [[Alternating Digit Sum]]                                            |
 | 2553 | [[Separate the Digits in an Array]]                                  |
 | 2566 | [[Maximum Difference by Remapping a Digit]]                          |
 | 2586 | [[Count the Number of Vowel Strings in Range]]                       |
@@ -154,4 +156,3 @@ Count: 152
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
-| 804  | [[Unique Morse Code Words]]                                          |
