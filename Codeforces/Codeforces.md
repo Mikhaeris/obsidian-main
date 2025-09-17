@@ -1,4 +1,4 @@
-Count: 96
+Count: 97
 
 want: 131A
 
@@ -85,7 +85,9 @@ want: 131A
 | 1703B | [[ICPC Balloons]]                        |
 | 1722A | [[Spell Check]]                          |
 | 1742A | [[Sum]]                                  |
+| 1742B | [[Increasing]]                           |
 | 1760A | [[Medium Number]]                        |
+| 1772A | [[A+B?]]                                 |
 | 1791A | [[Codeforces Checking]]                  |
 | 1791C | [[Prepend and Append]]                   |
 | 1807A | [[Plus or Minus]]                        |
@@ -99,5 +101,4 @@ want: 131A
 | 1950A | [[Stair, Peak, or Neither?]]             |
 | 1985A | [[Creating Words]]                       |
 | 1999A | [[A+B Again?]]                           |
-| 1772A | [[A+B?]]                                 |
 
