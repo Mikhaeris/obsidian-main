@@ -1,6 +1,6 @@
 **Complexity:** Easy
 Answer:
-	Time Complexity: O(1)
+	Time Complexity: O(N+M)
 	Space Complexity: O(1)
 Code:
 Solution:

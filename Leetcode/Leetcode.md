@@ -110,10 +110,12 @@ Count: 155
 | 2016 | [[Maximum Difference Between Increasing Elements]]                   |
 | 2044 | [[Count Number of Maximum Bitwise-OR Subsets]]                       |
 | 2094 | [[Finding 3-Digit Even Numbers]]                                     |
+| 2108 | [[Find First Palindromic String in the Array]]                       |
 | 2131 | [[Longest Palindrome by Concatenating Two Letter Words]]             |
 | 2138 | [[Divide a String Into Groups of Size k]]                            |
 | 2206 | [[Divide Array Into Equal Pairs]]                                    |
 | 2210 | [[Count Hills and Valleys in an Array]]                              |
+| 2235 | [[Add Two Integers]]                                                 |
 | 2264 | [[Largest 3-Same-Digit Number in String]]                            |
 | 2348 | [[Number of Zero-Filled Subarrays]]                                  |
 | 2390 | [[Removing Stars From a String]]                                     |
@@ -156,5 +158,3 @@ Count: 155
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
-| 2235 | [[Add Two Integers]]                                                 |
-| 2108 | [[Find First Palindromic String in the Array]]                       |

@@ -1,4 +1,4 @@
-Count: 98
+Count: 99
 
 want: 131A
 
@@ -60,6 +60,7 @@ want: 131A
 | 581A  | [[Vasya the Hipster]]                    |
 | 703A  | [[Mishka and Game]]                      |
 | 705A  | [[Hulk]]                                 |
+| 707A  | [[Brain's Photos]]                       |
 | 723A  | [[The New Year Meeting Friends]]         |
 | 734A  | [[Anton and Danik]]                      |
 | 750A  | [[New Year and Hurry]]                   |
@@ -84,6 +85,7 @@ want: 131A
 | 1703A | [[YES или YES?]]                         |
 | 1703B | [[ICPC Balloons]]                        |
 | 1722A | [[Spell Check]]                          |
+| 1722B | [[Colourblindness]]                      |
 | 1742A | [[Sum]]                                  |
 | 1742B | [[Increasing]]                           |
 | 1760A | [[Medium Number]]                        |
@@ -101,5 +103,4 @@ want: 131A
 | 1950A | [[Stair, Peak, or Neither?]]             |
 | 1985A | [[Creating Words]]                       |
 | 1999A | [[A+B Again?]]                           |
-| 707A  | [[Brain's Photos]]                       |
 
