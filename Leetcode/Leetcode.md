@@ -1,5 +1,5 @@
 
-Count: 154
+Count: 155
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -157,3 +157,4 @@ Count: 154
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 2235 | [[Add Two Integers]]                                                 |
+| 2108 | [[Find First Palindromic String in the Array]]                       |
