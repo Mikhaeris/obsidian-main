@@ -1,5 +1,5 @@
 
-Count: 155
+Count: 156
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -158,3 +158,4 @@ Count: 155
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
+| 3005 | [[Count Elements With Maximum Frequency]]                            |
