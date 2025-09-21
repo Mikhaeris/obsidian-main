@@ -96,6 +96,7 @@ want: 131A
 | 1829A | [[Blank Space]]                          |
 | 1829A | [[Love Story]]                           |
 | 1850A | [[To My Critics]]                        |
+| 1850C | [[Word on the Paper]]                    |
 | 1873A | [[Short Sort]]                           |
 | 1873B | [[Good Kid]]                             |
 | 1915A | [[Odd One Out]]                          |
@@ -104,5 +105,4 @@ want: 131A
 | 1985A | [[Creating Words]]                       |
 | 1999A | [[A+B Again?]]                           |
 | 2009B | [[osu!mania]]                            |
-| 1850C | [[Word on the Paper]]                    |
 

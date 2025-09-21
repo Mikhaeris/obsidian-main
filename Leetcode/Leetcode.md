@@ -1,5 +1,5 @@
 
-Count: 156
+Count: 157
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -141,6 +141,7 @@ Count: 156
 | 2942 | [[Find Words Containing Character]]                                  |
 | 2965 | [[Find Missing and Repeated Values]]                                 |
 | 3000 | [[Maximum Area of Longest Diagonal Rectangle]]                       |
+| 3005 | [[Count Elements With Maximum Frequency]]                            |
 | 3021 | [[Alice and Bob Playing Flower Game]]                                |
 | 3024 | [[Type of Triangle]]                                                 |
 | 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
@@ -156,6 +157,6 @@ Count: 156
 | 3432 | [[Count Partitions with Even Sum Difference]]                        |
 | 3442 | [[Maximum Difference Between Even and Odd Frequency I]]              |
 | 3467 | [[Transform Array by Parity]]                                        |
+| 3492 | [[Maximum Containers on a Ship]]                                     |
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
-| 3005 | [[Count Elements With Maximum Frequency]]                            |
