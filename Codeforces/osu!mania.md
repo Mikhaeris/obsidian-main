@@ -25,7 +25,7 @@ int main() {
         }
 
         for (int j = n-1; j >= 0; --j) {
-            cout << vec[j];
+            cout << vec[j] << " ";
         }
         cout << endl;
     }
