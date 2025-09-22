@@ -1,5 +1,5 @@
 
-Count: 157
+Count: 158
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -147,6 +147,7 @@ Count: 157
 | 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
 | 3110 | [[Score of a String]]                                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
+| 3222 | [[Find the Winning Player in Coin Game]]                             |
 | 3227 | [[Vowels Game in a String]]                                          |
 | 3304 | [[Find the K-th Character in String Game I]]                         |
 | 3330 | [[Find the Original Typed String I]]                                 |
