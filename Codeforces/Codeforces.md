@@ -1,4 +1,4 @@
-Count: 101
+Count: 102
 
 want: 131A
 
@@ -96,6 +96,7 @@ want: 131A
 | 1829A | [[Blank Space]]                          |
 | 1829A | [[Love Story]]                           |
 | 1850A | [[To My Critics]]                        |
+| 1850B | [[Ten Words of Wisdom]]                  |
 | 1850C | [[Word on the Paper]]                    |
 | 1873A | [[Short Sort]]                           |
 | 1873B | [[Good Kid]]                             |
