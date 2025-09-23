@@ -1,4 +1,4 @@
-Count: 102
+Count: 103
 
 want: 131A
 
@@ -103,6 +103,7 @@ want: 131A
 | 1915A | [[Odd One Out]]                          |
 | 1926A | [[Vlad and the Best of Five]]            |
 | 1950A | [[Stair, Peak, or Neither?]]             |
+| 1955A | [[Yogurt Sale]]                          |
 | 1985A | [[Creating Words]]                       |
 | 1999A | [[A+B Again?]]                           |
 | 2009B | [[osu!mania]]                            |
