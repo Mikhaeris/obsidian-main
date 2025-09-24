@@ -1,5 +1,5 @@
 
-Count: 159
+Count: 160
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -26,6 +26,7 @@ Count: 159
 | 136  | [[Single Number]]                                                    |
 | 141  | [[Linked List Cycle]]                                                |
 | 151  | [[Reverse Words in a String]]                                        |
+| 165  | [[Compare Version Numbers]]                                          |
 | 167  | [[Two Sum II - Input Array Is Sorted]]                               |
 | 169  | [[Majority Element]]                                                 |
 | 189  | [[Rotate Array]]                                                     |
@@ -159,6 +160,6 @@ Count: 159
 | 3442 | [[Maximum Difference Between Even and Odd Frequency I]]              |
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3492 | [[Maximum Containers on a Ship]]                                     |
+| 3498 | [[Reverse Degree of a String]]                                       |
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
-| 165  | [[Compare Version Numbers]]                                          |
