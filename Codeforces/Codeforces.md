@@ -1,4 +1,4 @@
-Count: 104
+Count: 105
 
 want: 131A
 
@@ -108,4 +108,5 @@ want: 131A
 | 1999A | [[A+B Again?]]                           |
 | 2009B | [[osu!mania]]                            |
 | 1760B | [[Atilla's Favorite Problem]]            |
+| 2094A | [[Trippi Troppi]]                        |
 
