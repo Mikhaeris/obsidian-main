@@ -1,7 +1,7 @@
 **Complexity:** Easy
 Answer:
 	Time Complexity: O(N)
-	Space Complexity: O(?)
+	Space Complexity: O(k)
 Code:
 Solution:
 ```cpp
