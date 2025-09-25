@@ -1,5 +1,5 @@
 
-Count: 160
+Count: 161
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -163,3 +163,4 @@ Count: 160
 | 3498 | [[Reverse Degree of a String]]                                       |
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
+| 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
