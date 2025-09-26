@@ -1,5 +1,5 @@
 
-Count: 161
+Count: 162
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -164,3 +164,4 @@ Count: 161
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
+| 3512 | [[Minimum Operations to Make Array Sum Divisible by K]]              |
