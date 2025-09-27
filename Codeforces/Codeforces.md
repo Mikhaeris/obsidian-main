@@ -1,4 +1,4 @@
-Count: 106
+Count: 107
 
 want: 131A
 
@@ -89,6 +89,7 @@ want: 131A
 | 1742A | [[Sum]]                                  |
 | 1742B | [[Increasing]]                           |
 | 1760A | [[Medium Number]]                        |
+| 1760B | [[Atilla's Favorite Problem]]            |
 | 1772A | [[A+B?]]                                 |
 | 1791A | [[Codeforces Checking]]                  |
 | 1791C | [[Prepend and Append]]                   |
@@ -101,13 +102,13 @@ want: 131A
 | 1873A | [[Short Sort]]                           |
 | 1873B | [[Good Kid]]                             |
 | 1915A | [[Odd One Out]]                          |
+| 1921A | [[Square]]                               |
 | 1926A | [[Vlad and the Best of Five]]            |
 | 1950A | [[Stair, Peak, or Neither?]]             |
 | 1955A | [[Yogurt Sale]]                          |
 | 1985A | [[Creating Words]]                       |
 | 1999A | [[A+B Again?]]                           |
 | 2009B | [[osu!mania]]                            |
-| 1760B | [[Atilla's Favorite Problem]]            |
+| 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
-| 1921A | [[Square]]                               |
 
