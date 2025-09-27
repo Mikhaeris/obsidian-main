@@ -1,8 +1,25 @@
+@keyframes cm-blink { from { opacity: 1; } to { opacity: 1; } }
+@keyframes blink { from { opacity: 1; } to { opacity: 1; } }
+
 .cm-editor .cm-cursor,
 .cm-editor .cm-fat-cursor,
 .cm-cursor,
-.cm-fat-cursor {
-  animation: none !important;
+.cm-fat-cursor,
+.editor .cm-cursor,
+div.cm-cursor,
+div.cm-fat-cursor,
+.ProseMirror .cm-cursor,
+.markdown-source-view .cm-cursor,
+.markdown-source-view .cm-fat-cursor {
+  animation-name: none !important;
+  animation-duration: 0s !important;
+  animation-iteration-count: 1 !important;
   transition: none !important;
   opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.cm-editor * {
+  animation-name: none !important;
+  animation-duration: 0s !important;
 }
