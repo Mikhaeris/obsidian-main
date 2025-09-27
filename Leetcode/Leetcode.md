@@ -1,5 +1,5 @@
 
-Count: 162
+Count: 163
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -133,6 +133,7 @@ Count: 162
 | 2678 | [[Number of Senior Citizens]]                                        |
 | 2729 | [[Check if The Number is Fascinating]]                               |
 | 2739 | [[Total Distance Traveled]]                                          |
+| 2744 | [[Find Maximum Number of String Pairs]]                              |
 | 2785 | [[Sort Vowels in a String]]                                          |
 | 2828 | [[Check if a String Is an Acronym of Words]]                         |
 | 2843 | [[Count Symmetric Integers]]                                         |
@@ -161,7 +162,7 @@ Count: 162
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3492 | [[Maximum Containers on a Ship]]                                     |
 | 3498 | [[Reverse Degree of a String]]                                       |
+| 3512 | [[Minimum Operations to Make Array Sum Divisible by K]]              |
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 3512 | [[Minimum Operations to Make Array Sum Divisible by K]]              |
