@@ -1,0 +1,8 @@
+.cm-editor .cm-cursor,
+.cm-editor .cm-fat-cursor,
+.cm-cursor,
+.cm-fat-cursor {
+  animation: none !important;
+  transition: none !important;
+  opacity: 1 !important;
+}
