@@ -23,8 +23,9 @@ void counting_sort(vector<int>& vec, int exp) {
     }
     
     for (int i = n - 1; i >= 0; --i) {
-        output[count[(vec[i] / exp) % 10]-1] = vec[i];
-        count[(vec[i] / exp) % 10]--;
+        int temp = (vec[i] / exp) % 10;
+        output[count[temp]-1] = vec[i];
+        count[temp]--;
     }
 
     for (int i = 0; i < n; ++i) {
