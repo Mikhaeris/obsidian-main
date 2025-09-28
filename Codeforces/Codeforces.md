@@ -1,4 +1,4 @@
-Count: 107
+Count: 108
 
 want: 131A
 
@@ -111,4 +111,5 @@ want: 131A
 | 2009B | [[osu!mania]]                            |
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
+| 1996A | [[Legs]]                                 |
 

@@ -1,7 +1,7 @@
 **Complexity:** 800
 Answer:
 	Time Complexity: O(N)
-	Space Complexity: O(2N)
+	Space Complexity: O(4N)
 Code:
 Solution:
 ```cpp
