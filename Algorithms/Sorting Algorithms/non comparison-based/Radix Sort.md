@@ -1,4 +1,4 @@
-Сортировка подсчетом - быстрый алгоритм сортировки, с помощью подсчета элементов.
+Поразрядная сортировка - быстрый стабильный алгоритм сортировки.
 
 Идея: Если элементы можно не сравнивать, то можно считать количество их вхождений.
 
@@ -9,23 +9,39 @@ Space Complexity: O(N+M)
 
 Алгоритм:
 ```cpp
-void counting_sort(vector<int>& vec) {
-    int maxval = 0;
-    for (const auto& num : vec) {
-        maxval = max(maxval, num);
+void counting_sort(vector<int>& vec, int exp) {
+    int n = vec.size();
+    
+    vector<int> output(n);
+    vector<int> count(10);
+
+    for (const auto& el : vec) {
+        count[(el / exp) % 10]++;
+    }
+    
+    /* prefix sum */
+    for (int i = 0; i < 10; ++i) {
+        count[i] += count[i - 1];
+    }
+    
+    for (int i = n - 1; i >= 0; --i) {
+        output[count[(vec[i] / exp) % 10]-1] = vec[i];
+        count[(vec[i] / exp) % 10]--;
     }
 
-    vector<int> count(maxval + 1);
+    for (int i = 0; i < n; ++i) {
+        vec[i] = output[i];
+    }
+}
 
-    for (const auto& num : vec) {
-        count[num]++;
+void radix_sort(vector<int>& vec) {
+    int max_el = 0;
+    for (const auto& el : vec) {
+        max_el = max(max_el, el);
     }
 
-    int out = 0;
-    for (int i = 0; i < count.size(); ++i) {
-        for (int j = 0; j < count[i]; ++j) {
-            vec[out++] = i;
-        }
+    for (int exp = 1; max_el / exp > 0; exp *= 10) {
+        counting_sort(vec, exp);
     }
 }
 ```
