@@ -112,5 +112,5 @@ want: 131A
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
 | 1996A | [[Legs]]                                 |
-| 20    |                                          |
+| 2044B | [[Normal Problem]]                       |
 
