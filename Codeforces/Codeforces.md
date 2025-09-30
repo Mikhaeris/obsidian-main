@@ -79,6 +79,7 @@ want: 131A
 | 1560A | [[Dislike of Threes]]                    |
 | 1619A | [[Square String?]]                       |
 | 1669A | [[Division?]]                            |
+| 1669B | [[Triple]]                               |
 | 1676A | [[Lucky?]]                               |
 | 1676B | [[Equal Candies]]                        |
 | 1692A | [[Marathon]]                             |
@@ -107,11 +108,10 @@ want: 131A
 | 1950A | [[Stair, Peak, or Neither?]]             |
 | 1955A | [[Yogurt Sale]]                          |
 | 1985A | [[Creating Words]]                       |
+| 1996A | [[Legs]]                                 |
 | 1999A | [[A+B Again?]]                           |
 | 2009B | [[osu!mania]]                            |
+| 2044B | [[Normal Problem]]                       |
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
-| 1996A | [[Legs]]                                 |
-| 2044B | [[Normal Problem]]                       |
-| 1669B | [[Triple]]                               |
 

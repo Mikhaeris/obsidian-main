@@ -1,5 +1,5 @@
 
-Count: 165
+Count: 166
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -168,3 +168,4 @@ Count: 165
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3042 | [[Count Prefix and Suffix Pairs I]]                                  |
+| 2221 | [[Find Triangular Sum of an Array]]                                  |
