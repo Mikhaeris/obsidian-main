@@ -113,5 +113,5 @@ want: 131A
 | 2094A | [[Trippi Troppi]]                        |
 | 1996A | [[Legs]]                                 |
 | 2044B | [[Normal Problem]]                       |
-| 1     |                                          |
+| 1669B | [[Triple]]                               |
 
