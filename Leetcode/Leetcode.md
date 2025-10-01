@@ -1,5 +1,5 @@
 
-Count: 166
+Count: 167
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -92,6 +92,7 @@ Count: 166
 | 1486 | [[XOR Operation in an Array]]                                        |
 | 1493 | [[Longest Subarray of 1's After Deleting One Element]]               |
 | 1507 | [[Reformat Date]]                                                    |
+| 1518 | [[Water Bottles]]                                                    |
 | 1550 | [[Three Consecutive Odds]]                                           |
 | 1672 | [[Richest Customer Wealth]]                                          |
 | 1679 | [[Max Number of K-Sum Pairs]]                                        |
@@ -116,6 +117,7 @@ Count: 166
 | 2138 | [[Divide a String Into Groups of Size k]]                            |
 | 2206 | [[Divide Array Into Equal Pairs]]                                    |
 | 2210 | [[Count Hills and Valleys in an Array]]                              |
+| 2221 | [[Find Triangular Sum of an Array]]                                  |
 | 2235 | [[Add Two Integers]]                                                 |
 | 2264 | [[Largest 3-Same-Digit Number in String]]                            |
 | 2348 | [[Number of Zero-Filled Subarrays]]                                  |
@@ -146,6 +148,7 @@ Count: 166
 | 3005 | [[Count Elements With Maximum Frequency]]                            |
 | 3021 | [[Alice and Bob Playing Flower Game]]                                |
 | 3024 | [[Type of Triangle]]                                                 |
+| 3042 | [[Count Prefix and Suffix Pairs I]]                                  |
 | 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
 | 3110 | [[Score of a String]]                                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
@@ -165,7 +168,5 @@ Count: 166
 | 3512 | [[Minimum Operations to Make Array Sum Divisible by K]]              |
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
-| 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
-| 3042 | [[Count Prefix and Suffix Pairs I]]                                  |
-| 2221 | [[Find Triangular Sum of an Array]]                                  |
+| 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |

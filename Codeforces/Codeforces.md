@@ -58,6 +58,7 @@ want: 131A
 | 579A  | [[Raising Bacteria]]                     |
 | 580A  | [[Kefa and First Steps]]                 |
 | 581A  | [[Vasya the Hipster]]                    |
+| 702A  | [[Maximum Increase]]                     |
 | 703A  | [[Mishka and Game]]                      |
 | 705A  | [[Hulk]]                                 |
 | 707A  | [[Brain's Photos]]                       |
@@ -114,5 +115,4 @@ want: 131A
 | 2044B | [[Normal Problem]]                       |
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
-| 702A  | [[Maximum Increase]]                     |
 
