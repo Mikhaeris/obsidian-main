@@ -7,19 +7,24 @@ Solution:
 ```cpp
 class Solution {
 public:
-    int triangularSum(vector<int>& nums) {
-        if (nums.size() == 1) {
-            return nums[0];
-        }
-        for (int i = nums.size()-1; i > 0; --i) {
-            for (int j = 0; j < i; ++j) {
-                nums[j] = (nums[j] + nums[j+1]) % 10;
-            }
-        }
-        return nums[0];
-    }
+	int numWaterBottles(int numBottles, int numExchange) {
+	    int fullBottles = numBottles;
+	    int emptyBottles = 0;
+	
+	    int ans = 0;
+	    while (fullBottles) {
+	        emptyBottles += fullBottles;
+	        ans += fullBottles;
+	        fullBottles = 0;
+	
+	        fullBottles = emptyBottles / numExchange;
+	        emptyBottles = (emptyBottles % numExchange);
+	    }
+	
+	    return ans;
+	}
 };
 ```
 **Explanation:**
-	Цель: Нужно найти сумму массив трегольным способом. Каждый элемент равен сумме текщего плюс следующего, так пока не останется один элемент.
-	Pешение: Проходится пока размер массива не станет еденице. Складывать текущей и следеющий элемент взяв остаток от десяти записать в текушую позицию.
+	Цель: Даны бутылки с водой, их нужно выпить. Пустые бутылки с водой можно обменять на полные. Нужно узнать сколько бутылок с водой можно выпить.
+	Pешение: Выполнять эти действия пока есть полные бутылки с водой.
