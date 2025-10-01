@@ -1,4 +1,4 @@
-Count: 110
+Count: 111
 
 want: 131A
 
@@ -114,4 +114,5 @@ want: 131A
 | 2044B | [[Normal Problem]]                       |
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
+| 702A  | [[Maximum Increase]]                     |
 
