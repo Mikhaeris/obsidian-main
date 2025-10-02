@@ -1,5 +1,5 @@
 
-Count: 167
+Count: 168
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -98,6 +98,7 @@ Count: 167
 | 1679 | [[Max Number of K-Sum Pairs]]                                        |
 | 1695 | [[Maximum Erasure Value]]                                            |
 | 1732 | [[Find the Highest Altitude]]                                        |
+| 1748 | [[Sum of Unique Elements]]                                           |
 | 1768 | [[Merge Strings Alternately]]                                        |
 | 1800 | [[Maximum Ascending Subarray Sum]]                                   |
 | 1816 | [[Truncate Sentence]]                                                |

@@ -70,6 +70,7 @@ want: 131A
 | 791A  | [[Bear and Big Brother]]                 |
 | 977A  | [[Wrong Subtraction]]                    |
 | 1030A | [[In Search of an Easy Problem]]         |
+| 1097A | [[Gennady and a Card Game]]              |
 | 1283A | [[Minutes Before the New Year]]          |
 | 1335A | [[Candies and Two Sisters]]              |
 | 1352A | [[Sum of Round Numbers]]                 |
@@ -115,5 +116,4 @@ want: 131A
 | 2044B | [[Normal Problem]]                       |
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
-| 1097A | [[Gennady and a Card Game]]              |
 
