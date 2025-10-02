@@ -1,4 +1,4 @@
-Count: 111
+Count: 112
 
 want: 131A
 
@@ -115,4 +115,5 @@ want: 131A
 | 2044B | [[Normal Problem]]                       |
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
+| 1097A | [[Gennady and a Card Game]]              |
 
