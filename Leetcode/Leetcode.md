@@ -1,5 +1,5 @@
 
-Count: 168
+Count: 169
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -86,6 +86,7 @@ Count: 168
 | 1374 | [[Generate a String With Characters That Have Odd Counts]]           |
 | 1394 | [[Find Lucky Integer in an Array]]                                   |
 | 1413 | [[Minimum Value to Get Positive Step by Step Sum]]                   |
+| 1422 | [[Maximum Score After Splitting a String]]                           |
 | 1431 | [[Kids With the Greatest Number of Candies]]                         |
 | 1456 | [[Maximum Number of Vowels in a Substring of Given Length]]          |
 | 1480 | [[Running Sum of 1d Array]]                                          |
