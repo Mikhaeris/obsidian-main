@@ -1,4 +1,4 @@
-Count: 112
+Count: 113
 
 want: 131A
 
@@ -71,6 +71,7 @@ want: 131A
 | 977A  | [[Wrong Subtraction]]                    |
 | 1030A | [[In Search of an Easy Problem]]         |
 | 1097A | [[Gennady and a Card Game]]              |
+| 1186A | [[Vus the Cossack and a Contest]]        |
 | 1283A | [[Minutes Before the New Year]]          |
 | 1335A | [[Candies and Two Sisters]]              |
 | 1352A | [[Sum of Round Numbers]]                 |
