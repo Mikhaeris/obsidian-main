@@ -1,4 +1,4 @@
-Count: 113
+Count: 115
 
 want: 131A
 
@@ -117,4 +117,5 @@ want: 131A
 | 2044B | [[Normal Problem]]                       |
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
+| 2000B | [[Seating in a Bus]]                     |
 
