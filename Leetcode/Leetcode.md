@@ -1,5 +1,5 @@
 
-Count: 170
+Count: 171
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -173,3 +173,4 @@ Count: 170
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
 | 2535 | [[Difference Between Element Sum and Digit Sum of an Array]]         |
+| 3131 | [[Find the Integer Added to Array I]]                                |

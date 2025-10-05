@@ -118,5 +118,5 @@ want: 131A
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
 | 2000B | [[Seating in a Bus]]                     |
-| 1980A | [[]]                                     |
+| 1980A | [[Problem Generator]]                    |
 
