@@ -3,23 +3,22 @@ Answer:
 	Time Complexity: O(N)
 	Space Complexity: O(1)
 Code:
-Solution1:
+Solution:
 ```cpp
 class Solution {
 public:
-	int differenceOfSum(vector<int>& nums) {
-	    int el_sum = 0, dig_sum = 0;
-	    for (auto& num : nums) {
-	        el_sum += num;
-	
-	        do {
-	            dig_sum += num % 10;
-	        } while (num /= 10);
-	    }
-	    return abs(el_sum - dig_sum);
-	}
+    int addedInteger(vector<int>& nums1, vector<int>& nums2) {
+        int n = nums1.size();
+        int max1 = 0, max2 = 0;
+        for (int i = 0; i < n; ++i) {
+            max1 = max(max1, nums1[i]);
+            max2 = max(max2, nums2[i]);
+        }
+
+        return max2 - max1;
+    }
 };
 ```
 **Explanation:**
-	Цель: Найти разницу по модулю между сумму элементов и суммой цифр в массиве.
-	Решение: Посчитать сумму елементов и цифр. Вернуть разницу по модулю.
+	Цель:  Дано два массива, к массиву один добавили какое-то число и получился массив два. Нужно узнать какое это число было.
+	Решение: Найти в какждом массиве максимальное(или минимальное) число и из второго макимального вычесть первое максимальное.
