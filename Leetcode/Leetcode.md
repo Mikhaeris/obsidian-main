@@ -1,5 +1,5 @@
 
-Count: 171
+Count: 172
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -174,3 +174,4 @@ Count: 171
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
 | 2535 | [[Difference Between Element Sum and Digit Sum of an Array]]         |
 | 3131 | [[Find the Integer Added to Array I]]                                |
+| 1684 | [[Count the Number of Consistent Strings]]                           |

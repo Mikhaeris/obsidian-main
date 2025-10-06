@@ -110,14 +110,14 @@ want: 131A
 | 1926A | [[Vlad and the Best of Five]]            |
 | 1950A | [[Stair, Peak, or Neither?]]             |
 | 1955A | [[Yogurt Sale]]                          |
+| 1980A | [[Problem Generator]]                    |
 | 1985A | [[Creating Words]]                       |
 | 1996A | [[Legs]]                                 |
 | 1999A | [[A+B Again?]]                           |
+| 2000B | [[Seating in a Bus]]                     |
 | 2009B | [[osu!mania]]                            |
 | 2044B | [[Normal Problem]]                       |
+| 2044C | [[Hard Problem]]                         |
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2094A | [[Trippi Troppi]]                        |
-| 2000B | [[Seating in a Bus]]                     |
-| 1980A | [[Problem Generator]]                    |
-| 2044C | [[Hard Problem]]                         |
 
