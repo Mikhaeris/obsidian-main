@@ -1,31 +1,25 @@
-
 **Complexity:** Easy
 Answer:
 	Time Complexity: O(N)
-	Space Complexity: O(N)
+	Space Complexity: O(1)
 Code:
 Solution:
 ```cpp
 class Solution {
 public:
-    int sumOfUnique(vector<int>& nums) {
-        unordered_map<int, int> mp;
-
-        for (const auto& num : nums) {
-            mp[num]++;
+    int minElement(vector<int>& nums) {
+        int min_el = nums[0];
+        for (auto& num : nums) {
+            int curr = 0;
+            do {
+                curr += num % 10;
+            } while (num /= 10);
+            min_el = min(min_el, curr);
         }
-
-        int sum = 0;
-        for (const auto& pr : mp) {
-            if (pr.second == 1) {
-                sum += pr.first;
-            }
-        }
-
-        return sum;
+        return min_el;
     }
 };
 ```
 **Explanation:**
-	Цель: Дан массив из чисел. Нужно почитать сумму уникальных элементов.
-	Pешение: Посчитать повторения элементов. Если элемент повторяется один раз, то дбавлять его в сумму.
+	Цель: Найти число с минмиальной сумма цифр в массиве.
+	Pешение: считать сумму цифр в каждом числе. Вернуть минимальную сумму цифр.
