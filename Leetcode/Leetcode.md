@@ -1,5 +1,5 @@
 
-Count: 172
+Count: 173
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -175,3 +175,4 @@ Count: 172
 | 2535 | [[Difference Between Element Sum and Digit Sum of an Array]]         |
 | 3131 | [[Find the Integer Added to Array I]]                                |
 | 1684 | [[Count the Number of Consistent Strings]]                           |
+| 3300 | [[Minimum Element After Replacement With Digit Sum]]                 |
