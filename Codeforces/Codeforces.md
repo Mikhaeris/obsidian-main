@@ -1,4 +1,4 @@
-Count: 117
+Count: 118
 
 want: 131A
 
@@ -109,6 +109,7 @@ want: 131A
 | 1921A | [[Square]]                               |
 | 1926A | [[Vlad and the Best of Five]]            |
 | 1950A | [[Stair, Peak, or Neither?]]             |
+| 1950B | [[Upscaling]]                            |
 | 1955A | [[Yogurt Sale]]                          |
 | 1980A | [[Problem Generator]]                    |
 | 1985A | [[Creating Words]]                       |

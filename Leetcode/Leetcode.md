@@ -97,6 +97,7 @@ Count: 173
 | 1550 | [[Three Consecutive Odds]]                                           |
 | 1672 | [[Richest Customer Wealth]]                                          |
 | 1679 | [[Max Number of K-Sum Pairs]]                                        |
+| 1684 | [[Count the Number of Consistent Strings]]                           |
 | 1695 | [[Maximum Erasure Value]]                                            |
 | 1732 | [[Find the Highest Altitude]]                                        |
 | 1748 | [[Sum of Unique Elements]]                                           |
@@ -130,6 +131,7 @@ Count: 173
 | 2469 | [[Convert the Temperature]]                                          |
 | 2520 | [[Count the Digits That Divide a Number]]                            |
 | 2529 | [[Maximum Count of Positive Integer and Negative Integer]]           |
+| 2535 | [[Difference Between Element Sum and Digit Sum of an Array]]         |
 | 2544 | [[Alternating Digit Sum]]                                            |
 | 2553 | [[Separate the Digits in an Array]]                                  |
 | 2566 | [[Maximum Difference by Remapping a Digit]]                          |
@@ -153,9 +155,11 @@ Count: 173
 | 3042 | [[Count Prefix and Suffix Pairs I]]                                  |
 | 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
 | 3110 | [[Score of a String]]                                                |
+| 3131 | [[Find the Integer Added to Array I]]                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
 | 3222 | [[Find the Winning Player in Coin Game]]                             |
 | 3227 | [[Vowels Game in a String]]                                          |
+| 3300 | [[Minimum Element After Replacement With Digit Sum]]                 |
 | 3304 | [[Find the K-th Character in String Game I]]                         |
 | 3330 | [[Find the Original Typed String I]]                                 |
 | 3340 | [[Check Balanced String]]                                            |
@@ -172,7 +176,3 @@ Count: 173
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 2535 | [[Difference Between Element Sum and Digit Sum of an Array]]         |
-| 3131 | [[Find the Integer Added to Array I]]                                |
-| 1684 | [[Count the Number of Consistent Strings]]                           |
-| 3300 | [[Minimum Element After Replacement With Digit Sum]]                 |
