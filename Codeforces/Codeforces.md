@@ -120,7 +120,7 @@ want: 131A
 | 2044B | [[Normal Problem]]                       |
 | 2044C | [[Hard Problem]]                         |
 | 2065A | [[Skibidus and Amog'u]]                  |
-| 2094A | [[Trippi Troppi]]                        |
 | 2086A | [[Cloudberry Jam]]                       |
+| 2094A | [[Trippi Troppi]]                        |
 
 
