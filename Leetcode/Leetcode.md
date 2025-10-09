@@ -1,5 +1,5 @@
 
-Count: 174
+Count: 175
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -37,6 +37,7 @@ Count: 174
 | 231  | [[Power of Two]]                                                     |
 | 232  | [[Implement Queue using Stacks]]                                     |
 | 242  | [[Valid Anagram]]                                                    |
+| 258  | [[Add Digits]]                                                       |
 | 283  | [[Move Zeroes]]                                                      |
 | 326  | [[Power of Three]]                                                   |
 | 342  | [[Power of Four]]                                                    |
