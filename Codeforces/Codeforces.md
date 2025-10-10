@@ -106,6 +106,7 @@ want: 131A
 | 1850C | [[Word on the Paper]]                    |
 | 1873A | [[Short Sort]]                           |
 | 1873B | [[Good Kid]]                             |
+| 1913A | [[Rating Increase]]                      |
 | 1915A | [[Odd One Out]]                          |
 | 1921A | [[Square]]                               |
 | 1926A | [[Vlad and the Best of Five]]            |
@@ -123,6 +124,5 @@ want: 131A
 | 2065A | [[Skibidus and Amog'u]]                  |
 | 2086A | [[Cloudberry Jam]]                       |
 | 2094A | [[Trippi Troppi]]                        |
-| 1913A | [[Rating Increase]]                      |
 
 

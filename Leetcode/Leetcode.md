@@ -1,5 +1,5 @@
 
-Count: 175
+Count: 176
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -178,3 +178,4 @@ Count: 175
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
+| 1528 | [[Shuffle String]]                                                   |
