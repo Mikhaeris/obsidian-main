@@ -1,5 +1,5 @@
 
-Count: 176
+Count: 177
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -64,6 +64,7 @@ Count: 176
 | 724  | [[Find Pivot Index]]                                                 |
 | 735  | [[Asteroid Collision]]                                               |
 | 747  | [[Largest Number At Least Twice of Others]]                          |
+| 766  | [[Toeplitz Matrix]]                                                  |
 | 790  | [[Domino and Tromino Tiling]]                                        |
 | 804  | [[Unique Morse Code Words]]                                          |
 | 832  | [[Flipping an Image]]                                                |
@@ -96,6 +97,7 @@ Count: 176
 | 1493 | [[Longest Subarray of 1's After Deleting One Element]]               |
 | 1507 | [[Reformat Date]]                                                    |
 | 1518 | [[Water Bottles]]                                                    |
+| 1528 | [[Shuffle String]]                                                   |
 | 1550 | [[Three Consecutive Odds]]                                           |
 | 1672 | [[Richest Customer Wealth]]                                          |
 | 1679 | [[Max Number of K-Sum Pairs]]                                        |
@@ -178,4 +180,3 @@ Count: 176
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 1528 | [[Shuffle String]]                                                   |
