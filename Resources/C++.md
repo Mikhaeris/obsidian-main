@@ -30,3 +30,5 @@ https://youtube.com/@tilir?si=maz8LJ6p8JVswWG3
 https://youtube.com/@cpprussiaconf?si=LPW_tgyDxz7QNEhi
 
 [[The C++ Programming Language Special Edition Bjarne Stroustrup]]
+
+https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
