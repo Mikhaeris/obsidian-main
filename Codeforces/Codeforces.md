@@ -101,6 +101,7 @@ want: 131A
 | 1807A | [[Plus or Minus]]                        |
 | 1829A | [[Blank Space]]                          |
 | 1829A | [[Love Story]]                           |
+| 1829C | [[Mr. Perfectly Fine]]                   |
 | 1850A | [[To My Critics]]                        |
 | 1850B | [[Ten Words of Wisdom]]                  |
 | 1850C | [[Word on the Paper]]                    |
@@ -125,6 +126,5 @@ want: 131A
 | 2086A | [[Cloudberry Jam]]                       |
 | 2094A | [[Trippi Troppi]]                        |
 | 2106A | [[Dr. TC]]                               |
-| 1829C | [[Mr. Perfectly Fine]]                   |
 
 

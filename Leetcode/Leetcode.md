@@ -1,5 +1,5 @@
 
-Count: 177
+Count: 178
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -180,3 +180,4 @@ Count: 177
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
+| 1450 | [[Number of Students Doing Homework at a Given Time]]                |
