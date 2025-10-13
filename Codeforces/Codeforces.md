@@ -1,4 +1,4 @@
-Count: 123
+Count: 124
 
 want: 131A
 
@@ -126,5 +126,6 @@ want: 131A
 | 2086A | [[Cloudberry Jam]]                       |
 | 2094A | [[Trippi Troppi]]                        |
 | 2106A | [[Dr. TC]]                               |
+| 686A  | [[Free Ice Cream]]                       |
 
 
