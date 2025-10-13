@@ -58,6 +58,7 @@ want: 131A
 | 579A  | [[Raising Bacteria]]                     |
 | 580A  | [[Kefa and First Steps]]                 |
 | 581A  | [[Vasya the Hipster]]                    |
+| 686A  | [[Free Ice Cream]]                       |
 | 702A  | [[Maximum Increase]]                     |
 | 703A  | [[Mishka and Game]]                      |
 | 705A  | [[Hulk]]                                 |
@@ -126,6 +127,5 @@ want: 131A
 | 2086A | [[Cloudberry Jam]]                       |
 | 2094A | [[Trippi Troppi]]                        |
 | 2106A | [[Dr. TC]]                               |
-| 686A  | [[Free Ice Cream]]                       |
 
 

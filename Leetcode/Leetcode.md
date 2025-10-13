@@ -1,5 +1,5 @@
 
-Count: 178
+Count: 179
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -91,6 +91,7 @@ Count: 178
 | 1413 | [[Minimum Value to Get Positive Step by Step Sum]]                   |
 | 1422 | [[Maximum Score After Splitting a String]]                           |
 | 1431 | [[Kids With the Greatest Number of Candies]]                         |
+| 1450 | [[Number of Students Doing Homework at a Given Time]]                |
 | 1456 | [[Maximum Number of Vowels in a Substring of Given Length]]          |
 | 1480 | [[Running Sum of 1d Array]]                                          |
 | 1486 | [[XOR Operation in an Array]]                                        |
@@ -127,6 +128,7 @@ Count: 178
 | 2221 | [[Find Triangular Sum of an Array]]                                  |
 | 2235 | [[Add Two Integers]]                                                 |
 | 2264 | [[Largest 3-Same-Digit Number in String]]                            |
+| 2273 | [[Find Resultant Array After Removing Anagrams]]                     |
 | 2348 | [[Number of Zero-Filled Subarrays]]                                  |
 | 2390 | [[Removing Stars From a String]]                                     |
 | 2410 | [[Maximum Matching of Players With Trainers]]                        |
@@ -180,4 +182,3 @@ Count: 178
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 1450 | [[Number of Students Doing Homework at a Given Time]]                |
