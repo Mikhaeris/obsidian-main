@@ -1,4 +1,4 @@
-Count: 124
+Count: 125
 
 want: 131A
 
@@ -96,6 +96,7 @@ want: 131A
 | 1742B | [[Increasing]]                           |
 | 1760A | [[Medium Number]]                        |
 | 1760B | [[Atilla's Favorite Problem]]            |
+| 1760C | [[Advantage]]                            |
 | 1772A | [[A+B?]]                                 |
 | 1791A | [[Codeforces Checking]]                  |
 | 1791C | [[Prepend and Append]]                   |
