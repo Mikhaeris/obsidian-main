@@ -1,5 +1,5 @@
 
-Count: 179
+Count: 180
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -44,6 +44,7 @@ Count: 179
 | 344  | [[Reverse String]]                                                   |
 | 345  | [[Reverse Vowels of a String]]                                       |
 | 349  | [[Intersection of Two Arrays]]                                       |
+| 350  | [[Intersection of Two Arrays II]]                                    |
 | 374  | [[Guess Number Higher or Lower]]                                     |
 | 383  | [[Ransom Note]]                                                      |
 | 387  | [[First Unique Character in a String]]                               |
