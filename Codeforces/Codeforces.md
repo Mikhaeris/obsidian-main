@@ -1,4 +1,4 @@
-Count: 125
+Count: 126
 
 want: 131A
 
@@ -70,6 +70,7 @@ want: 131A
 | 785A  | [[Anton and Polyhedrons]]                |
 | 791A  | [[Bear and Big Brother]]                 |
 | 977A  | [[Wrong Subtraction]]                    |
+| 978A  | [[Remove Duplicates]]                    |
 | 1030A | [[In Search of an Easy Problem]]         |
 | 1097A | [[Gennady and a Card Game]]              |
 | 1186A | [[Vus the Cossack and a Contest]]        |
