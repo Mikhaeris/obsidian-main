@@ -1,5 +1,5 @@
 
-Count: 180
+Count: 181
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -101,6 +101,7 @@ Count: 180
 | 1518 | [[Water Bottles]]                                                    |
 | 1528 | [[Shuffle String]]                                                   |
 | 1550 | [[Three Consecutive Odds]]                                           |
+| 1603 | [[Design Parking System]]                                            |
 | 1672 | [[Richest Customer Wealth]]                                          |
 | 1679 | [[Max Number of K-Sum Pairs]]                                        |
 | 1684 | [[Count the Number of Consistent Strings]]                           |
