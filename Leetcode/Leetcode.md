@@ -1,5 +1,5 @@
 
-Count: 182
+Count: 183
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -150,6 +150,7 @@ Count: 182
 | 2744 | [[Find Maximum Number of String Pairs]]                              |
 | 2785 | [[Sort Vowels in a String]]                                          |
 | 2828 | [[Check if a String Is an Acronym of Words]]                         |
+| 2833 | [[Furthest Point From Origin]]                                       |
 | 2843 | [[Count Symmetric Integers]]                                         |
 | 2894 | [[Divisible and Non-divisible Sums Difference]]                      |
 | 2900 | [[Longest Unequal Adjacent Groups Subsequence I]]                    |
@@ -162,6 +163,7 @@ Count: 182
 | 3024 | [[Type of Triangle]]                                                 |
 | 3042 | [[Count Prefix and Suffix Pairs I]]                                  |
 | 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
+| 3099 | [[Harshad Number]]                                                   |
 | 3110 | [[Score of a String]]                                                |
 | 3131 | [[Find the Integer Added to Array I]]                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
@@ -184,4 +186,3 @@ Count: 182
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 2833 | [[Furthest Point From Origin]]                                       |
