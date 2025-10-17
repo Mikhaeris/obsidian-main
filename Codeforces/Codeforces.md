@@ -1,4 +1,4 @@
-Count: 127
+Count: 128
 
 want: 131A
 
@@ -33,6 +33,7 @@ want: 131A
 | 230A  | [[Dragons]]                              |
 | 231A  | [[Team]]                                 |
 | 236A  | [[Boy or Girl]]                          |
+| 255A  | [[Greg's Workout]]                       |
 | 263A  | [[Beautiful Matrix]]                     |
 | 266B  | [[Queue at the School]]                  |
 | 281A  | [[Word Capitalization]]                  |
@@ -71,6 +72,7 @@ want: 131A
 | 791A  | [[Bear and Big Brother]]                 |
 | 977A  | [[Wrong Subtraction]]                    |
 | 978A  | [[Remove Duplicates]]                    |
+| 1003A | [[Polycarp's Pockets]]                   |
 | 1030A | [[In Search of an Easy Problem]]         |
 | 1097A | [[Gennady and a Card Game]]              |
 | 1186A | [[Vus the Cossack and a Contest]]        |
@@ -129,6 +131,5 @@ want: 131A
 | 2086A | [[Cloudberry Jam]]                       |
 | 2094A | [[Trippi Troppi]]                        |
 | 2106A | [[Dr. TC]]                               |
-| 255A  | [[Greg's Workout]]                       |
 
 
