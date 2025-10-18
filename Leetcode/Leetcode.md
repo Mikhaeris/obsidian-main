@@ -1,5 +1,5 @@
 
-Count: 183
+Count: 184
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -109,6 +109,7 @@ Count: 183
 | 1732 | [[Find the Highest Altitude]]                                        |
 | 1748 | [[Sum of Unique Elements]]                                           |
 | 1768 | [[Merge Strings Alternately]]                                        |
+| 1773 | [[Count Items Matching a Rule]]                                      |
 | 1800 | [[Maximum Ascending Subarray Sum]]                                   |
 | 1816 | [[Truncate Sentence]]                                                |
 | 1844 | [[Replace All Digits with Characters]]                               |
