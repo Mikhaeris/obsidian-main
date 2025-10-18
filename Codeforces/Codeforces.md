@@ -1,4 +1,4 @@
-Count: 128
+Count: 129
 
 want: 131A
 
@@ -112,6 +112,7 @@ want: 131A
 | 1850C | [[Word on the Paper]]                    |
 | 1873A | [[Short Sort]]                           |
 | 1873B | [[Good Kid]]                             |
+| 1907A | [[Rook]]                                 |
 | 1913A | [[Rating Increase]]                      |
 | 1915A | [[Odd One Out]]                          |
 | 1921A | [[Square]]                               |
