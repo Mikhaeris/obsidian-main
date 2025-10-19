@@ -1,5 +1,5 @@
 
-Count: 184
+Count: 185
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -126,6 +126,7 @@ Count: 184
 | 2108 | [[Find First Palindromic String in the Array]]                       |
 | 2131 | [[Longest Palindrome by Concatenating Two Letter Words]]             |
 | 2138 | [[Divide a String Into Groups of Size k]]                            |
+| 2190 | [[ Most Frequent Number Following Key In an Array]]                  |
 | 2206 | [[Divide Array Into Equal Pairs]]                                    |
 | 2210 | [[Count Hills and Valleys in an Array]]                              |
 | 2221 | [[Find Triangular Sum of an Array]]                                  |

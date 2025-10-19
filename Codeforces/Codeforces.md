@@ -72,6 +72,7 @@ want: 131A
 | 791A  | [[Bear and Big Brother]]                 |
 | 977A  | [[Wrong Subtraction]]                    |
 | 978A  | [[Remove Duplicates]]                    |
+| 999A  | [[Mishka and Contest]]                   |
 | 1003A | [[Polycarp's Pockets]]                   |
 | 1030A | [[In Search of an Easy Problem]]         |
 | 1097A | [[Gennady and a Card Game]]              |
@@ -132,6 +133,5 @@ want: 131A
 | 2086A | [[Cloudberry Jam]]                       |
 | 2094A | [[Trippi Troppi]]                        |
 | 2106A | [[Dr. TC]]                               |
-| 999A  | [[Mishka and Contest]]                   |
 
 
