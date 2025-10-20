@@ -1,4 +1,4 @@
-Count: 130
+Count: 131
 
 want: 131A
 
@@ -127,6 +127,7 @@ want: 131A
 | 1999A | [[A+B Again?]]                           |
 | 2000B | [[Seating in a Bus]]                     |
 | 2009B | [[osu!mania]]                            |
+| 2014A | [[Robin Helps]]                          |
 | 2044B | [[Normal Problem]]                       |
 | 2044C | [[Hard Problem]]                         |
 | 2065A | [[Skibidus and Amog'u]]                  |
