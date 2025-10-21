@@ -1,4 +1,4 @@
-Count: 131
+Count: 132
 
 want: 131A
 
@@ -124,6 +124,7 @@ want: 131A
 | 1980A | [[Problem Generator]]                    |
 | 1985A | [[Creating Words]]                       |
 | 1996A | [[Legs]]                                 |
+| 1997A | [[Strong Password]]                      |
 | 1999A | [[A+B Again?]]                           |
 | 2000B | [[Seating in a Bus]]                     |
 | 2009B | [[osu!mania]]                            |

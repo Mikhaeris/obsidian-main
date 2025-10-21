@@ -54,6 +54,7 @@ Count: 188
 | 443  | [[String Compression]]                                               |
 | 448  | [[Find All Numbers Disappeared in an Array]]                         |
 | 455  | [[Assign Cookies]]                                                   |
+| 461  | [[Hamming Distance]]                                                 |
 | 485  | [[Max Consecutive Ones]]                                             |
 | 500  | [[Keyboard Row]]                                                     |
 | 557  | [[Reverse Words in a String III]]                                    |
@@ -120,6 +121,7 @@ Count: 188
 | 1935 | [[Maximum Number of Words You Can Type]]                             |
 | 1957 | [[Delete Characters to Make Fancy String]]                           |
 | 1991 | [[Find the Middle Index in Array]]                                   |
+| 2011 | [[Final Value of Variable After Performing Operations]]              |
 | 2016 | [[Maximum Difference Between Increasing Elements]]                   |
 | 2044 | [[Count Number of Maximum Bitwise-OR Subsets]]                       |
 | 2094 | [[Finding 3-Digit Even Numbers]]                                     |
@@ -129,6 +131,7 @@ Count: 188
 | 2190 | [[ Most Frequent Number Following Key In an Array]]                  |
 | 2206 | [[Divide Array Into Equal Pairs]]                                    |
 | 2210 | [[Count Hills and Valleys in an Array]]                              |
+| 2220 | [[Minimum Bit Flips to Convert Number]]                              |
 | 2221 | [[Find Triangular Sum of an Array]]                                  |
 | 2235 | [[Add Two Integers]]                                                 |
 | 2264 | [[Largest 3-Same-Digit Number in String]]                            |
@@ -188,6 +191,3 @@ Count: 188
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 2011 | [[Final Value of Variable After Performing Operations]]              |
-| 461  | [[Hamming Distance]]                                                 |
-| 2220 | [[Minimum Bit Flips to Convert Number]]                              |
