@@ -1,5 +1,5 @@
 
-Count: 188
+Count: 189
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -191,3 +191,4 @@ Count: 188
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
+| 1470 | [[Shuffle the Array]]                                                |
