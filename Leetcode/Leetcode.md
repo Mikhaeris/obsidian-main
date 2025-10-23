@@ -1,5 +1,5 @@
 
-Count: 189
+Count: 190
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -192,3 +192,4 @@ Count: 189
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
 | 1470 | [[Shuffle the Array]]                                                |
+| 3461 | [[]]                                                                 |
