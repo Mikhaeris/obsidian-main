@@ -192,4 +192,4 @@ Count: 190
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
 | 1470 | [[Shuffle the Array]]                                                |
-| 3461 | [[]]                                                                 |
+| 3461 | [[Check If Digits Are Equal in String After Operations I]]           |
