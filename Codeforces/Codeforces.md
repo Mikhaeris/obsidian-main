@@ -1,4 +1,4 @@
-Count: 134
+Count: 135
 
 want: 131A
 
@@ -47,6 +47,7 @@ want: 131A
 | 431A  | [[Black Square]]                         |
 | 432A  | [[Choosing Teams]]                       |
 | 443A  | [[Anton and Letters]]                    |
+| 448A  | [[Rewards]]                              |
 | 467A  | [[George and Accommodation]]             |
 | 469A  | [[I Wanna Be the Guy]]                   |
 | 472A  | [[Design Tutorial Learn from Math]]      |
@@ -72,6 +73,7 @@ want: 131A
 | 791A  | [[Bear and Big Brother]]                 |
 | 977A  | [[Wrong Subtraction]]                    |
 | 978A  | [[Remove Duplicates]]                    |
+| 988A  | [[Diverse Team]]                         |
 | 999A  | [[Mishka and Contest]]                   |
 | 1003A | [[Polycarp's Pockets]]                   |
 | 1030A | [[In Search of an Easy Problem]]         |
@@ -123,6 +125,7 @@ want: 131A
 | 1955A | [[Yogurt Sale]]                          |
 | 1980A | [[Problem Generator]]                    |
 | 1985A | [[Creating Words]]                       |
+| 1993A | [[Question Marks]]                       |
 | 1996A | [[Legs]]                                 |
 | 1997A | [[Strong Password]]                      |
 | 1999A | [[A+B Again?]]                           |
@@ -135,7 +138,5 @@ want: 131A
 | 2086A | [[Cloudberry Jam]]                       |
 | 2094A | [[Trippi Troppi]]                        |
 | 2106A | [[Dr. TC]]                               |
-| 1993A | [[Question Marks]]                       |
-| 448A  | [[Rewards]]                              |
 
 
