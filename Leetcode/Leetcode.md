@@ -1,5 +1,5 @@
 
-Count: 190
+Count: 191
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -95,6 +95,7 @@ Count: 190
 | 1431 | [[Kids With the Greatest Number of Candies]]                         |
 | 1450 | [[Number of Students Doing Homework at a Given Time]]                |
 | 1456 | [[Maximum Number of Vowels in a Substring of Given Length]]          |
+| 1470 | [[Shuffle the Array]]                                                |
 | 1480 | [[Running Sum of 1d Array]]                                          |
 | 1486 | [[XOR Operation in an Array]]                                        |
 | 1493 | [[Longest Subarray of 1's After Deleting One Element]]               |
@@ -183,6 +184,7 @@ Count: 190
 | 3423 | [[Maximum Difference Between Adjacent Elements in a Circular Array]] |
 | 3432 | [[Count Partitions with Even Sum Difference]]                        |
 | 3442 | [[Maximum Difference Between Even and Odd Frequency I]]              |
+| 3461 | [[Check If Digits Are Equal in String After Operations I]]           |
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3492 | [[Maximum Containers on a Ship]]                                     |
 | 3498 | [[Reverse Degree of a String]]                                       |
@@ -190,6 +192,5 @@ Count: 190
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
+| 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 1470 | [[Shuffle the Array]]                                                |
-| 3461 | [[Check If Digits Are Equal in String After Operations I]]           |
