@@ -1,4 +1,4 @@
-Count: 135
+Count: 136
 
 want: 131A
 
@@ -68,6 +68,7 @@ want: 131A
 | 723A  | [[The New Year Meeting Friends]]         |
 | 734A  | [[Anton and Danik]]                      |
 | 750A  | [[New Year and Hurry]]                   |
+| 756A  | [[Compote]]                              |
 | 758A  | [[Holiday Of Equality]]                  |
 | 785A  | [[Anton and Polyhedrons]]                |
 | 791A  | [[Bear and Big Brother]]                 |
