@@ -1,5 +1,5 @@
 
-Count: 192
+Count: 193
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -125,6 +125,7 @@ Count: 192
 | 1991 | [[Find the Middle Index in Array]]                                   |
 | 2011 | [[Final Value of Variable After Performing Operations]]              |
 | 2016 | [[Maximum Difference Between Increasing Elements]]                   |
+| 2043 | [[Simple Bank System]]                                               |
 | 2044 | [[Count Number of Maximum Bitwise-OR Subsets]]                       |
 | 2094 | [[Finding 3-Digit Even Numbers]]                                     |
 | 2108 | [[Find First Palindromic String in the Array]]                       |
