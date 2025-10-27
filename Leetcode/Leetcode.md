@@ -1,5 +1,5 @@
 
-Count: 193
+Count: 194
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -129,6 +129,7 @@ Count: 193
 | 2044 | [[Count Number of Maximum Bitwise-OR Subsets]]                       |
 | 2094 | [[Finding 3-Digit Even Numbers]]                                     |
 | 2108 | [[Find First Palindromic String in the Array]]                       |
+| 2125 | [[Number of Laser Beams in a Bank]]                                  |
 | 2131 | [[Longest Palindrome by Concatenating Two Letter Words]]             |
 | 2138 | [[Divide a String Into Groups of Size k]]                            |
 | 2190 | [[ Most Frequent Number Following Key In an Array]]                  |
