@@ -79,6 +79,7 @@ want: 131A
 | 999A  | [[Mishka and Contest]]                   |
 | 1003A | [[Polycarp's Pockets]]                   |
 | 1030A | [[In Search of an Easy Problem]]         |
+| 1092B | [[Teams Forming]]                        |
 | 1097A | [[Gennady and a Card Game]]              |
 | 1186A | [[Vus the Cossack and a Contest]]        |
 | 1283A | [[Minutes Before the New Year]]          |
@@ -140,6 +141,5 @@ want: 131A
 | 2086A | [[Cloudberry Jam]]                       |
 | 2094A | [[Trippi Troppi]]                        |
 | 2106A | [[Dr. TC]]                               |
-| 1092B | [[Teams Forming]]                        |
 
 
