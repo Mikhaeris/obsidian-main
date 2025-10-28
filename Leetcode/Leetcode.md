@@ -1,5 +1,5 @@
 
-Count: 194
+Count: 195
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -182,6 +182,7 @@ Count: 194
 | 3304 | [[Find the K-th Character in String Game I]]                         |
 | 3330 | [[Find the Original Typed String I]]                                 |
 | 3340 | [[Check Balanced String]]                                            |
+| 3354 | [[Make Array Elements Equal to Zero]]                                |
 | 3355 | [[Zero Array Transformation I]]                                      |
 | 3392 | [[Count Subarrays of Length Three With a Condition]]                 |
 | 3423 | [[Maximum Difference Between Adjacent Elements in a Circular Array]] |
