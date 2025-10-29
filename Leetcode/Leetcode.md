@@ -1,5 +1,5 @@
 
-Count: 195
+Count: 196
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -184,6 +184,7 @@ Count: 195
 | 3340 | [[Check Balanced String]]                                            |
 | 3354 | [[Make Array Elements Equal to Zero]]                                |
 | 3355 | [[Zero Array Transformation I]]                                      |
+| 3370 | [[Smallest Number With All Set Bits]]                                |
 | 3392 | [[Count Subarrays of Length Three With a Condition]]                 |
 | 3423 | [[Maximum Difference Between Adjacent Elements in a Circular Array]] |
 | 3432 | [[Count Partitions with Even Sum Difference]]                        |
