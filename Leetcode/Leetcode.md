@@ -1,5 +1,5 @@
 
-Count: 197
+Count: 198
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -200,3 +200,4 @@ Count: 197
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
 | 2574 | [[Left and Right Sum Differences]]                                   |
+| 3289 | [[The Two Sneaky Numbers of Digitville]]                             |
