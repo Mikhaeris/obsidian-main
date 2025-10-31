@@ -23,38 +23,31 @@ public:
 **Explanation:**
 	Цель: Дан массив чисел. Нужно найти два таких числа, котрые повторяются в массиве два раза.
 	Решение: В хэш таблице хранить число и количество его повторений. Если количество повторений больше одного, то добавить в массив. Вернуть массив.
+	P.S. Быстро работает на больших данных, но занимает намного больше места.
 
 Answer:
 	Time Complexity: O(N)
-	Space Complexity: O(3N)
+	Space Complexity: O(2)
 Code:
 Solution2:
 ```cpp
 class Solution {
 public:
-    vector<int> leftRightDifference(vector<int>& nums) {
-        int n = nums.size();
+    vector<int> getSneakyNumbers(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
 
-        vector<int> leftSum(n);
-        leftSum[0] = 0;
-        for (int i = 1; i < n; ++i) {
-            leftSum[i] = leftSum[i-1] + nums[i-1];
+        vector<int> ans;
+        for (int i = 1; i < nums.size(); ++i) {
+            if (nums[i-1] == nums[i]) {
+                ans.push_back(nums[i]);
+            }
         }
 
-        vector<int> rightSum(n);
-        for (int i = n-2; i >= 0; --i) {
-            rightSum[i] = rightSum[i+1] + nums[i+1];
-        }
-
-        vector<int> answer(n);
-        for (int i = 0; i < n; ++i) {
-            answer[i] = abs(leftSum[i] - rightSum[i]);
-        }
-
-        return answer;
+        return ans;
     }
 };
 ```
 **Explanation:**
-	Цель: Дан массив чисел. Нужно вернуть массив сумма левых значений минус сумма правых.
-	Решение: Получить левую сумму и правую сумму. Узнать разницу по модулю.
+	Цель: Дан массив чисел. Нужно найти два таких числа, котрые повторяются в массиве два раза.
+	Решение: Отсортировать массив. Проходится по массиву и искать соседние совпадающие элементы и добавлять в массив. Вернуть массив.
+	P.S. Меньше памяти, но чуть медленее будет работать на больших даных.

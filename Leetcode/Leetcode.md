@@ -152,6 +152,7 @@ Count: 198
 | 2544 | [[Alternating Digit Sum]]                                            |
 | 2553 | [[Separate the Digits in an Array]]                                  |
 | 2566 | [[Maximum Difference by Remapping a Digit]]                          |
+| 2574 | [[Left and Right Sum Differences]]                                   |
 | 2586 | [[Count the Number of Vowel Strings in Range]]                       |
 | 2678 | [[Number of Senior Citizens]]                                        |
 | 2729 | [[Check if The Number is Fascinating]]                               |
@@ -178,6 +179,7 @@ Count: 198
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
 | 3222 | [[Find the Winning Player in Coin Game]]                             |
 | 3227 | [[Vowels Game in a String]]                                          |
+| 3289 | [[The Two Sneaky Numbers of Digitville]]                             |
 | 3300 | [[Minimum Element After Replacement With Digit Sum]]                 |
 | 3304 | [[Find the K-th Character in String Game I]]                         |
 | 3330 | [[Find the Original Typed String I]]                                 |
@@ -199,5 +201,3 @@ Count: 198
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 2574 | [[Left and Right Sum Differences]]                                   |
-| 3289 | [[The Two Sneaky Numbers of Digitville]]                             |
