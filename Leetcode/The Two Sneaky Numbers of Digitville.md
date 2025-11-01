@@ -1,4 +1,3 @@
-
 **Complexity:** Easy
 Answer:
 	Time Complexity: O(N)
