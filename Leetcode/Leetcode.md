@@ -177,6 +177,7 @@ Count: 199
 | 3110 | [[Score of a String]]                                                |
 | 3131 | [[Find the Integer Added to Array I]]                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
+| 3217 | [[Delete Nodes From Linked List Present in Array]]                   |
 | 3222 | [[Find the Winning Player in Coin Game]]                             |
 | 3227 | [[Vowels Game in a String]]                                          |
 | 3289 | [[The Two Sneaky Numbers of Digitville]]                             |
@@ -201,4 +202,3 @@ Count: 199
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 3217 | [[Delete Nodes From Linked List Present in Array]]                   |
