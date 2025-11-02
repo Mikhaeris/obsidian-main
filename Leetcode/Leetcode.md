@@ -1,5 +1,5 @@
 
-Count: 199
+Count: 200
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -202,3 +202,4 @@ Count: 199
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
+| 2351 | [[First Letter to Appear Twice]]                                     |
