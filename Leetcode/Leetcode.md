@@ -141,6 +141,7 @@ Count: 201
 | 2264 | [[Largest 3-Same-Digit Number in String]]                            |
 | 2273 | [[Find Resultant Array After Removing Anagrams]]                     |
 | 2348 | [[Number of Zero-Filled Subarrays]]                                  |
+| 2351 | [[First Letter to Appear Twice]]                                     |
 | 2390 | [[Removing Stars From a String]]                                     |
 | 2410 | [[Maximum Matching of Players With Trainers]]                        |
 | 2446 | [[Determine if Two Events Have Conflict]]                            |
@@ -192,6 +193,7 @@ Count: 201
 | 3423 | [[Maximum Difference Between Adjacent Elements in a Circular Array]] |
 | 3432 | [[Count Partitions with Even Sum Difference]]                        |
 | 3442 | [[Maximum Difference Between Even and Odd Frequency I]]              |
+| 3452 | [[Sum of Good Numbers]]                                              |
 | 3461 | [[Check If Digits Are Equal in String After Operations I]]           |
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3492 | [[Maximum Containers on a Ship]]                                     |
@@ -202,5 +204,3 @@ Count: 201
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 2351 | [[First Letter to Appear Twice]]                                     |
-| 3452 | [[Sum of Good Numbers]]                                              |
