@@ -1,5 +1,5 @@
 
-Count: 200
+Count: 201
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -203,3 +203,4 @@ Count: 200
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
 | 2351 | [[First Letter to Appear Twice]]                                     |
+| 3452 | [[Sum of Good Numbers]]                                              |
