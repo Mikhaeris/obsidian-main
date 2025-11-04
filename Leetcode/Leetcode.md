@@ -1,5 +1,5 @@
 
-Count: 201
+Count: 202
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -184,6 +184,7 @@ Count: 201
 | 3289 | [[The Two Sneaky Numbers of Digitville]]                             |
 | 3300 | [[Minimum Element After Replacement With Digit Sum]]                 |
 | 3304 | [[Find the K-th Character in String Game I]]                         |
+| 3318 | [[Find X-Sum of All K-Long Subarrays I]]                             |
 | 3330 | [[Find the Original Typed String I]]                                 |
 | 3340 | [[Check Balanced String]]                                            |
 | 3354 | [[Make Array Elements Equal to Zero]]                                |
