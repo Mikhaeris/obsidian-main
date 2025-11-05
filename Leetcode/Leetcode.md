@@ -144,6 +144,7 @@ Count: 203
 | 2351 | [[First Letter to Appear Twice]]                                     |
 | 2390 | [[Removing Stars From a String]]                                     |
 | 2410 | [[Maximum Matching of Players With Trainers]]                        |
+| 2413 | [[Smallest Even Multiple]]                                           |
 | 2446 | [[Determine if Two Events Have Conflict]]                            |
 | 2465 | [[Number of Distinct Averages]]                                      |
 | 2469 | [[Convert the Temperature]]                                          |
@@ -205,4 +206,3 @@ Count: 203
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 2413 | [[Smallest Even Multiple]]                                           |
