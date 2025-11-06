@@ -1,5 +1,5 @@
 
-Count: 203
+Count: 204
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -74,6 +74,7 @@ Count: 203
 | 884  | [[Uncommon Words from Two Sentences]]                                |
 | 905  | [[Sort Array By Parity]]                                             |
 | 941  | [[Valid Mountain Array]]                                             |
+| 961  | [[N-Repeated Element in Size 2N Array]]                              |
 | 977  | [[Squares of a Sorted Array]]                                        |
 | 1007 | [[Minimum Domino Rotations For Equal Row]]                           |
 | 1051 | [[Height Checker]]                                                   |
