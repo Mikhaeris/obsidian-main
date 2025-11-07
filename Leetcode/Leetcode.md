@@ -1,5 +1,5 @@
 
-Count: 204
+Count: 205
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -143,6 +143,7 @@ Count: 204
 | 2273 | [[Find Resultant Array After Removing Anagrams]]                     |
 | 2348 | [[Number of Zero-Filled Subarrays]]                                  |
 | 2351 | [[First Letter to Appear Twice]]                                     |
+| 2363 | [[Merge Similar Items]]                                              |
 | 2390 | [[Removing Stars From a String]]                                     |
 | 2410 | [[Maximum Matching of Players With Trainers]]                        |
 | 2413 | [[Smallest Even Multiple]]                                           |
