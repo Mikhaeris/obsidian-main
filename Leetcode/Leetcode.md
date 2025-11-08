@@ -1,5 +1,5 @@
 
-Count: 205
+Count: 206
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -85,6 +85,7 @@ Count: 205
 | 1290 | [[Convert Binary Number in a Linked List to Integer]]                |
 | 1299 | [[Replace Elements with Greatest Element on Right Side]]             |
 | 1304 | [[Find N Unique Integers Sum up to Zero]]                            |
+| 1308 | [[Lucky Numbers in a Matrix]]                                        |
 | 1317 | [[Convert Integer to the Sum of Two No-Zero Integers]]               |
 | 1323 | [[Maximum 69 Number]]                                                |
 | 1342 | [[Number of Steps to Reduce a Number to Zero]]                       |
