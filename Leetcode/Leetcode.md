@@ -1,5 +1,5 @@
 
-Count: 206
+Count: 207
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -134,6 +134,7 @@ Count: 206
 | 2125 | [[Number of Laser Beams in a Bank]]                                  |
 | 2131 | [[Longest Palindrome by Concatenating Two Letter Words]]             |
 | 2138 | [[Divide a String Into Groups of Size k]]                            |
+| 2169 | [[Count Operations to Obtain Zero]]                                  |
 | 2190 | [[ Most Frequent Number Following Key In an Array]]                  |
 | 2206 | [[Divide Array Into Equal Pairs]]                                    |
 | 2210 | [[Count Hills and Valleys in an Array]]                              |
