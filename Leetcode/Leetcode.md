@@ -1,5 +1,5 @@
 
-Count: 207
+Count: 208
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -208,5 +208,6 @@ Count: 207
 | 3516 | [[Find Closest Person]]                                              |
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
+| 3622 | [[Check Divisibility by Digit Sum and Product]]                      |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
