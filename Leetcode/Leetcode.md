@@ -39,6 +39,7 @@ Count: 209
 | 242  | [[Valid Anagram]]                                                    |
 | 258  | [[Add Digits]]                                                       |
 | 283  | [[Move Zeroes]]                                                      |
+| 303  | [[Range Sum Query - Immutable]]                                      |
 | 326  | [[Power of Three]]                                                   |
 | 342  | [[Power of Four]]                                                    |
 | 344  | [[Reverse String]]                                                   |
@@ -211,4 +212,3 @@ Count: 209
 | 3622 | [[Check Divisibility by Digit Sum and Product]]                      |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 303  | [[Range Sum Query - Immutable]]                                      |
