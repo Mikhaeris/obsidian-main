@@ -1,5 +1,5 @@
 
-Count: 209
+Count: 210
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -65,6 +65,7 @@ Count: 209
 | 643  | [[Maximum Average Subarray I]]                                       |
 | 704  | [[Binary Search]]                                                    |
 | 724  | [[Find Pivot Index]]                                                 |
+| 728  | [[Self Dividing Numbers]]                                            |
 | 735  | [[Asteroid Collision]]                                               |
 | 747  | [[Largest Number At Least Twice of Others]]                          |
 | 766  | [[Toeplitz Matrix]]                                                  |
