@@ -1,5 +1,5 @@
 
-Count: 210
+Count: 211
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -183,6 +183,7 @@ Count: 210
 | 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
 | 3099 | [[Harshad Number]]                                                   |
 | 3110 | [[Score of a String]]                                                |
+| 3120 | [[Count the Number of Special Characters I]]                         |
 | 3131 | [[Find the Integer Added to Array I]]                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
 | 3217 | [[Delete Nodes From Linked List Present in Array]]                   |
