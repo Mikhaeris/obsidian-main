@@ -63,6 +63,7 @@ Count: 213
 | 605  | [[Can Place Flowers]]                                                |
 | 628  | [[Maximum Product of Three Numbers]]                                 |
 | 643  | [[Maximum Average Subarray I]]                                       |
+| 645  | [[Set Mismatch]]                                                     |
 | 704  | [[Binary Search]]                                                    |
 | 724  | [[Find Pivot Index]]                                                 |
 | 728  | [[Self Dividing Numbers]]                                            |
@@ -215,4 +216,3 @@ Count: 213
 | 3622 | [[Check Divisibility by Digit Sum and Product]]                      |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 645  | [[Set Mismatch]]                                                     |
