@@ -8,15 +8,18 @@ Solution:
 class Solution {
 public:
     vector<int> getConcatenation(vector<int>& nums) {
-        nums.resize(nums.size()*2); int k = 0;
-        for (int i = nums.size()/2; i < nums.size(); ++i) {
-            nums[i] = nums[k++];
-        }
-  
-        return nums;
-    }
+        int n = nums.size();
+        vector<int> ans(2 * n);
+
+        for (int i = 0; i < n; ++i) {
+            ans[i] = ans[i + n] = nums[i];
+            // ans[i] = nums[i % n];
+        }
+
+        return ans;
+    }
 };
 ```
 **Explanation:**
 	Цель: Дан массив, его надо удвоить(или сложить его два раза).
-	Решение: Изменить размер исходного массива, умноженого на два, и заполнить оставшуюся часть. Вернуть данный массив.
+	Решение: Заполнять в новом массиве элементы либо по остатку от длиным массива, либо сразу два элеента.
