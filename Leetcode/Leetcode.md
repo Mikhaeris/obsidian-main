@@ -1,5 +1,5 @@
 
-Count: 213
+Count: 214
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -105,6 +105,7 @@ Count: 213
 | 1486 | [[XOR Operation in an Array]]                                        |
 | 1493 | [[Longest Subarray of 1's After Deleting One Element]]               |
 | 1507 | [[Reformat Date]]                                                    |
+| 1513 | [[Number of Substrings With Only 1s]]                                |
 | 1518 | [[Water Bottles]]                                                    |
 | 1528 | [[Shuffle String]]                                                   |
 | 1550 | [[Three Consecutive Odds]]                                           |
