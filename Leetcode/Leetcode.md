@@ -1,5 +1,5 @@
 
-Count: 213
+Count: 214
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -65,6 +65,7 @@ Count: 213
 | 643  | [[Maximum Average Subarray I]]                                       |
 | 645  | [[Set Mismatch]]                                                     |
 | 704  | [[Binary Search]]                                                    |
+| 717  | [[1-bit and 2-bit Characters]]                                       |
 | 724  | [[Find Pivot Index]]                                                 |
 | 728  | [[Self Dividing Numbers]]                                            |
 | 735  | [[Asteroid Collision]]                                               |

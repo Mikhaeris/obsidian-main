@@ -1,0 +1,27 @@
+**Complexity:** Easy
+Answer:
+	Time Complexity: O(N)
+	Space Complexity: O(1)
+Code:
+Solution:
+```cpp
+class Solution {
+public:
+    bool isOneBitCharacter(vector<int>& bits) {
+        int n = bits.size();
+        int i = 0;
+        while (i < n - 1) {
+            if (bits[i] == 0) {
+                i += 1;
+            } else {
+                i += 2;
+            }
+        }
+
+        return i == n - 1;
+    }
+};
+```
+**Explanation:**
+	Цель: Дан массив нулей и едениц. Нужно узнать является ли последний символ одиночным символом. Можно интерпретировать два числа(10 и 11) в символ либо одно число(0) в одн символ.
+	Решение: Можно догадать что если встречается еденичка, то два числа представляют собой символ, иначе если это
