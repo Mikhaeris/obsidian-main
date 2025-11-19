@@ -140,6 +140,7 @@ Count: 215
 | 2125 | [[Number of Laser Beams in a Bank]]                                  |
 | 2131 | [[Longest Palindrome by Concatenating Two Letter Words]]             |
 | 2138 | [[Divide a String Into Groups of Size k]]                            |
+| 2154 | [[Keep Multiplying Found Values by Two]]                             |
 | 2169 | [[Count Operations to Obtain Zero]]                                  |
 | 2190 | [[ Most Frequent Number Following Key In an Array]]                  |
 | 2206 | [[Divide Array Into Equal Pairs]]                                    |
@@ -219,4 +220,3 @@ Count: 215
 | 3622 | [[Check Divisibility by Digit Sum and Product]]                      |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 2154 | [[Keep Multiplying Found Values by Two]]                             |
