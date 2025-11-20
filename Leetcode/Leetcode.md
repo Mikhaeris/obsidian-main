@@ -1,5 +1,5 @@
 
-Count: 215
+Count: 216
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -173,6 +173,7 @@ Count: 215
 | 2739 | [[Total Distance Traveled]]                                          |
 | 2744 | [[Find Maximum Number of String Pairs]]                              |
 | 2785 | [[Sort Vowels in a String]]                                          |
+| 2788 | [[Split Strings by Separator]]                                       |
 | 2828 | [[Check if a String Is an Acronym of Words]]                         |
 | 2833 | [[Furthest Point From Origin]]                                       |
 | 2843 | [[Count Symmetric Integers]]                                         |
