@@ -1,5 +1,5 @@
 
-Count: 216
+Count: 217
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -94,6 +94,7 @@ Count: 216
 | 1323 | [[Maximum 69 Number]]                                                |
 | 1342 | [[Number of Steps to Reduce a Number to Zero]]                       |
 | 1346 | [[Check If N and Its Double Exist]]                                  |
+| 1365 | [[How Many Numbers Are Smaller Than the Current Number]]             |
 | 1374 | [[Generate a String With Characters That Have Odd Counts]]           |
 | 1394 | [[Find Lucky Integer in an Array]]                                   |
 | 1413 | [[Minimum Value to Get Positive Step by Step Sum]]                   |
