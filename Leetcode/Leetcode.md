@@ -1,5 +1,5 @@
 
-Count: 217
+Count: 218
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -94,6 +94,7 @@ Count: 217
 | 1323 | [[Maximum 69 Number]]                                                |
 | 1342 | [[Number of Steps to Reduce a Number to Zero]]                       |
 | 1346 | [[Check If N and Its Double Exist]]                                  |
+| 1351 | [[Count Negative Numbers in a Sorted Matrix]]                        |
 | 1365 | [[How Many Numbers Are Smaller Than the Current Number]]             |
 | 1374 | [[Generate a String With Characters That Have Odd Counts]]           |
 | 1394 | [[Find Lucky Integer in an Array]]                                   |
