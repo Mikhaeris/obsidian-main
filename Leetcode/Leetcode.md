@@ -1,5 +1,5 @@
 
-Count: 218
+Count: 219
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -195,6 +195,7 @@ Count: 218
 | 3120 | [[Count the Number of Special Characters I]]                         |
 | 3131 | [[Find the Integer Added to Array I]]                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
+| 3190 | [[Find Minimum Operations to Make All Elements Divisible by Three]]  |
 | 3217 | [[Delete Nodes From Linked List Present in Array]]                   |
 | 3222 | [[Find the Winning Player in Coin Game]]                             |
 | 3227 | [[Vowels Game in a String]]                                          |
