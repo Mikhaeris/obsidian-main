@@ -1,5 +1,5 @@
 
-Count: 220
+Count: 221
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -81,6 +81,7 @@ Count: 220
 | 961  | [[N-Repeated Element in Size 2N Array]]                              |
 | 977  | [[Squares of a Sorted Array]]                                        |
 | 1007 | [[Minimum Domino Rotations For Equal Row]]                           |
+| 1018 | [[Binary Prefix Divisible By 5]]                                     |
 | 1051 | [[Height Checker]]                                                   |
 | 1089 | [[Duplicate Zeros]]                                                  |
 | 1108 | [[Defanging an IP Address]]                                          |
