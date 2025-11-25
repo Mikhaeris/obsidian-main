@@ -1,5 +1,5 @@
 
-Count: 221
+Count: 222
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -41,6 +41,7 @@ Count: 221
 | 283  | [[Move Zeroes]]                                                      |
 | 303  | [[Range Sum Query - Immutable]]                                      |
 | 326  | [[Power of Three]]                                                   |
+| 338  | [[Counting Bits]]                                                    |
 | 342  | [[Power of Four]]                                                    |
 | 344  | [[Reverse String]]                                                   |
 | 345  | [[Reverse Vowels of a String]]                                       |
