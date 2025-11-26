@@ -1,5 +1,5 @@
 
-Count: 222
+Count: 223
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -162,6 +162,7 @@ Count: 222
 | 2410 | [[Maximum Matching of Players With Trainers]]                        |
 | 2413 | [[Smallest Even Multiple]]                                           |
 | 2446 | [[Determine if Two Events Have Conflict]]                            |
+| 2455 | [[Average Value of Even Numbers That Are Divisible by Three]]        |
 | 2465 | [[Number of Distinct Averages]]                                      |
 | 2469 | [[Convert the Temperature]]                                          |
 | 2520 | [[Count the Digits That Divide a Number]]                            |
