@@ -1,5 +1,5 @@
 
-Count: 224
+Count: 225
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -227,5 +227,6 @@ Count: 224
 | 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3622 | [[Check Divisibility by Digit Sum and Product]]                      |
+| 3663 | [[Find The Least Frequent Digit]]                                    |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
