@@ -1,5 +1,5 @@
 
-Count: 225
+Count: 226
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -147,6 +147,7 @@ Count: 225
 | 2138 | [[Divide a String Into Groups of Size k]]                            |
 | 2154 | [[Keep Multiplying Found Values by Two]]                             |
 | 2169 | [[Count Operations to Obtain Zero]]                                  |
+| 2180 | [[Count Integers With Even Digit Sum]]                               |
 | 2190 | [[ Most Frequent Number Following Key In an Array]]                  |
 | 2206 | [[Divide Array Into Equal Pairs]]                                    |
 | 2210 | [[Count Hills and Valleys in an Array]]                              |
