@@ -1,5 +1,5 @@
 
-Count: 226
+Count: 227
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -184,6 +184,7 @@ Count: 226
 | 2828 | [[Check if a String Is an Acronym of Words]]                         |
 | 2833 | [[Furthest Point From Origin]]                                       |
 | 2843 | [[Count Symmetric Integers]]                                         |
+| 2848 | [[Points That Intersect With Cars]]                                  |
 | 2894 | [[Divisible and Non-divisible Sums Difference]]                      |
 | 2900 | [[Longest Unequal Adjacent Groups Subsequence I]]                    |
 | 2918 | [[Minimum Equal Sum of Two Arrays After Replacing Zeros]]            |
