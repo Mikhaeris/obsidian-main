@@ -1,5 +1,5 @@
 
-Count: 228
+Count: 229
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -231,5 +231,6 @@ Count: 228
 | 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
 | 3622 | [[Check Divisibility by Digit Sum and Product]]                      |
 | 3663 | [[Find The Least Frequent Digit]]                                    |
+| 3668 | [[Restore Finishing Order]]                                          |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
