@@ -1,5 +1,5 @@
 
-Count: 229
+Count: 230
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -186,6 +186,7 @@ Count: 229
 | 2833 | [[Furthest Point From Origin]]                                       |
 | 2843 | [[Count Symmetric Integers]]                                         |
 | 2848 | [[Points That Intersect With Cars]]                                  |
+| 2859 | [[Sum of Values at Indices With K Set Bits]]                         |
 | 2894 | [[Divisible and Non-divisible Sums Difference]]                      |
 | 2900 | [[Longest Unequal Adjacent Groups Subsequence I]]                    |
 | 2918 | [[Minimum Equal Sum of Two Arrays After Replacing Zeros]]            |
