@@ -1,5 +1,5 @@
 
-Count: 230
+Count: 231
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -152,6 +152,7 @@ Count: 230
 | 2190 | [[ Most Frequent Number Following Key In an Array]]                  |
 | 2206 | [[Divide Array Into Equal Pairs]]                                    |
 | 2210 | [[Count Hills and Valleys in an Array]]                              |
+| 2211 | [[Count Collisions on a Road]]                                       |
 | 2220 | [[Minimum Bit Flips to Convert Number]]                              |
 | 2221 | [[Find Triangular Sum of an Array]]                                  |
 | 2235 | [[Add Two Integers]]                                                 |
