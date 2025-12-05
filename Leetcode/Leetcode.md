@@ -1,5 +1,5 @@
 
-Count: 231
+Count: 232
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -198,6 +198,7 @@ Count: 231
 | 3021 | [[Alice and Bob Playing Flower Game]]                                |
 | 3024 | [[Type of Triangle]]                                                 |
 | 3042 | [[Count Prefix and Suffix Pairs I]]                                  |
+| 3074 | [[Apple Redistribution into Boxes]]                                  |
 | 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
 | 3099 | [[Harshad Number]]                                                   |
 | 3110 | [[Score of a String]]                                                |
