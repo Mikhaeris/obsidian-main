@@ -1,5 +1,5 @@
 
-Count: 233
+Count: 234
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -115,6 +115,7 @@ Count: 233
 | 1507 | [[Reformat Date]]                                                    |
 | 1513 | [[Number of Substrings With Only 1s]]                                |
 | 1518 | [[Water Bottles]]                                                    |
+| 1523 | [[Count Odd Numbers in an Interval Range]]                           |
 | 1528 | [[Shuffle String]]                                                   |
 | 1550 | [[Three Consecutive Odds]]                                           |
 | 1603 | [[Design Parking System]]                                            |
