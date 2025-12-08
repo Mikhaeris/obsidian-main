@@ -1,5 +1,5 @@
 
-Count: 234
+Count: 235
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -134,6 +134,7 @@ Count: 234
 | 1863 | [[Sum of All Subset XOR Totals]]                                     |
 | 1880 | [[Check if Word Equals Summation of Two Words]]                      |
 | 1920 | [[Build Array from Permutation]]                                     |
+| 1925 | [[Count Square Sum Triples]]                                         |
 | 1929 | [[Concatenation of Array]]                                           |
 | 1935 | [[Maximum Number of Words You Can Type]]                             |
 | 1957 | [[Delete Characters to Make Fancy String]]                           |
