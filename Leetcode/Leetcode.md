@@ -1,5 +1,5 @@
 
-Count: 235
+Count: 236
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -195,6 +195,7 @@ Count: 235
 | 2900 | [[Longest Unequal Adjacent Groups Subsequence I]]                    |
 | 2918 | [[Minimum Equal Sum of Two Arrays After Replacing Zeros]]            |
 | 2942 | [[Find Words Containing Character]]                                  |
+| 2951 | [[Find the Peaks]]                                                   |
 | 2965 | [[Find Missing and Repeated Values]]                                 |
 | 3000 | [[Maximum Area of Longest Diagonal Rectangle]]                       |
 | 3005 | [[Count Elements With Maximum Frequency]]                            |
