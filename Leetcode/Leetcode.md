@@ -1,5 +1,5 @@
 
-Count: 236
+Count: 237
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -59,6 +59,7 @@ Count: 236
 | 461  | [[Hamming Distance]]                                                 |
 | 485  | [[Max Consecutive Ones]]                                             |
 | 500  | [[Keyboard Row]]                                                     |
+| 506  | [[Relative Ranks]]                                                   |
 | 557  | [[Reverse Words in a String III]]                                    |
 | 566  | [[Reshape the Matrix]]                                               |
 | 605  | [[Can Place Flowers]]                                                |
