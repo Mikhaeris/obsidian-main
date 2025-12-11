@@ -1,5 +1,5 @@
 
-Count: 237
+Count: 238
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -144,6 +144,7 @@ Count: 237
 | 2016 | [[Maximum Difference Between Increasing Elements]]                   |
 | 2043 | [[Simple Bank System]]                                               |
 | 2044 | [[Count Number of Maximum Bitwise-OR Subsets]]                       |
+| 2057 | [[Smallest Index With Equal Value]]                                  |
 | 2094 | [[Finding 3-Digit Even Numbers]]                                     |
 | 2108 | [[Find First Palindromic String in the Array]]                       |
 | 2119 | [[A Number After a Double Reversal]]                                 |
