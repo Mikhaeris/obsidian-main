@@ -1,5 +1,5 @@
 
-Count: 242
+Count: 243
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -50,6 +50,7 @@ Count: 242
 | 374  | [[Guess Number Higher or Lower]]                                     |
 | 383  | [[Ransom Note]]                                                      |
 | 387  | [[First Unique Character in a String]]                               |
+| 389  | [[Find the Difference]]                                              |
 | 392  | [[Is Subsequence]]                                                   |
 | 412  | [[Fizz Buzz]]                                                        |
 | 414  | [[Third Maximum Number]]                                             |
