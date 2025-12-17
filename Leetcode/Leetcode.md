@@ -1,5 +1,5 @@
 
-Count: 243
+Count: 244
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -91,6 +91,7 @@ Count: 243
 | 1089 | [[Duplicate Zeros]]                                                  |
 | 1108 | [[Defanging an IP Address]]                                          |
 | 1128 | [[Number of Equivalent Domino Pairs]]                                |
+| 1200 | [[Minimum Absolute Difference]]                                      |
 | 1233 | [[Remove Sub-Folders from the Filesystem]]                           |
 | 1262 | [[Greatest Sum Divisible by Three]]                                  |
 | 1290 | [[Convert Binary Number in a Linked List to Integer]]                |
