@@ -1,5 +1,5 @@
 
-Count: 244
+Count: 245
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -67,6 +67,7 @@ Count: 244
 | 628  | [[Maximum Product of Three Numbers]]                                 |
 | 643  | [[Maximum Average Subarray I]]                                       |
 | 645  | [[Set Mismatch]]                                                     |
+| 693  | [[Binary Number with Alternating Bits]]                              |
 | 704  | [[Binary Search]]                                                    |
 | 717  | [[1-bit and 2-bit Characters]]                                       |
 | 724  | [[Find Pivot Index]]                                                 |
