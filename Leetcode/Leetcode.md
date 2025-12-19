@@ -1,5 +1,5 @@
 
-Count: 245
+Count: 246
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -117,6 +117,7 @@ Count: 245
 | 1470 | [[Shuffle the Array]]                                                |
 | 1480 | [[Running Sum of 1d Array]]                                          |
 | 1486 | [[XOR Operation in an Array]]                                        |
+| 1491 | [[Average Salary Excluding the Minimum and Maximum Salary]]          |
 | 1493 | [[Longest Subarray of 1's After Deleting One Element]]               |
 | 1507 | [[Reformat Date]]                                                    |
 | 1513 | [[Number of Substrings With Only 1s]]                                |
@@ -250,3 +251,4 @@ Count: 245
 | 3668 | [[Restore Finishing Order]]                                          |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
+Пройтись по всем битам, запоминая последний и сравнить текущей и предыдущий. Если они равны то вернуть false, иначе true.
