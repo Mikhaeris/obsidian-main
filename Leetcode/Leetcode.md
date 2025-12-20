@@ -1,5 +1,5 @@
 
-Count: 246
+Count: 247
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -83,6 +83,7 @@ Count: 246
 | 905  | [[Sort Array By Parity]]                                             |
 | 917  | [[Reverse Only Letters]]                                             |
 | 941  | [[Valid Mountain Array]]                                             |
+| 944  | [[Delete Columns to Make Sorted]]                                    |
 | 961  | [[N-Repeated Element in Size 2N Array]]                              |
 | 977  | [[Squares of a Sorted Array]]                                        |
 | 1007 | [[Minimum Domino Rotations For Equal Row]]                           |
@@ -251,4 +252,3 @@ Count: 246
 | 3668 | [[Restore Finishing Order]]                                          |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-Пройтись по всем битам, запоминая последний и сравнить текущей и предыдущий. Если они равны то вернуть false, иначе true.
