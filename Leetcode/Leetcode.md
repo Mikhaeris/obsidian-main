@@ -111,6 +111,7 @@ Count: 247
 | 1413 | [[Minimum Value to Get Positive Step by Step Sum]]                   |
 | 1422 | [[Maximum Score After Splitting a String]]                           |
 | 1431 | [[Kids With the Greatest Number of Candies]]                         |
+| 1436 | [[Destination City]]                                                 |
 | 1437 | [[Check If All 1's Are at Least Length K Places Away]]               |
 | 1450 | [[Number of Students Doing Homework at a Given Time]]                |
 | 1456 | [[Maximum Number of Vowels in a Substring of Given Length]]          |
