@@ -1,5 +1,5 @@
 
-Count: 250
+Count: 251
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -86,6 +86,7 @@ Count: 250
 | 944  | [[Delete Columns to Make Sorted]]                                    |
 | 961  | [[N-Repeated Element in Size 2N Array]]                              |
 | 977  | [[Squares of a Sorted Array]]                                        |
+| 989  | [[Add to Array-Form of Integer]]                                     |
 | 1007 | [[Minimum Domino Rotations For Equal Row]]                           |
 | 1018 | [[Binary Prefix Divisible By 5]]                                     |
 | 1025 | [[Divisor Game]]                                                     |
