@@ -1,5 +1,5 @@
 
-Count: 251
+Count: 252
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -172,6 +172,7 @@ Count: 251
 | 2220 | [[Minimum Bit Flips to Convert Number]]                              |
 | 2221 | [[Find Triangular Sum of an Array]]                                  |
 | 2235 | [[Add Two Integers]]                                                 |
+| 2252 | [[Count Prefixes of a Given String]]                                 |
 | 2264 | [[Largest 3-Same-Digit Number in String]]                            |
 | 2273 | [[Find Resultant Array After Removing Anagrams]]                     |
 | 2348 | [[Number of Zero-Filled Subarrays]]                                  |
