@@ -1,5 +1,5 @@
 
-Count: 253
+Count: 254
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -218,6 +218,7 @@ Count: 253
 | 3024 | [[Type of Triangle]]                                                 |
 | 3042 | [[Count Prefix and Suffix Pairs I]]                                  |
 | 3074 | [[Apple Redistribution into Boxes]]                                  |
+| 3075 | [[Maximize Happiness of Selected Children]]                          |
 | 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
 | 3099 | [[Harshad Number]]                                                   |
 | 3110 | [[Score of a String]]                                                |
