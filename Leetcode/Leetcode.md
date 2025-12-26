@@ -1,5 +1,5 @@
 
-Count: 254
+Count: 255
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -186,6 +186,7 @@ Count: 254
 | 2455 | [[Average Value of Even Numbers That Are Divisible by Three]]        |
 | 2465 | [[Number of Distinct Averages]]                                      |
 | 2469 | [[Convert the Temperature]]                                          |
+| 2483 | [[Minimum Penalty for a Shop]]                                       |
 | 2520 | [[Count the Digits That Divide a Number]]                            |
 | 2529 | [[Maximum Count of Positive Integer and Negative Integer]]           |
 | 2535 | [[Difference Between Element Sum and Digit Sum of an Array]]         |
