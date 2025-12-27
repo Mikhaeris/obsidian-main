@@ -1,5 +1,5 @@
 
-Count: 255
+Count: 256
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -182,6 +182,7 @@ Count: 255
 | 2390 | [[Removing Stars From a String]]                                     |
 | 2410 | [[Maximum Matching of Players With Trainers]]                        |
 | 2413 | [[Smallest Even Multiple]]                                           |
+| 2441 | [[Largest Positive Integer That Exists With Its Negative]]           |
 | 2446 | [[Determine if Two Events Have Conflict]]                            |
 | 2455 | [[Average Value of Even Numbers That Are Divisible by Three]]        |
 | 2465 | [[Number of Distinct Averages]]                                      |
