@@ -1,5 +1,5 @@
 
-Count: 256
+Count: 257
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -134,6 +134,7 @@ Count: 256
 | 1679 | [[Max Number of K-Sum Pairs]]                                        |
 | 1684 | [[Count the Number of Consistent Strings]]                           |
 | 1695 | [[Maximum Erasure Value]]                                            |
+| 1704 | [[Determine if String Halves Are Alike]]                             |
 | 1710 | [[Maximum Units on a Truck]]                                         |
 | 1716 | [[Calculate Money in Leetcode Bank]]                                 |
 | 1732 | [[Find the Highest Altitude]]                                        |
