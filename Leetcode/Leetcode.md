@@ -1,5 +1,5 @@
 
-Count: 257
+Count: 258
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -193,6 +193,7 @@ Count: 257
 | 2529 | [[Maximum Count of Positive Integer and Negative Integer]]           |
 | 2535 | [[Difference Between Element Sum and Digit Sum of an Array]]         |
 | 2536 | [[Increment Submatrices by One]]                                     |
+| 2540 | [[Minimum Common Value]]                                             |
 | 2544 | [[Alternating Digit Sum]]                                            |
 | 2553 | [[Separate the Digits in an Array]]                                  |
 | 2566 | [[Maximum Difference by Remapping a Digit]]                          |
