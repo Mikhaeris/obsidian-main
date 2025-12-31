@@ -1,5 +1,5 @@
 
-Count: 259
+Count: 261
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -199,6 +199,7 @@ Count: 259
 | 2553 | [[Separate the Digits in an Array]]                                  |
 | 2566 | [[Maximum Difference by Remapping a Digit]]                          |
 | 2574 | [[Left and Right Sum Differences]]                                   |
+| 2582 | [[Pass the Pillow]]                                                  |
 | 2586 | [[Count the Number of Vowel Strings in Range]]                       |
 | 2678 | [[Number of Senior Citizens]]                                        |
 | 2729 | [[Check if The Number is Fascinating]]                               |
@@ -230,6 +231,7 @@ Count: 259
 | 3120 | [[Count the Number of Special Characters I]]                         |
 | 3131 | [[Find the Integer Added to Array I]]                                |
 | 3142 | [[Check if Grid Satisfies Conditions]]                               |
+| 3178 | [[Find the Child Who Has the Ball After K Seconds]]                  |
 | 3190 | [[Find Minimum Operations to Make All Elements Divisible by Three]]  |
 | 3217 | [[Delete Nodes From Linked List Present in Array]]                   |
 | 3222 | [[Find the Winning Player in Coin Game]]                             |
