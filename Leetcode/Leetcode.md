@@ -1,5 +1,5 @@
 
-Count: 261
+Count: 262
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -75,6 +75,7 @@ Count: 261
 | 728  | [[Self Dividing Numbers]]                                            |
 | 735  | [[Asteroid Collision]]                                               |
 | 747  | [[Largest Number At Least Twice of Others]]                          |
+| 748  | [[Shortest Completing Word]]                                         |
 | 766  | [[Toeplitz Matrix]]                                                  |
 | 790  | [[Domino and Tromino Tiling]]                                        |
 | 804  | [[Unique Morse Code Words]]                                          |
