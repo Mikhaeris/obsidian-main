@@ -142,6 +142,7 @@ Count: 263
 | 1748 | [[Sum of Unique Elements]]                                           |
 | 1768 | [[Merge Strings Alternately]]                                        |
 | 1773 | [[Count Items Matching a Rule]]                                      |
+| 1784 | [[Check if Binary String Has at Most One Segment of Ones]]           |
 | 1800 | [[Maximum Ascending Subarray Sum]]                                   |
 | 1816 | [[Truncate Sentence]]                                                |
 | 1844 | [[Replace All Digits with Characters]]                               |
