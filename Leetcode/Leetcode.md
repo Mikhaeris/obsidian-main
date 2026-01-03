@@ -1,5 +1,5 @@
 
-Count: 263
+Count: 264
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -153,6 +153,7 @@ Count: 263
 | 1929 | [[Concatenation of Array]]                                           |
 | 1935 | [[Maximum Number of Words You Can Type]]                             |
 | 1957 | [[Delete Characters to Make Fancy String]]                           |
+| 1974 | [[Minimum Time to Type Word Using Special Typewriter]]               |
 | 1991 | [[Find the Middle Index in Array]]                                   |
 | 2006 | [[Count Number of Pairs With Absolute Difference K]]                 |
 | 2011 | [[Final Value of Variable After Performing Operations]]              |
