@@ -70,6 +70,7 @@ Count: 265
 | 657  | [[Robot Return to Origin]]                                           |
 | 693  | [[Binary Number with Alternating Bits]]                              |
 | 704  | [[Binary Search]]                                                    |
+| 707  | [[Design Linked List]]                                               |
 | 717  | [[1-bit and 2-bit Characters]]                                       |
 | 724  | [[Find Pivot Index]]                                                 |
 | 728  | [[Self Dividing Numbers]]                                            |
