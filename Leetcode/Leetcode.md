@@ -1,5 +1,5 @@
 
-Count: 264
+Count: 265
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -158,6 +158,7 @@ Count: 264
 | 2006 | [[Count Number of Pairs With Absolute Difference K]]                 |
 | 2011 | [[Final Value of Variable After Performing Operations]]              |
 | 2016 | [[Maximum Difference Between Increasing Elements]]                   |
+| 2037 | [[Minimum Number of Moves to Seat Everyone]]                         |
 | 2043 | [[Simple Bank System]]                                               |
 | 2044 | [[Count Number of Maximum Bitwise-OR Subsets]]                       |
 | 2057 | [[Smallest Index With Equal Value]]                                  |
