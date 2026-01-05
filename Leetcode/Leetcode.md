@@ -1,5 +1,5 @@
 
-Count: 265
+Count: 266
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -155,6 +155,7 @@ Count: 265
 | 1935 | [[Maximum Number of Words You Can Type]]                             |
 | 1957 | [[Delete Characters to Make Fancy String]]                           |
 | 1974 | [[Minimum Time to Type Word Using Special Typewriter]]               |
+| 1975 | [[Maximum Matrix Sum]]                                               |
 | 1991 | [[Find the Middle Index in Array]]                                   |
 | 2006 | [[Count Number of Pairs With Absolute Difference K]]                 |
 | 2011 | [[Final Value of Variable After Performing Operations]]              |
