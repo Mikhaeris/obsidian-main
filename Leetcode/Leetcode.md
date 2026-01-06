@@ -223,6 +223,7 @@ Count: 266
 | 2918 | [[Minimum Equal Sum of Two Arrays After Replacing Zeros]]            |
 | 2942 | [[Find Words Containing Character]]                                  |
 | 2951 | [[Find the Peaks]]                                                   |
+| 2960 | [[Count Tested Devices After Test Operations]]                       |
 | 2965 | [[Find Missing and Repeated Values]]                                 |
 | 3000 | [[Maximum Area of Longest Diagonal Rectangle]]                       |
 | 3005 | [[Count Elements With Maximum Frequency]]                            |
