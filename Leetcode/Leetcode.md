@@ -1,5 +1,5 @@
 
-Count: 267
+Count: 268
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -14,6 +14,7 @@ Count: 267
 | 27   | [[Remove Element]]                                                   |
 | 28   | [[Find the Index of the First Occurrence in a String]]               |
 | 58   | [[Length of Last Word]]                                              |
+| 61   | [[Rotate List]]                                                      |
 | 66   | [[Plus One]]                                                         |
 | 67   | [[Add Binary]]                                                       |
 | 73   | [[Set Matrix Zeroes]]                                                |
@@ -36,6 +37,7 @@ Count: 267
 | 217  | [[Contains Duplicate]]                                               |
 | 231  | [[Power of Two]]                                                     |
 | 232  | [[Implement Queue using Stacks]]                                     |
+| 237  | [[Delete Node in a Linked List]]                                     |
 | 242  | [[Valid Anagram]]                                                    |
 | 258  | [[Add Digits]]                                                       |
 | 283  | [[Move Zeroes]]                                                      |
@@ -271,4 +273,3 @@ Count: 267
 | 3668 | [[Restore Finishing Order]]                                          |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 237  | [[Delete Node in a Linked List]]                                     |
