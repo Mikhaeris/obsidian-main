@@ -1,5 +1,5 @@
 
-Count: 270
+Count: 271
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -227,6 +227,7 @@ Count: 270
 | 2918 | [[Minimum Equal Sum of Two Arrays After Replacing Zeros]]            |
 | 2942 | [[Find Words Containing Character]]                                  |
 | 2951 | [[Find the Peaks]]                                                   |
+| 2956 | [[Find Common Elements Between Two Arrays]]                          |
 | 2960 | [[Count Tested Devices After Test Operations]]                       |
 | 2965 | [[Find Missing and Repeated Values]]                                 |
 | 3000 | [[Maximum Area of Longest Diagonal Rectangle]]                       |
