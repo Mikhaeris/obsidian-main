@@ -1,5 +1,5 @@
 
-Count: 271
+Count: 272
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -213,6 +213,7 @@ Count: 271
 | 2656 | [[Maximum Sum With Exactly K Elements]]                              |
 | 2678 | [[Number of Senior Citizens]]                                        |
 | 2729 | [[Check if The Number is Fascinating]]                               |
+| 2733 | [[Neither Minimum nor Maximum]]                                      |
 | 2739 | [[Total Distance Traveled]]                                          |
 | 2744 | [[Find Maximum Number of String Pairs]]                              |
 | 2785 | [[Sort Vowels in a String]]                                          |
