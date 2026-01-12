@@ -1,5 +1,5 @@
 
-Count: 272
+Count: 273
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -149,6 +149,7 @@ Count: 272
 | 1784 | [[Check if Binary String Has at Most One Segment of Ones]]           |
 | 1800 | [[Maximum Ascending Subarray Sum]]                                   |
 | 1816 | [[Truncate Sentence]]                                                |
+| 1827 | [[Minimum Operations to Make the Array Increasing]]                  |
 | 1844 | [[Replace All Digits with Characters]]                               |
 | 1863 | [[Sum of All Subset XOR Totals]]                                     |
 | 1880 | [[Check if Word Equals Summation of Two Words]]                      |
