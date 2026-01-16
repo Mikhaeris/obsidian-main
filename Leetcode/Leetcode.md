@@ -1,5 +1,5 @@
 
-Count: 276
+Count: 277
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -216,6 +216,7 @@ Count: 276
 | 2586 | [[Count the Number of Vowel Strings in Range]]                       |
 | 2656 | [[Maximum Sum With Exactly K Elements]]                              |
 | 2678 | [[Number of Senior Citizens]]                                        |
+| 2710 | [[Remove Trailing Zeros From a String]]                              |
 | 2729 | [[Check if The Number is Fascinating]]                               |
 | 2733 | [[Neither Minimum nor Maximum]]                                      |
 | 2739 | [[Total Distance Traveled]]                                          |
