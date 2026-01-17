@@ -1,5 +1,5 @@
 
-Count: 277
+Count: 278
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -122,6 +122,7 @@ Count: 277
 | 1431 | [[Kids With the Greatest Number of Candies]]                         |
 | 1436 | [[Destination City]]                                                 |
 | 1437 | [[Check If All 1's Are at Least Length K Places Away]]               |
+| 1441 | [[Build an Array With Stack Operations]]                             |
 | 1450 | [[Number of Students Doing Homework at a Given Time]]                |
 | 1456 | [[Maximum Number of Vowels in a Substring of Given Length]]          |
 | 1464 | [[Maximum Product of Two Elements in an Array]]                      |
