@@ -1,5 +1,5 @@
 
-Count: 278
+Count: 279
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -9,6 +9,7 @@ Count: 278
 | 11   | [[Container With Most Water]]                                        |
 | 13   | [[Roman to Integer]]                                                 |
 | 14   | [[Longest Common Prefix]]                                            |
+| 19   | [[Remove Nth Node From End of List]]                                 |
 | 20   | [[Valid Parentheses]]                                                |
 | 26   | [[Remove Duplicates from Sorted Array]]                              |
 | 27   | [[Remove Element]]                                                   |
