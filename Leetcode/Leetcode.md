@@ -1,5 +1,5 @@
 
-Count: 281
+Count: 284
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -260,6 +260,7 @@ Count: 281
 | 3289 | [[The Two Sneaky Numbers of Digitville]]                             |
 | 3300 | [[Minimum Element After Replacement With Digit Sum]]                 |
 | 3304 | [[Find the K-th Character in String Game I]]                         |
+| 3314 | [[Construct the Minimum Bitwise Array I]]                            |
 | 3318 | [[Find X-Sum of All K-Long Subarrays I]]                             |
 | 3330 | [[Find the Original Typed String I]]                                 |
 | 3340 | [[Check Balanced String]]                                            |
@@ -285,4 +286,3 @@ Count: 281
 | 3668 | [[Restore Finishing Order]]                                          |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 3314 | [[Construct the Minimum Bitwise Array I]]                            |
