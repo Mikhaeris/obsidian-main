@@ -1,5 +1,5 @@
 
-Count: 280
+Count: 281
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -285,3 +285,4 @@ Count: 280
 | 3668 | [[Restore Finishing Order]]                                          |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
+| 3314 | [[Construct the Minimum Bitwise Array I]]                            |
