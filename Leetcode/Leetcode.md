@@ -1,5 +1,5 @@
 
-Count: 285
+Count: 286
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -277,6 +277,7 @@ Count: 285
 | 3467 | [[Transform Array by Parity]]                                        |
 | 3492 | [[Maximum Containers on a Ship]]                                     |
 | 3498 | [[Reverse Degree of a String]]                                       |
+| 3507 | [[Minimum Pair Removal to Sort Array I]]                             |
 | 3512 | [[Minimum Operations to Make Array Sum Divisible by K]]              |
 | 3516 | [[Find Closest Person]]                                              |
 | 3536 | [[Maximum Product of Two Digits]]                                    |
