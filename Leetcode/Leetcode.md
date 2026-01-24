@@ -1,5 +1,5 @@
 
-Count: 288
+Count: 289
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -159,6 +159,7 @@ Count: 288
 | 1827 | [[Minimum Operations to Make the Array Increasing]]                  |
 | 1844 | [[Replace All Digits with Characters]]                               |
 | 1863 | [[Sum of All Subset XOR Totals]]                                     |
+| 1877 | [[Minimize Maximum Pair Sum in Array]]                               |
 | 1880 | [[Check if Word Equals Summation of Two Words]]                      |
 | 1920 | [[Build Array from Permutation]]                                     |
 | 1925 | [[Count Square Sum Triples]]                                         |
