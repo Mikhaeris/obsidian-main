@@ -16,5 +16,10 @@ or rsync
 
 stop sshd
 ```
+sudo systemctl stop sshd
+```
 
+stop autostart
+```
+sudo systemctl disable ssh
 ```
