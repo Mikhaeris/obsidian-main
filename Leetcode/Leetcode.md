@@ -1,0 +1,294 @@
+
+Count: 290
+
+| N    | link                                                                 |
+| ---- | -------------------------------------------------------------------- |
+| 1    | [[Two Sum]]                                                          |
+| 2    | [[Add Two Numbers]]                                                  |
+| 3    | [[Longest Substring Without Repeating Characters]]                   |
+| 11   | [[Container With Most Water]]                                        |
+| 13   | [[Roman to Integer]]                                                 |
+| 14   | [[Longest Common Prefix]]                                            |
+| 19   | [[Remove Nth Node From End of List]]                                 |
+| 20   | [[Valid Parentheses]]                                                |
+| 21   | [[Merge Two Sorted Lists]]                                           |
+| 24   | [[Swap Nodes in Pairs]]                                              |
+| 26   | [[Remove Duplicates from Sorted Array]]                              |
+| 27   | [[Remove Element]]                                                   |
+| 28   | [[Find the Index of the First Occurrence in a String]]               |
+| 58   | [[Length of Last Word]]                                              |
+| 61   | [[Rotate List]]                                                      |
+| 66   | [[Plus One]]                                                         |
+| 67   | [[Add Binary]]                                                       |
+| 73   | [[Set Matrix Zeroes]]                                                |
+| 75   | [[Sort Colors]]                                                      |
+| 82   | [[Remove Duplicates from Sorted List II]]                            |
+| 83   | [[Remove Duplicates from Sorted List]]                               |
+| 88   | [[Merge Sorted Array]]                                               |
+| 92   | [[Reverse Linked List II]]                                           |
+| 118  | [[Pascal's Triangle]]                                                |
+| 119  | [[Pascal's Triangle II]]                                             |
+| 125  | [[Valid Palindrome]]                                                 |
+| 136  | [[Single Number]]                                                    |
+| 141  | [[Linked List Cycle]]                                                |
+| 150  | [[Evaluate Reverse Polish Notation]]                                 |
+| 151  | [[Reverse Words in a String]]                                        |
+| 165  | [[Compare Version Numbers]]                                          |
+| 167  | [[Two Sum II - Input Array Is Sorted]]                               |
+| 169  | [[Majority Element]]                                                 |
+| 189  | [[Rotate Array]]                                                     |
+| 191  | [[Number of 1 Bits]]                                                 |
+| 203  | [[Remove Linked List Elements]]                                      |
+| 206  | [[Reverse Linked List]]                                              |
+| 209  | [[Minimum Size Subarray Sum]]                                        |
+| 217  | [[Contains Duplicate]]                                               |
+| 231  | [[Power of Two]]                                                     |
+| 232  | [[Implement Queue using Stacks]]                                     |
+| 237  | [[Delete Node in a Linked List]]                                     |
+| 242  | [[Valid Anagram]]                                                    |
+| 258  | [[Add Digits]]                                                       |
+| 283  | [[Move Zeroes]]                                                      |
+| 303  | [[Range Sum Query - Immutable]]                                      |
+| 326  | [[Power of Three]]                                                   |
+| 338  | [[Counting Bits]]                                                    |
+| 342  | [[Power of Four]]                                                    |
+| 344  | [[Reverse String]]                                                   |
+| 345  | [[Reverse Vowels of a String]]                                       |
+| 349  | [[Intersection of Two Arrays]]                                       |
+| 350  | [[Intersection of Two Arrays II]]                                    |
+| 374  | [[Guess Number Higher or Lower]]                                     |
+| 383  | [[Ransom Note]]                                                      |
+| 387  | [[First Unique Character in a String]]                               |
+| 389  | [[Find the Difference]]                                              |
+| 392  | [[Is Subsequence]]                                                   |
+| 412  | [[Fizz Buzz]]                                                        |
+| 414  | [[Third Maximum Number]]                                             |
+| 443  | [[String Compression]]                                               |
+| 448  | [[Find All Numbers Disappeared in an Array]]                         |
+| 455  | [[Assign Cookies]]                                                   |
+| 461  | [[Hamming Distance]]                                                 |
+| 485  | [[Max Consecutive Ones]]                                             |
+| 500  | [[Keyboard Row]]                                                     |
+| 506  | [[Relative Ranks]]                                                   |
+| 557  | [[Reverse Words in a String III]]                                    |
+| 566  | [[Reshape the Matrix]]                                               |
+| 605  | [[Can Place Flowers]]                                                |
+| 628  | [[Maximum Product of Three Numbers]]                                 |
+| 643  | [[Maximum Average Subarray I]]                                       |
+| 645  | [[Set Mismatch]]                                                     |
+| 657  | [[Robot Return to Origin]]                                           |
+| 693  | [[Binary Number with Alternating Bits]]                              |
+| 704  | [[Binary Search]]                                                    |
+| 707  | [[Design Linked List]]                                               |
+| 717  | [[1-bit and 2-bit Characters]]                                       |
+| 724  | [[Find Pivot Index]]                                                 |
+| 728  | [[Self Dividing Numbers]]                                            |
+| 735  | [[Asteroid Collision]]                                               |
+| 747  | [[Largest Number At Least Twice of Others]]                          |
+| 748  | [[Shortest Completing Word]]                                         |
+| 766  | [[Toeplitz Matrix]]                                                  |
+| 790  | [[Domino and Tromino Tiling]]                                        |
+| 804  | [[Unique Morse Code Words]]                                          |
+| 832  | [[Flipping an Image]]                                                |
+| 838  | [[Push Dominoes]]                                                    |
+| 884  | [[Uncommon Words from Two Sentences]]                                |
+| 905  | [[Sort Array By Parity]]                                             |
+| 917  | [[Reverse Only Letters]]                                             |
+| 941  | [[Valid Mountain Array]]                                             |
+| 944  | [[Delete Columns to Make Sorted]]                                    |
+| 961  | [[N-Repeated Element in Size 2N Array]]                              |
+| 977  | [[Squares of a Sorted Array]]                                        |
+| 989  | [[Add to Array-Form of Integer]]                                     |
+| 1007 | [[Minimum Domino Rotations For Equal Row]]                           |
+| 1018 | [[Binary Prefix Divisible By 5]]                                     |
+| 1025 | [[Divisor Game]]                                                     |
+| 1051 | [[Height Checker]]                                                   |
+| 1089 | [[Duplicate Zeros]]                                                  |
+| 1108 | [[Defanging an IP Address]]                                          |
+| 1128 | [[Number of Equivalent Domino Pairs]]                                |
+| 1200 | [[Minimum Absolute Difference]]                                      |
+| 1233 | [[Remove Sub-Folders from the Filesystem]]                           |
+| 1262 | [[Greatest Sum Divisible by Three]]                                  |
+| 1290 | [[Convert Binary Number in a Linked List to Integer]]                |
+| 1299 | [[Replace Elements with Greatest Element on Right Side]]             |
+| 1304 | [[Find N Unique Integers Sum up to Zero]]                            |
+| 1308 | [[Lucky Numbers in a Matrix]]                                        |
+| 1317 | [[Convert Integer to the Sum of Two No-Zero Integers]]               |
+| 1323 | [[Maximum 69 Number]]                                                |
+| 1342 | [[Number of Steps to Reduce a Number to Zero]]                       |
+| 1346 | [[Check If N and Its Double Exist]]                                  |
+| 1351 | [[Count Negative Numbers in a Sorted Matrix]]                        |
+| 1365 | [[How Many Numbers Are Smaller Than the Current Number]]             |
+| 1374 | [[Generate a String With Characters That Have Odd Counts]]           |
+| 1394 | [[Find Lucky Integer in an Array]]                                   |
+| 1413 | [[Minimum Value to Get Positive Step by Step Sum]]                   |
+| 1422 | [[Maximum Score After Splitting a String]]                           |
+| 1431 | [[Kids With the Greatest Number of Candies]]                         |
+| 1436 | [[Destination City]]                                                 |
+| 1437 | [[Check If All 1's Are at Least Length K Places Away]]               |
+| 1441 | [[Build an Array With Stack Operations]]                             |
+| 1450 | [[Number of Students Doing Homework at a Given Time]]                |
+| 1456 | [[Maximum Number of Vowels in a Substring of Given Length]]          |
+| 1464 | [[Maximum Product of Two Elements in an Array]]                      |
+| 1470 | [[Shuffle the Array]]                                                |
+| 1480 | [[Running Sum of 1d Array]]                                          |
+| 1486 | [[XOR Operation in an Array]]                                        |
+| 1491 | [[Average Salary Excluding the Minimum and Maximum Salary]]          |
+| 1493 | [[Longest Subarray of 1's After Deleting One Element]]               |
+| 1507 | [[Reformat Date]]                                                    |
+| 1513 | [[Number of Substrings With Only 1s]]                                |
+| 1518 | [[Water Bottles]]                                                    |
+| 1523 | [[Count Odd Numbers in an Interval Range]]                           |
+| 1528 | [[Shuffle String]]                                                   |
+| 1550 | [[Three Consecutive Odds]]                                           |
+| 1603 | [[Design Parking System]]                                            |
+| 1672 | [[Richest Customer Wealth]]                                          |
+| 1679 | [[Max Number of K-Sum Pairs]]                                        |
+| 1684 | [[Count the Number of Consistent Strings]]                           |
+| 1695 | [[Maximum Erasure Value]]                                            |
+| 1704 | [[Determine if String Halves Are Alike]]                             |
+| 1710 | [[Maximum Units on a Truck]]                                         |
+| 1716 | [[Calculate Money in Leetcode Bank]]                                 |
+| 1732 | [[Find the Highest Altitude]]                                        |
+| 1748 | [[Sum of Unique Elements]]                                           |
+| 1768 | [[Merge Strings Alternately]]                                        |
+| 1773 | [[Count Items Matching a Rule]]                                      |
+| 1784 | [[Check if Binary String Has at Most One Segment of Ones]]           |
+| 1800 | [[Maximum Ascending Subarray Sum]]                                   |
+| 1816 | [[Truncate Sentence]]                                                |
+| 1827 | [[Minimum Operations to Make the Array Increasing]]                  |
+| 1844 | [[Replace All Digits with Characters]]                               |
+| 1863 | [[Sum of All Subset XOR Totals]]                                     |
+| 1877 | [[Minimize Maximum Pair Sum in Array]]                               |
+| 1880 | [[Check if Word Equals Summation of Two Words]]                      |
+| 1920 | [[Build Array from Permutation]]                                     |
+| 1925 | [[Count Square Sum Triples]]                                         |
+| 1929 | [[Concatenation of Array]]                                           |
+| 1935 | [[Maximum Number of Words You Can Type]]                             |
+| 1957 | [[Delete Characters to Make Fancy String]]                           |
+| 1974 | [[Minimum Time to Type Word Using Special Typewriter]]               |
+| 1975 | [[Maximum Matrix Sum]]                                               |
+| 1984 | [[Minimum Difference Between Highest and Lowest of K Scores]]        |
+| 1991 | [[Find the Middle Index in Array]]                                   |
+| 2006 | [[Count Number of Pairs With Absolute Difference K]]                 |
+| 2011 | [[Final Value of Variable After Performing Operations]]              |
+| 2016 | [[Maximum Difference Between Increasing Elements]]                   |
+| 2037 | [[Minimum Number of Moves to Seat Everyone]]                         |
+| 2043 | [[Simple Bank System]]                                               |
+| 2044 | [[Count Number of Maximum Bitwise-OR Subsets]]                       |
+| 2057 | [[Smallest Index With Equal Value]]                                  |
+| 2094 | [[Finding 3-Digit Even Numbers]]                                     |
+| 2099 | [[Find Subsequence of Length K With the Largest Sum]]                |
+| 2103 | [[Rings and Rods]]                                                   |
+| 2108 | [[Find First Palindromic String in the Array]]                       |
+| 2119 | [[A Number After a Double Reversal]]                                 |
+| 2125 | [[Number of Laser Beams in a Bank]]                                  |
+| 2131 | [[Longest Palindrome by Concatenating Two Letter Words]]             |
+| 2138 | [[Divide a String Into Groups of Size k]]                            |
+| 2154 | [[Keep Multiplying Found Values by Two]]                             |
+| 2169 | [[Count Operations to Obtain Zero]]                                  |
+| 2180 | [[Count Integers With Even Digit Sum]]                               |
+| 2190 | [[ Most Frequent Number Following Key In an Array]]                  |
+| 2206 | [[Divide Array Into Equal Pairs]]                                    |
+| 2210 | [[Count Hills and Valleys in an Array]]                              |
+| 2211 | [[Count Collisions on a Road]]                                       |
+| 2220 | [[Minimum Bit Flips to Convert Number]]                              |
+| 2221 | [[Find Triangular Sum of an Array]]                                  |
+| 2235 | [[Add Two Integers]]                                                 |
+| 2252 | [[Count Prefixes of a Given String]]                                 |
+| 2264 | [[Largest 3-Same-Digit Number in String]]                            |
+| 2273 | [[Find Resultant Array After Removing Anagrams]]                     |
+| 2348 | [[Number of Zero-Filled Subarrays]]                                  |
+| 2351 | [[First Letter to Appear Twice]]                                     |
+| 2363 | [[Merge Similar Items]]                                              |
+| 2390 | [[Removing Stars From a String]]                                     |
+| 2410 | [[Maximum Matching of Players With Trainers]]                        |
+| 2413 | [[Smallest Even Multiple]]                                           |
+| 2441 | [[Largest Positive Integer That Exists With Its Negative]]           |
+| 2446 | [[Determine if Two Events Have Conflict]]                            |
+| 2455 | [[Average Value of Even Numbers That Are Divisible by Three]]        |
+| 2465 | [[Number of Distinct Averages]]                                      |
+| 2469 | [[Convert the Temperature]]                                          |
+| 2483 | [[Minimum Penalty for a Shop]]                                       |
+| 2520 | [[Count the Digits That Divide a Number]]                            |
+| 2529 | [[Maximum Count of Positive Integer and Negative Integer]]           |
+| 2535 | [[Difference Between Element Sum and Digit Sum of an Array]]         |
+| 2536 | [[Increment Submatrices by One]]                                     |
+| 2540 | [[Minimum Common Value]]                                             |
+| 2544 | [[Alternating Digit Sum]]                                            |
+| 2553 | [[Separate the Digits in an Array]]                                  |
+| 2566 | [[Maximum Difference by Remapping a Digit]]                          |
+| 2574 | [[Left and Right Sum Differences]]                                   |
+| 2582 | [[Pass the Pillow]]                                                  |
+| 2586 | [[Count the Number of Vowel Strings in Range]]                       |
+| 2656 | [[Maximum Sum With Exactly K Elements]]                              |
+| 2678 | [[Number of Senior Citizens]]                                        |
+| 2710 | [[Remove Trailing Zeros From a String]]                              |
+| 2729 | [[Check if The Number is Fascinating]]                               |
+| 2733 | [[Neither Minimum nor Maximum]]                                      |
+| 2739 | [[Total Distance Traveled]]                                          |
+| 2744 | [[Find Maximum Number of String Pairs]]                              |
+| 2785 | [[Sort Vowels in a String]]                                          |
+| 2788 | [[Split Strings by Separator]]                                       |
+| 2828 | [[Check if a String Is an Acronym of Words]]                         |
+| 2833 | [[Furthest Point From Origin]]                                       |
+| 2843 | [[Count Symmetric Integers]]                                         |
+| 2848 | [[Points That Intersect With Cars]]                                  |
+| 2859 | [[Sum of Values at Indices With K Set Bits]]                         |
+| 2894 | [[Divisible and Non-divisible Sums Difference]]                      |
+| 2900 | [[Longest Unequal Adjacent Groups Subsequence I]]                    |
+| 2918 | [[Minimum Equal Sum of Two Arrays After Replacing Zeros]]            |
+| 2942 | [[Find Words Containing Character]]                                  |
+| 2951 | [[Find the Peaks]]                                                   |
+| 2956 | [[Find Common Elements Between Two Arrays]]                          |
+| 2960 | [[Count Tested Devices After Test Operations]]                       |
+| 2965 | [[Find Missing and Repeated Values]]                                 |
+| 3000 | [[Maximum Area of Longest Diagonal Rectangle]]                       |
+| 3005 | [[Count Elements With Maximum Frequency]]                            |
+| 3021 | [[Alice and Bob Playing Flower Game]]                                |
+| 3024 | [[Type of Triangle]]                                                 |
+| 3042 | [[Count Prefix and Suffix Pairs I]]                                  |
+| 3074 | [[Apple Redistribution into Boxes]]                                  |
+| 3075 | [[Maximize Happiness of Selected Children]]                          |
+| 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
+| 3099 | [[Harshad Number]]                                                   |
+| 3110 | [[Score of a String]]                                                |
+| 3120 | [[Count the Number of Special Characters I]]                         |
+| 3131 | [[Find the Integer Added to Array I]]                                |
+| 3142 | [[Check if Grid Satisfies Conditions]]                               |
+| 3178 | [[Find the Child Who Has the Ball After K Seconds]]                  |
+| 3190 | [[Find Minimum Operations to Make All Elements Divisible by Three]]  |
+| 3217 | [[Delete Nodes From Linked List Present in Array]]                   |
+| 3222 | [[Find the Winning Player in Coin Game]]                             |
+| 3227 | [[Vowels Game in a String]]                                          |
+| 3289 | [[The Two Sneaky Numbers of Digitville]]                             |
+| 3300 | [[Minimum Element After Replacement With Digit Sum]]                 |
+| 3304 | [[Find the K-th Character in String Game I]]                         |
+| 3314 | [[Construct the Minimum Bitwise Array I]]                            |
+| 3315 | [[Construct the Minimum Bitwise Array II]]                           |
+| 3318 | [[Find X-Sum of All K-Long Subarrays I]]                             |
+| 3330 | [[Find the Original Typed String I]]                                 |
+| 3340 | [[Check Balanced String]]                                            |
+| 3354 | [[Make Array Elements Equal to Zero]]                                |
+| 3355 | [[Zero Array Transformation I]]                                      |
+| 3370 | [[Smallest Number With All Set Bits]]                                |
+| 3392 | [[Count Subarrays of Length Three With a Condition]]                 |
+| 3423 | [[Maximum Difference Between Adjacent Elements in a Circular Array]] |
+| 3432 | [[Count Partitions with Even Sum Difference]]                        |
+| 3442 | [[Maximum Difference Between Even and Odd Frequency I]]              |
+| 3452 | [[Sum of Good Numbers]]                                              |
+| 3461 | [[Check If Digits Are Equal in String After Operations I]]           |
+| 3467 | [[Transform Array by Parity]]                                        |
+| 3492 | [[Maximum Containers on a Ship]]                                     |
+| 3498 | [[Reverse Degree of a String]]                                       |
+| 3507 | [[Minimum Pair Removal to Sort Array I]]                             |
+| 3512 | [[Minimum Operations to Make Array Sum Divisible by K]]              |
+| 3516 | [[Find Closest Person]]                                              |
+| 3536 | [[Maximum Product of Two Digits]]                                    |
+| 3541 | [[Find Most Frequent Vowel and Consonant]]                           |
+| 3550 | [[Smallest Index With Digit Sum Equal to Index]]                     |
+| 3622 | [[Check Divisibility by Digit Sum and Product]]                      |
+| 3663 | [[Find The Least Frequent Digit]]                                    |
+| 3668 | [[Restore Finishing Order]]                                          |
+| 3683 | [[Earliest Time to Finish One Task]]                                 |
+| 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
