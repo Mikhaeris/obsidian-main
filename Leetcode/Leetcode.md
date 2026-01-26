@@ -1,5 +1,5 @@
 
-Count: 290
+Count: 291
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -70,6 +70,7 @@ Count: 290
 | 485  | [[Max Consecutive Ones]]                                             |
 | 500  | [[Keyboard Row]]                                                     |
 | 506  | [[Relative Ranks]]                                                   |
+| 520  | [[Detect Capital]]                                                   |
 | 557  | [[Reverse Words in a String III]]                                    |
 | 566  | [[Reshape the Matrix]]                                               |
 | 605  | [[Can Place Flowers]]                                                |
