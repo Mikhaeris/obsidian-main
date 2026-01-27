@@ -215,7 +215,7 @@ Otherwise:
 ```nasm
 mov ebx, eax
 ```
-This means: "copy This means: "Copy the contents of the EAX register into the EBX register."
+This means: "Copy the contents of the EAX register into the EBX register."
 ### Effective address
 An address at which the next machine instruction will access memory (whether the address is specified explicitly or computed) is called the **effective address**.
 The processor allows the effective address to be specified so that it is computed during program execution.

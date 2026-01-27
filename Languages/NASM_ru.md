@@ -189,15 +189,15 @@ mov eax, ebx
 
 ### Виды операндов
 Есть три вида операндов:
-1) **Immediate operand**
+1) **Непосредственный операнд**
 	```nasm
 	mov edx, 40f2a008h
 	```
-2) **Register operand**
+2) **Регистровый операнд**
 	```nasm
 	mov eax, ebx
 	```
-3) **Memory (address) operand** 
+3) **Адресный операнд / операнд типа "память"** 
 	```nasm
 	section .data
 	count dd 0
@@ -205,18 +205,19 @@ mov eax, ebx
 	section .text
 	    mov [count], eax
 	```
-### Indirect addressing
-Example:
+### Косвенная адресация
+Пример:
 ```nasm
 mov ebx, [eax]
 ```
-This means: "Take the value in the EAX register, use this value as an address, access memory at that address, retrieve four bytes from there, and store them in the EBX register."
-Otherwise:
+Это означает: "Возьми значение в регистре EAX, используй это значение в качестве адреса, по этому адресу обратись к памяти, возьми оттуда четыре байты и занеси их в регистр EBX."
+В противоположность:
 ```nasm
 mov ebx, eax
 ```
-This means: "copy This means: "Copy the contents of the EAX register into the EBX register."
-### Effective address
+Это означает: "Скопируй содержимое регистра EAX в регистр EBX."
+### Исполнительный адрес
+Адрес, по которому очередная машинная команда произведет обращение к памяти (неважно, задан этот адрес явно или вычислен) называется исполнительным адресом.
 An address at which the next machine instruction will access memory (whether the address is specified explicitly or computed) is called the **effective address**.
 The processor allows the effective address to be specified so that it is computed during program execution.
 
