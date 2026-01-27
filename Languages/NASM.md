@@ -308,7 +308,7 @@ je  some_label
 ```
 ### Integer multiplication and division
 All integer multiplication and division instructions have only one operand, which specifies the second factor; this operand can be a register or a memory-type operand, but not an immediate value. The first factor and the dividend, as well as the location for storing the result, are **implicit operands**, represented by the AL, AX, or EAX registers, and, if necessary, the register pairs DX:AX and EDX:EAX.
-
+#### The `mul` and `imul` instructions
 The `mul` instruction is used for unsigned integer multiplication, while the `imul` instruction is used for signed multiplication. In both cases, depending on the operand size (the second factor), the first factor is taken from the appropriate register.
 
 | number of bits | implicit multiplier | product |
