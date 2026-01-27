@@ -241,8 +241,11 @@ Permissible operand type combinations for the **mov** instruction:
 ```nasm
 mov [x], 25 ; ERROR!!!
 ```
-To use such an instruction, it is necessary to inform the assembler of the exact operand size by placing a size specifier before any of the operands.
+To use such an instruction, it is necessary to inform the assembler of the exact operand size by placing a **size specifier** before any of the operands.
 - byte
 - word
 - dword
 - qword
+
+### Integer addition and subtraction
+The addition operation is performed using the **add** instruction.
