@@ -136,17 +136,20 @@ A binary number is indicated by the letter **b** at the end.
 ```nasm
 10011011b
 ```
+
 #### Octal
 Octal numbers are indicated by appending the letter **o** or **q** after the number.
 ```nasm
 634o
 754q
 ```
+
 #### Decimal
 Decimal numbers are represented as in standard mathematics.
 ```nasm
 2026
 ```
+
 #### Hexadecimal
 A hexadecimal number can be specified in three ways:
 - By appending the letter **h** at the end
@@ -165,6 +168,7 @@ $0f9
 
 0x2af3
 ```
+
 # Text strings
 The assembler allows a character to be specified directly by enclosing it in single or double quotation marks instead of using its code.
 ```nasm
@@ -205,6 +209,7 @@ Three operands types:
 	section .text
 	    mov [count], eax
 	```
+
 ### Indirect addressing
 Example:
 ```nasm
@@ -216,6 +221,7 @@ Otherwise:
 mov ebx, eax
 ```
 This means: "Copy the contents of the EAX register into the EBX register."
+
 ### Effective address
 An address at which the next machine instruction will access memory (whether the address is specified explicitly or computed) is called the **effective address**.
 The processor allows the effective address to be specified so that it is computed during program execution.
@@ -224,6 +230,7 @@ General form of the effective address:
 ![[Pasted image 20260127171352.png]]
 
 Each of the three components is optional. However, it is important to understand that the expression within the square brackets cannot be arbitrary in any way.
+
 #### The `lea` instruction
 The `lea` instruction allows the processor's capabilities for computing the effective address to be used without accessing memory. The instruction has two operands: the first must be a register, and the second must be a memory-type operand.
 ```nasm
@@ -287,6 +294,7 @@ If subtraction is required, it is performed using the instructions:
 sub eax, ecx    ; subtract the lower parts
 sbb edx, ebx    ; now subtract the higher parts, taking the borrow into account
 ```
+
 #### The `inc` and `dec` instructions
 The `inc` and `dec` instructions have a single operand (register or memory type) and perform increment and decrement by one, respectively. Both instructions set the ZF, OF, and SF flags, but do not affect the CF flag. When used with a memory-type operand, an explicit operand size specification is required.
 ```nasm
@@ -295,19 +303,23 @@ mov eax, 0
 inc eax       ; now eax store 1
 dec eax       ; now eax store 0
 ```
+
 #### The `neg` instruction
 The neg instruction, which also has a single operand, performs sign negation, that is, a "unary minus" operation. It is usually applied to signed numbers; however, it sets all four flags: ZF, OF, SF, and CF.
 ```nasm
 neg eax
 ```
+
 #### The `cmp` instruction
 The cmp instruction performs the same subtraction as the sub instruction, except that the result is not stored anywhere. The instruction is used solely to set the flags, and it is usually followed immediately by a conditional jump instruction. The first operand of the cmp instruction cannot be an immediate value.
 ```nasm
 cmp eax, 10
 je  some_label
 ```
+
 ### Integer multiplication and division
 All integer multiplication and division instructions have only one operand, which specifies the second factor; this operand can be a register or a memory-type operand, but not an immediate value. The first factor and the dividend, as well as the location for storing the result, are **implicit operands**, represented by the AL, AX, or EAX registers, and, if necessary, the register pairs DX:AX and EDX:EAX.
+
 #### The `mul` and `imul` instructions
 The `mul` instruction is used for unsigned integer multiplication, while the `imul` instruction is used for signed multiplication. In both cases, depending on the operand size (the second factor), the first factor is taken from the appropriate register.
 |                |           |          |           |
@@ -343,6 +355,7 @@ mov bx, 3
 div bx       ; now al store 2 and ah store 1
 ```
 If the divisor contains the value zero at the time the div or idiv instruction is executed, the processor triggers a so-called exception, also referred to as an internal interrupt, as a result of which control is transferred to the operating system. In most cases, the operating system reports an error and terminates the current task as abnormal. The same behavior occurs if the result of the division does not fit into the allocated bit width.
+
 #### Integer extension
 When performing integer division of signed numbers, it is often necessary to extend the dividend before the division.
 
@@ -353,6 +366,7 @@ Instructions:
 - `cdq` (convert dword to qword) - Extends the value in the EAX register to EDX:EAX
 
 Note that for division of unsigned integers, special instructions for extending the bit width are not required: it is sufficient to simply clear the higher part of the dividend, whether it be AH, DH, or EDX.
+
 ### Conditional and unconditional jumps
 The normal sequential execution of instructions can be altered by performing a **control transfer**, also referred to as a **jump**; a control-transfer instruction forcibly writes a new address into the EIP register, causing the processor to continue program execution from a different location.
 
@@ -382,6 +396,7 @@ Here, the first instruction specifies a direct jump, while the remaining instruc
 **Conditional jump** instructions are supported by the processor in a wide variety: a jump can be performed depending on the value of a single flag, a combination of flags, or even the value of a register.
 
 It is important to note that, unlike unconditional jump instructions, conditional jump instructions are considered short by the assembler by default if the type of jump is not specified explicitly. Another nontrivial point is that all conditional jump instructions allow only an immediate operand (usually a label). The address for such a jump cannot be taken from a register or from memory.
+
 ### Construction of branches and loops
 A standard Pascal-style loop with a precondition
 ```pascal

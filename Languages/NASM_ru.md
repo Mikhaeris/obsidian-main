@@ -10,6 +10,7 @@
 
 | CS  | DS  | SS  | ES  | GS  | FS  | 
 | --- | --- | --- | --- | --- | --- |
+
 ### Регистры общего назначения
 #### 32-bit:
 
@@ -28,6 +29,7 @@
 | AH  | BH  | CH  | DH  |
 | --- | --- | --- | --- |
 | AL  | BL  | CL  | DL  | 
+
 #### Названия регистров:
 - AX - accumulator
 - BX - base
@@ -37,9 +39,11 @@
 - DI - destination index
 - BP - base pointer
 - SP - stack pointer
+
 ### Специальные регистры
 - EIP - instruction pointer
 - FLAGS - flag register
+
 #### Флаговый регистр
 - ZF - zero flag
 - CF - carry flag
@@ -84,13 +88,16 @@
 - сегмент стека
 
 ![[Pasted image 20260127144944.png]]
+
 # Директивы для отведения памяти
 Ассемблер осуществляет трансляцию мнемоник команд в бинарный код, формируя массив данных, который в дальнейшем интерпретируется центральным процессором (ЦП) как последовательность инструкций. Управление программой реализуется путем загрузки адреса точки входа в регистр указателя команд.
+
 ### Структура сегмента памяти
 Для организации данных и кода внутри программы используются специализированные разделы, объявляемые с помощью директивы section:
 - **.text**: Содержит исполняемый машинный код.
 - **.data**: Предназначена для инициализированных данных, значения которых определяются на этапе компиляции и включаются в образ исполняемого файла.
-- **.bss**: Резервирует пространство для неинициализированных переменных. В объектном файле сохраняется только информация о требуемом размере данного раздела, что позволяет оптимизировать объем файла на диске
+- **.bss**: Резервирует пространство для неинициализированных переменных. В объектном файле сохраняется только информация о требуемом размере данного раздела, что позволяет оптимизировать объем файла на диске.
+
 ### Директивы управления памятью
 Ассемблер (в частности, NASM) предоставляет средства распределения памяти на основе стандартных единиц данных:
 
@@ -100,6 +107,7 @@
 | Слово              | 2             | dw/resw              |
 | Двойное слово      | 4             | dd/resd              |
 | Учетверенное слово | 8             | dq/resq              |
+
 #### Директивы резервирования неинициализированной памяти
 Эти директивы приказывают ассемблеру выделить заданное количество ячеек памяти, причем ничего, кроме количества, не уточняется.
 - resb
@@ -114,6 +122,7 @@ string resb 20
 count  resw 256
 x      resd 1
 ```
+
 #### Директивы задания исходных данных
 Эти директивы не просто резервируют память, а указывают, какие значения в этой памяти должны находиться к моменту запуска программы. Соответствующие значение указывается после директивы через запятую; памяти отводится столько, сколько указано значений.
 - db
@@ -125,28 +134,33 @@ x      resd 1
 ```nasm
 fibon dw 1, 1, 2, 3, 5, 8, 13, 21
 ```
+
 # Задание числовых значений
 Числовые значения могут быть заданы в:
 - двоичной
 - восьмиричной
 - десятичной
 - шестнадцатиричной
+
 #### Двоичная
 Двоичное число обозначается буквой **b** на конце.
 ```nasm
 10011011b
 ```
+
 #### Восьмиричная
 Восьмиричное число обозначается добавлением после числа буквы **o** или **q** в конце числа. 
 ```nasm
 634o
 754q
 ```
+
 #### Десятичная
 Десятичное число обозначается в стандартной математической форме.
 ```nasm
 2026
 ```
+
 #### Шестандцатиричная
 Шестнадцатиричное число может быть задано тремя сособами:
 - Добавление буквы **h** на конец слова
@@ -165,6 +179,7 @@ $0f9
 
 0x2af3
 ```
+
 # Текстовые строки
 Ассемблер позволяет вместо кода написать сам символ, взяв его в апострофы или двойные кавычки.
 ```nasm
@@ -205,6 +220,7 @@ mov eax, ebx
 	section .text
 	    mov [count], eax
 	```
+
 ### Косвенная адресация
 Пример:
 ```nasm
@@ -216,6 +232,7 @@ mov ebx, [eax]
 mov ebx, eax
 ```
 Это означает: "Скопируй содержимое регистра EAX в регистр EBX."
+
 ### Исполнительный адрес
 Адрес, по которому очередная машинная команда произведет обращение к памяти (неважно, задан этот адрес явно или вычислен) называется **исполнительным адресом**.
 Процессор позволяет задать исполнительный адрес так, чтобы он вычислял *уже в ходе выполнения команды*.
@@ -224,6 +241,7 @@ mov ebx, eax
 ![[Pasted image 20260127171352.png]]
 
 Каждое из трех слагаемых, используемых в исполнительном адресе, является необязательным.
+
 #### Команда `lea`
 Команда `lea`использует возможности процессора по вычислению исполнительно адреса без обращения к памяти . Команда имеется два операнда: первый обязан быть регистровым, а второй операндом типа "память".
 ```nasm
@@ -269,12 +287,11 @@ sub [x], ecx
 В соответствии с полученным результатом команды `add` и `sub` выставляют значения флагов OF, CF, ZF, и SF.
 
 1) Флаг ZF устанавливается, если в результате последней операции получился ноль, в противном случае флаг сбрасывается.
-2) Флаг SF устанавливается, если получено отрицательное число, иначе он сбрасывается (имеет смысл рассматривать только для знаковых чисел).
-3) Флаг OF устанваливается
-4) The OF flag is set if an overflow occurs, meaning that the sign of the resulting value does not correspond to the mathematically expected sign (relevant only for signed numbers).
-5) The CF flag is set if a carry out of the most significant bit occurs, or if a borrow from a non-existent bit takes place (relevant only for unsigned numbers).
+2) Флаг SF устанавливается, если получено отрицательное число, иначе он сбрасывается (имеет смысл только для знаковых чисел).
+3) Флаг OF устанавливается, если произошло переполнение, что означает, что знак полученного результата не соответствует тому, который должен был получится исходя из математического смысла операции (имеет смысл только для знаковых чисел).
+4) Флаг CF устанавливается, если произошел перенос из старшего разряда, либо произошел заем из несуществующего разряда. (имеет смысл только для беззнаковых чисел).
 
-#### The `adc` and `sbb` instructions
+#### Команды `adc` и `sbb`
 Addition and subtraction with carry are performed by the `adc` and `sbb` instructions, which take the CF flag into account.
 
 Suppose we have two 64-bit integers, where the first is stored in the EDX (high 32 bits) and EAX (low 32 bits) registers, and the second is similarly stored in the EBX and ECX registers.  
@@ -288,6 +305,7 @@ If subtraction is required, it is performed using the instructions:
 sub eax, ecx    ; subtract the lower parts
 sbb edx, ebx    ; now subtract the higher parts, taking the borrow into account
 ```
+
 #### The `inc` and `dec` instructions
 The `inc` and `dec` instructions have a single operand (register or memory type) and perform increment and decrement by one, respectively. Both instructions set the ZF, OF, and SF flags, but do not affect the CF flag. When used with a memory-type operand, an explicit operand size specification is required.
 ```nasm
@@ -296,19 +314,23 @@ mov eax, 0
 inc eax       ; now eax store 1
 dec eax       ; now eax store 0
 ```
+
 #### The `neg` instruction
 The neg instruction, which also has a single operand, performs sign negation, that is, a "unary minus" operation. It is usually applied to signed numbers; however, it sets all four flags: ZF, OF, SF, and CF.
 ```nasm
 neg eax
 ```
+
 #### The `cmp` instruction
 The cmp instruction performs the same subtraction as the sub instruction, except that the result is not stored anywhere. The instruction is used solely to set the flags, and it is usually followed immediately by a conditional jump instruction. The first operand of the cmp instruction cannot be an immediate value.
 ```nasm
 cmp eax, 10
 je  some_label
 ```
+
 ### Integer multiplication and division
 All integer multiplication and division instructions have only one operand, which specifies the second factor; this operand can be a register or a memory-type operand, but not an immediate value. The first factor and the dividend, as well as the location for storing the result, are **implicit operands**, represented by the AL, AX, or EAX registers, and, if necessary, the register pairs DX:AX and EDX:EAX.
+
 #### The `mul` and `imul` instructions
 The `mul` instruction is used for unsigned integer multiplication, while the `imul` instruction is used for signed multiplication. In both cases, depending on the operand size (the second factor), the first factor is taken from the appropriate register.
 |                |           |          |           |
@@ -344,6 +366,7 @@ mov bx, 3
 div bx       ; now al store 2 and ah store 1
 ```
 If the divisor contains the value zero at the time the div or idiv instruction is executed, the processor triggers a so-called exception, also referred to as an internal interrupt, as a result of which control is transferred to the operating system. In most cases, the operating system reports an error and terminates the current task as abnormal. The same behavior occurs if the result of the division does not fit into the allocated bit width.
+
 #### Integer extension
 When performing integer division of signed numbers, it is often necessary to extend the dividend before the division.
 
@@ -354,6 +377,7 @@ Instructions:
 - `cdq` (convert dword to qword) - Extends the value in the EAX register to EDX:EAX
 
 Note that for division of unsigned integers, special instructions for extending the bit width are not required: it is sufficient to simply clear the higher part of the dividend, whether it be AH, DH, or EDX.
+
 ### Conditional and unconditional jumps
 The normal sequential execution of instructions can be altered by performing a **control transfer**, also referred to as a **jump**; a control-transfer instruction forcibly writes a new address into the EIP register, causing the processor to continue program execution from a different location.
 
@@ -383,6 +407,7 @@ Here, the first instruction specifies a direct jump, while the remaining instruc
 **Conditional jump** instructions are supported by the processor in a wide variety: a jump can be performed depending on the value of a single flag, a combination of flags, or even the value of a register.
 
 It is important to note that, unlike unconditional jump instructions, conditional jump instructions are considered short by the assembler by default if the type of jump is not specified explicitly. Another nontrivial point is that all conditional jump instructions allow only an immediate operand (usually a label). The address for such a jump cannot be taken from a register or from memory.
+
 ### Construction of branches and loops
 A standard Pascal-style loop with a precondition
 ```pascal
