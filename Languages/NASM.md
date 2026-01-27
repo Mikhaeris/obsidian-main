@@ -367,11 +367,30 @@ Control-transfer instructions are classified into three types depending on the �
 
 The type of jump can be specified explicitly by placing the word `short` or `near` after the instruction (the assembler also recognizes the word `far`, of course, but we don't need it).
 
-The unconditional jump instruction is called `jmp`. The instruction has a single operand, which specifies the address to which control should be transferred. Most often, the jmp instruction is used with an immediate operand, that is, an address specified directly in the instruction; naturally, this is not a numeric address, which is usually unknown, but a label.
+The **unconditional jump** instruction is called `jmp`. The instruction has a single operand, which specifies the address to which control should be transferred. Most often, the jmp instruction is used with an immediate operand, that is, an address specified directly in the instruction; naturally, this is not a numeric address, which is usually unknown, but a label.
 It is also possible to use a register operand (in this case, the jump is made to the address contained in the register) or a memory-type operand (the address is read from a double word located at a specified memory location); such jumps are called indirect, in contrast to direct jumps, where the address is specified explicitly.
 ```nasm
 jmp cycle    ; Jump to the label cycle
 jmp eax      ; Jump to the address contained in the EAX register
 jmp [addr]   ; Jump to the address stored in memory labeled addr
-jmp [eax]    ; Jump to the address read from memory located at the address contained in the EAX register
+
+jmp [eax]    ; Jump to the address read from memory
+             ; located at the address contained in the EAX register
+```
+Here, the first instruction specifies a direct jump, while the remaining instructions specify indirect jumps.
+
+**Conditional jump** instructions are supported by the processor in a wide variety: a jump can be performed depending on the value of a single flag, a combination of flags, or even the value of a register.
+
+It is important to note that, unlike unconditional jump instructions, conditional jump instructions are considered short by the assembler by default if the type of jump is not specified explicitly. Another nontrivial point is that all conditional jump instructions allow only an immediate operand (usually a label). The address for such a jump cannot be taken from a register or from memory.
+### Construction of branches and loops
+```pascal
+while <condition> do <body>
+```
+
+```nasm
+cycle: вычисление условия
+       JNx cycle_quit        ; выход
+       выполение тела
+       JMP cycle             ; повтор
+cycle_quit:
 ```
