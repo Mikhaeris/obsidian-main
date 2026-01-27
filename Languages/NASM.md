@@ -8,24 +8,24 @@ Registers:
 ### Segment registers
 Segment registers (CS, DS, SS, ES, GS, and FS) are not used in the “flat” memory model.
 ### General-purpose registers
-32-bit:
+#### 32-bit:
 
 | EAX | EBX | ECX | EDX | ESI | EDI | EBP | ESP |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 
-16-bit:  
+#### 16-bit:  
 In each 32-bit register, a distinct lower half (the lower 16 bits) is defined, which has a separate name obtained by dropping the letter E. In other words, it is also possible to operate on the 16-bit registers AX, BX, CX, DX, SI, DI, BP, and SP, which represent the lower halves of the corresponding 32-bit registers.
 
 | AX  | BX  | CX  | DX  | SI  | DI  | BP  | SP  | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 
-8-bit:
+#### 8-bit:
 The AX, BX, CX, and DX registers are further subdivided into lower and upper parts, which are now 8-bit wide. The remaining general-purpose registers do not have such distinct one-byte subregisters.
 
 | AH  | BH  | CH  | DH  |
 | --- | --- | --- | --- |
 | AL  | BL  | CL  | DL  | 
-Register names:
+#### Register names:
 - AX - accumulator
 - BX - base
 - CX - counter
@@ -74,7 +74,12 @@ Register names:
 
 # Segments
 Three main segments:
-- code segment
+- code segment(.text)
 - data segment
+	- Initialized data section(.data)
+	- Uninitialized data section(.bss)
 - stack segment
+
+![[Pasted image 20260127144944.png]]
+
 
