@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiAwslambda",
       "SiThealgorithms",
       "LiInfo",
       "LiBook",
-      "SiCodeforces",
-      "SiInstructure"
+      "SiCodeforces"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,5 +40,6 @@
   "Books": "LiBook",
   "Resources": "LiInfo",
   "Abstract Objects": "SiInstructure",
-  "Algorithms": "SiThealgorithms"
+  "Algorithms": "SiThealgorithms",
+  "Languages": "SiAwslambda"
 }
