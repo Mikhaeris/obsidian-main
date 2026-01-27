@@ -1,5 +1,6 @@
 {
   "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-macchiato",
   "catppuccin-icon-styles@@ctp-icon-hide": true,
-  "catppuccin-interface-styles@@ctp-bold-folder-title": true
+  "catppuccin-interface-styles@@ctp-bold-folder-title": true,
+  "things-style@@fancy-highlight": true
 }
