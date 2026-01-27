@@ -268,4 +268,6 @@ From an implementation perspective, addition and subtraction of signed and unsig
 According to the result obtained, the add and sub instructions set the values of the OF, CF, ZF, and SF flags.
 
 1) The ZF flag is set if the result of the last operation is zero; otherwise, the flag is cleared.
-2) 
+2) The SF flag is set if the result is negative; otherwise, it is cleared (relevant only for signed numbers).
+3) The OF flag is set if an overflow occurs, meaning that the sign of the resulting value does not correspond to the mathematically expected sign (relevant only for signed numbers).
+4) The CF flag is set if a carry out of the most significant bit occurs, or if a borrow from a non-existent bit takes place (relevant only for unsigned numbers).
