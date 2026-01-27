@@ -231,19 +231,18 @@ lea eax, [1000+ebx+8*ecx]
 ```
 
 ### Размеры операндов и их допустимые значения
-Допустимые комбинации типов 
-Permissible operand type combinations for the `mov` instruction:
-- to register from register
-- to memory from register
-- to register from memory
-- to register from an immediate operand (i.e., from the instruction code)
-- to a memory location or memory area from an immediate operand
+Допустимые комбинации типов операндов для команды `mov`:
+- в регистр из регистра
+- в память из регистра
+- в регистр из памяти
+- в регистр из непосредственного операнда (т.е. из кода команды)
+- в ячейку или область памяти из непосредственного операнда
 
 
 ```nasm
-mov [x], 25 ; ERROR!!!
+mov [x], 25 ; ОШИБКА!!!
 ```
-To use such an instruction, it is necessary to inform the assembler of the exact operand size by placing a **size specifier** before any of the operands.
+Чтобы воспользоваться такой командой, нужно объяснить ассемблеру, что конкретно имеется в виду, поставив перед любым из операндов спецификатор размера.
 - byte
 - word
 - dword
@@ -252,10 +251,12 @@ To use such an instruction, it is necessary to inform the assembler of the exact
 mov dword [x], 25
 ```
 
-### Integer addition and subtraction
-#### The `add` and `sub` instructions
-Addition and subtraction operations on integers are performed using the `add` and `sub` instructions, respectively.  
-Both instructions have two operands:
+### Целочисленное сложение и вычитание
+#### Команды `add` и `sub`
+Операции сложения и вычитания над целыми числами производятся соответственно командами `add` и `sub`.
+Обе инструкции имеют два операнда:
+- Первый из них задает и одно из чисел и место, куда следует записать результат
+- Второй задает второе число для операции 
 - the first specifies one of the numbers involved in the operation and the location where the result should be stored
 - the second operand specifies the other number for the operation (the second addend or the subtrahend). 
 
