@@ -288,3 +288,11 @@ sub eax, ecx    ; subtract the lower parts
 sbb edx, ebx    ; now subtract the higher parts, taking the borrow into account
 ```
 #### The `inc` and `dec` instructions
+The `inc` and `dec` instructions have a single operand (register or memory type) and perform increment and decrement by one, respectively. Both instructions set the ZF, OF, and SF flags, but do not affect the CF flag. When used with a memory-type operand, an explicit operand size specification is required.
+```nasm
+mov eax, 0
+
+inc eax       ; now eax store 1
+dec eax       ; now eax store 0
+```
+#### The `neg` instruction
