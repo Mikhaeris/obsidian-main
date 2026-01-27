@@ -6,7 +6,10 @@ Registers:
 - special registers
 
 ### Segment registers
-Segment registers (CS, DS, SS, ES, GS, and FS) are not used in the “flat” memory model.
+Segment registers are not used in the “flat” memory model.
+
+| CS  | DS  | SS  | ES  | GS  | FS  | 
+| --- | --- | --- | --- | --- | --- |
 ### General-purpose registers
 #### 32-bit:
 
@@ -145,3 +148,20 @@ Decimal numbers are represented as in standard mathematics.
 2026
 ```
 #### Hexadecimal
+A hexadecimal number can be specified in three ways:
+- By appending the letter h at the end
+	- If the number begins with a letter, a 0 must be placed before the number
+- By prefixing the number with the symbol $
+	- If the number begins with a letter, a 0 must be added
+- By prefixing the number with 0x
+
+Example:
+```nasm
+2af3h
+0a21h
+
+$2af3
+$0f9
+
+0x2af3
+```
