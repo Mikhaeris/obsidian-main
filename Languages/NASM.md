@@ -215,3 +215,12 @@ Otherwise:
 mov ebx, eax
 ```
 This means: "copy This means: "Copy the contents of the EAX register into the EBX register."
+### Effective address
+An address at which the next machine instruction will access memory (whether the address is specified explicitly or computed) is called the effective address.
+The processor allows the effective address to be specified so that it is computed during program execution.
+
+General form of the effective address:
+![[Pasted image 20260127171352.png]]
+
+Each of the three components is optional. However, it is important to understand that the expression within the square brackets cannot be arbitrary in any way.
+
