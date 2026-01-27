@@ -3,5 +3,6 @@
   "readableLineLength": false,
   "strictLineBreaks": false,
   "foldHeading": true,
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "livePreview": false
 }
