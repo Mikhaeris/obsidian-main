@@ -1,9 +1,9 @@
-# Register System
+# Система регистров
 
-Registers:
-- segment registers
-- general-purpose registers
-- special registers
+Типы регистров:
+- сегментные регистры
+- регистры общего назначения
+- специальные регистры
 
 ### Segment registers
 Segment registers are not used in the “flat” memory model.
@@ -383,14 +383,29 @@ Here, the first instruction specifies a direct jump, while the remaining instruc
 
 It is important to note that, unlike unconditional jump instructions, conditional jump instructions are considered short by the assembler by default if the type of jump is not specified explicitly. Another nontrivial point is that all conditional jump instructions allow only an immediate operand (usually a label). The address for such a jump cannot be taken from a register or from memory.
 ### Construction of branches and loops
+A standard Pascal-style loop with a precondition
 ```pascal
 while <condition> do <body>
 ```
-
+is implemented using machine instructions according to the following scheme:
 ```nasm
-cycle: вычисление условия
-       JNx cycle_quit        ; выход
-       выполение тела
-       JMP cycle             ; повтор
+cycle:   <evaluate condition>
+         JNx cycle_quit        ; exit
+         <execute body>
+         JMP cycle             ; repeat
 cycle_quit:
+```
+and branching in its full form
+```pascal
+if <condition> then <branch1> else <branch2>
+```
+is transformed into:
+```nasm
+         <evaluate condition>
+         JNx else_branch       ; to the else branch
+         <execute branch1>
+         JMP if_quit           ; bypassing the else branch
+else_branch:
+         <execute branch2>
+if_quit:
 ```
