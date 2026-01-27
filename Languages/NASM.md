@@ -177,7 +177,7 @@ panic db 'So I say: "Don', "'", 't panic"'
 ```
 
 ### The mov instruction
-**mov** instruction have two operands:
+`mov` instruction have two operands:
 1. The first operand specifies the location where the data will be stored.
 2. The second operand specifies the source from which the data will be taken.
 
@@ -224,13 +224,13 @@ General form of the effective address:
 
 Each of the three components is optional. However, it is important to understand that the expression within the square brackets cannot be arbitrary in any way.
 #### The lea instruction
-The **lea** instruction allows the processor's capabilities for computing the effective address to be used without accessing memory. The instruction has two operands: the first must be a register, and the second must be a memory-type operand.
+The `lea` instruction allows the processor's capabilities for computing the effective address to be used without accessing memory. The instruction has two operands: the first must be a register, and the second must be a memory-type operand.
 ```nasm
 lea eax, [1000+ebx+8*ecx]
 ```
 
 ### Operand sizes and their permissible combinations
-Permissible operand type combinations for the **mov** instruction:
+Permissible operand type combinations for the `mov` instruction:
 - to register from register
 - to memory from register
 - to register from memory
@@ -246,6 +246,21 @@ To use such an instruction, it is necessary to inform the assembler of the exact
 - word
 - dword
 - qword
+```nasm
+mov dword [x], 25
+```
 
 ### Integer addition and subtraction
-The addition operation is performed using the **add** instruction.
+Addition and subtraction operations on integers are performed using the `add` and `sub` instructions, respectively.  
+Both instructions have two operands:
+- the first specifies one of the numbers involved in the operation and the location where the result should be stored
+- the second operand specifies the other number for the operation (the second addend or the subtrahend). 
+
+For these instructions, the same five forms as for the `mov` instruction are possible.
+```nasm
+add eax, ebx
+
+sub [x], ecx
+```
+From an implementation perspective, addition and subtraction of signed and unsigned numbers are performed in exactly the same way.
+
