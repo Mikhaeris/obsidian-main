@@ -165,3 +165,13 @@ $0f9
 
 0x2af3
 ```
+### Text strings
+The assembler allows a character to be specified directly by enclosing it in single or double quotation marks instead of using its code.
+```nasm
+dig7 db '7'
+welmsg db 'Welcome to Cyberspace!'
+```
+Within the context of double quotation marks, apostrophes are treated as literal characters; the same principle applies to the inclusion of double quotation marks within apostrophes.
+```nasm
+panic db 'So I say: "Don', "'", 't panic"'
+```
