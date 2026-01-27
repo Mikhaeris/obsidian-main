@@ -366,3 +366,12 @@ Control-transfer instructions are classified into three types depending on the â
 - **Short jumps**(`short`) are used for optimization when the target location is no more than 127 bytes ahead or 128 bytes behind the current instruction. In machine code, the offset for such an instruction is encoded in a single byte, which imposes the corresponding limitation.
 
 The type of jump can be specified explicitly by placing the word `short` or `near` after the instruction (the assembler also recognizes the word `far`, of course, but we don't need it).
+
+The unconditional jump instruction is called `jmp`. The instruction has a single operand, which specifies the address to which control should be transferred. Most often, the jmp instruction is used with an immediate operand, that is, an address specified directly in the instruction; naturally, this is not a numeric address, which is usually unknown, but a label.
+It is also possible to use a register operand (in this case, the jump is made to the address contained in the register) or a memory-type operand (the address is read from a double word located at a specified memory location); such jumps are called indirect, in contrast to direct jumps, where the address is specified explicitly.
+```nasm
+jmp cycle    ; Jump to the label cycle
+jmp eax      ; Jump to the address contained in the EAX register
+jmp [addr]   ; Jump to the address stored in memory labeled addr
+jmp [eax]    ; Jump to the address read from memory located at the address contained in the EAX register
+```
