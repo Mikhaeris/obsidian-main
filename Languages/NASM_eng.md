@@ -110,10 +110,10 @@ The assembler (in particular, NASM) provides tools for memory allocation based o
 
 #### Directives for reserving uninitialized memory
 These directives instruct the assembler to allocate a specified number of memory cells, without specifying any content other than the quantity.
-- resb
-- resw
-- resd
-- resq
+- `resb`
+- `resw`
+- `resd`
+- `resq`
 
 A label is usually placed before a memory reservation directive.  
 Example:
@@ -125,10 +125,10 @@ x      resd 1
 
 #### Directives for specifying initial data
 These directives do not merely reserve memory but specify the values that should be present in memory at program startup. The corresponding values are listed separated by commas; memory is allocated according to the number of specified values.
-- db
-- dw
-- dd
-- dq
+- `db`
+- `dw`
+- `dd`
+- `dq`
 
 Example:
 ```nasm
