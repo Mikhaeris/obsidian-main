@@ -287,3 +287,4 @@ If subtraction is required, it is performed using the instructions:
 sub eax, ecx    ; subtract the lower parts
 sbb edx, ebx    ; now subtract the higher parts, taking the borrow into account
 ```
+#### The `inc` and `dec` instructions
