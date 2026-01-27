@@ -1,4 +1,4 @@
-# 
+# Register System
 Registers table:
 
 | 64-bit register | 32-bit sub-register | 16-bit sub-register | 8-bit sub-register |
@@ -18,5 +18,9 @@ Registers table:
 | r12             | r12d                | r12w                | r12b               |
 | r13             | r13d                | r13w                | r13                |
 | r14             | r14d                | r14w                | r14b               |
-| r15             | r15d                | r15w                | r15b               | 
+| r15             | r15d                | r15w                | r15b               |
 
+![[Pasted image 20260127141223.png]]
+
+Registers:
+- 
