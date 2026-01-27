@@ -252,6 +252,7 @@ mov dword [x], 25
 ```
 
 ### Integer addition and subtraction
+#### The `add` and `sub` instructions
 Addition and subtraction operations on integers are performed using the `add` and `sub` instructions, respectively.  
 Both instructions have two operands:
 - the first specifies one of the numbers involved in the operation and the location where the result should be stored
@@ -271,3 +272,18 @@ According to the result obtained, the add and sub instructions set the values of
 2) The SF flag is set if the result is negative; otherwise, it is cleared (relevant only for signed numbers).
 3) The OF flag is set if an overflow occurs, meaning that the sign of the resulting value does not correspond to the mathematically expected sign (relevant only for signed numbers).
 4) The CF flag is set if a carry out of the most significant bit occurs, or if a borrow from a non-existent bit takes place (relevant only for unsigned numbers).
+
+#### The `adc` and `sbb` instructions
+Addition and subtraction with carry are performed by the `adc` and `sbb` instructions, which take the CF flag into account.
+
+Suppose we have two 64-bit integers, where the first is stored in the EDX (high 32 bits) and EAX (low 32 bits) registers, and the second is similarly stored in the EBX and ECX registers.  
+Then, these two numbers can be added using the instructions:
+```nasm
+add eax, ecx    ; add the lower parts
+adc edx, ebx    ; now add the higher parts, taking the carry into account
+```
+If subtraction is required, it is performed using the instructions:
+```nasm
+sub eax, ecx    ; subtract the lower parts
+sbb edx, ebx    ; now subtract the higher parts, taking the borrow into account
+```
