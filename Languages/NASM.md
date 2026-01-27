@@ -296,3 +296,13 @@ inc eax       ; now eax store 1
 dec eax       ; now eax store 0
 ```
 #### The `neg` instruction
+The neg instruction, which also has a single operand, performs sign negation, that is, a "unary minus" operation. It is usually applied to signed numbers; however, it sets all four flags: ZF, OF, SF, and CF.
+```nasm
+neg eax
+```
+#### The `cmp` instruction
+The cmp instruction performs the same subtraction as the sub instruction, except that the result is not stored anywhere. The instruction is used solely to set the flags, and it is usually followed immediately by a conditional jump instruction. The first operand of the cmp instruction cannot be an immediate value.
+```nasm
+cmp eax, 10
+je  some_label
+```
