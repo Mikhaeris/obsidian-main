@@ -10,6 +10,7 @@ Segment registers are not used in the “flat” memory model.
 
 | CS  | DS  | SS  | ES  | GS  | FS  | 
 | --- | --- | --- | --- | --- | --- |
+
 ### General-purpose registers
 #### 32-bit:
 
@@ -28,6 +29,7 @@ The AX, BX, CX, and DX registers are further subdivided into lower and upper par
 | AH  | BH  | CH  | DH  |
 | --- | --- | --- | --- |
 | AL  | BL  | CL  | DL  | 
+
 #### Register names:
 - AX - accumulator
 - BX - base
@@ -37,9 +39,11 @@ The AX, BX, CX, and DX registers are further subdivided into lower and upper par
 - DI - destination index
 - BP - base pointer
 - SP - stack pointer
+
 ### Special registers
 - EIP - instruction pointer
 - FLAGS - flag register
+
 #### FLAGS register
 - ZF - zero flag
 - CF - carry flag
@@ -84,13 +88,16 @@ Three main segments:
 - stack segment
 
 ![[Pasted image 20260127144944.png]]
+
 # Memory allocation directives
 The assembler translates instruction mnemonics into binary code, forming a data array that is subsequently interpreted by the central processing unit (CPU) as a sequence of instructions. Program control is carried out by loading the address of the entry point into the instruction pointer register. 
+
 ### Structure of memory sections
 To organize data and code within a program, specialized sections are used, which are declared using the section directive:
 - **.text**: Contains executable machine code.
 - **.data**: Intended for initialized data whose values are fixed at compile time and embedded into the executable file image.
 - **.bss**: Reserves space for uninitialized variables. Only information about the required size of this section is stored in the object file, which optimizes the file size on disk.
+
 ### Memory management directives
 The assembler (in particular, NASM) provides tools for memory allocation based on standard data units:
 
@@ -100,6 +107,7 @@ The assembler (in particular, NASM) provides tools for memory allocation based o
 | Word        | 2          | dw/resw               |
 | Double Word | 4          | dd/resd               |
 | Quad Word   | 8          | dq/resq               | 
+
 #### Directives for reserving uninitialized memory
 These directives instruct the assembler to allocate a specified number of memory cells, without specifying any content other than the quantity.
 - resb
@@ -114,6 +122,7 @@ string resb 20
 count  resw 256
 x      resd 1
 ```
+
 #### Directives for specifying initial data
 These directives do not merely reserve memory but specify the values that should be present in memory at program startup. The corresponding values are listed separated by commas; memory is allocated according to the number of specified values.
 - db
@@ -125,12 +134,14 @@ Example:
 ```nasm
 fibon dw 1, 1, 2, 3, 5, 8, 13, 21
 ```
+
 # Specification of numeric values 
 Numeric values can be specified in:
 - binary
 - octal
 - decimal
 - hexadecimal
+
 #### Binary
 A binary number is indicated by the letter **b** at the end.
 ```nasm
