@@ -1,7 +1,7 @@
 {
   "vimMode": true,
   "readableLineLength": false,
-  "strictLineBreaks": true,
+  "strictLineBreaks": false,
   "foldHeading": true,
   "showIndentGuide": false
 }

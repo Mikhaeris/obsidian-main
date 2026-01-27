@@ -3,5 +3,6 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "my_custom"
-  ]
+  ],
+  "cssTheme": "Catppuccin"
 }
