@@ -88,9 +88,9 @@ Three main segments:
 The assembler translates instruction mnemonics into binary code, forming a data array that is subsequently interpreted by the central processing unit (CPU) as a sequence of instructions. Program control is carried out by loading the address of the entry point into the instruction pointer register. 
 ### Structure of memory sections
 To organize data and code within a program, specialized sections are used, which are declared using the section directive:
-- .text: Contains executable machine code.
-- .data: Intended for initialized data whose values are fixed at compile time and embedded into the executable file image.
-- .bss: Reserves space for uninitialized variables. Only information about the required size of this section is stored in the object file, which optimizes the file size on disk.
+- **.text**: Contains executable machine code.
+- **.data**: Intended for initialized data whose values are fixed at compile time and embedded into the executable file image.
+- **.bss**: Reserves space for uninitialized variables. Only information about the required size of this section is stored in the object file, which optimizes the file size on disk.
 ### Memory management directives
 The assembler (in particular, NASM) provides tools for memory allocation based on standard data units:
 
@@ -149,11 +149,11 @@ Decimal numbers are represented as in standard mathematics.
 ```
 #### Hexadecimal
 A hexadecimal number can be specified in three ways:
-- By appending the letter h at the end
-	- If the number begins with a letter, a 0 must be placed before the number
-- By prefixing the number with the symbol $
-	- If the number begins with a letter, a 0 must be added
-- By prefixing the number with 0x
+- By appending the letter **h** at the end
+	- If the number begins with a letter, a *0* must be placed before the number
+- By prefixing the number with the symbol **$**
+	- If the number begins with a letter, a *0* must be added
+- By prefixing the number with **0x**
 
 Example:
 ```nasm
@@ -177,7 +177,7 @@ panic db 'So I say: "Don', "'", 't panic"'
 ```
 
 ### The mov instruction
-mov instruction have two operands:
+**mov** instruction have two operands:
 1. The first operand specifies the location where the data will be stored.
 2. The second operand specifies the source from which the data will be taken.
 
@@ -188,15 +188,15 @@ The mov instruction only copies data without performing any transformations.
 
 ### Operands types
 Three operands types:
-1) Immediate operand
+1) **Immediate operand**
 	```nasm
 	mov edx, 40f2a008h
 	```
-2) Register operand
+2) **Register operand**
 	```nasm
 	mov eax, ebx
 	```
-3) Memory (address) operand 
+3) **Memory (address) operand** 
 	```nasm
 	section .data
 	count dd 0
@@ -216,11 +216,18 @@ mov ebx, eax
 ```
 This means: "copy This means: "Copy the contents of the EAX register into the EBX register."
 ### Effective address
-An address at which the next machine instruction will access memory (whether the address is specified explicitly or computed) is called the effective address.
+An address at which the next machine instruction will access memory (whether the address is specified explicitly or computed) is called the **effective address**.
 The processor allows the effective address to be specified so that it is computed during program execution.
 
 General form of the effective address:
 ![[Pasted image 20260127171352.png]]
 
 Each of the three components is optional. However, it is important to understand that the expression within the square brackets cannot be arbitrary in any way.
+#### The lea instruction
+The **lea** instruction allows the processor's capabilities for computing the effective address to be used without accessing memory. The instruction has two operands: the first must be a register, and the second must be a memory-type operand.
+```nasm
+lea eax, [1000+ebx+8*ecx]
+```
+
+### Operand sizes and their permissible combinations
 
