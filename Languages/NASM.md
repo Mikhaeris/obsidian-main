@@ -68,7 +68,7 @@ The AX, BX, CX, and DX registers are further subdivided into lower and upper par
 | r10             | r10d                | r10w                | r10b               |
 | r11             | r11d                | r11w                | r11b               |
 | r12             | r12d                | r12w                | r12b               |
-| r13             | r13d                | r13w                | r13                |
+| r13             | r13d                | r13w                | r13b               |
 | r14             | r14d                | r14w                | r14b               |
 | r15             | r15d                | r15w                | r15b               |
 
