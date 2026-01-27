@@ -22,7 +22,10 @@ In each 32-bit register, a distinct lower half (the lower 16 bits) is defined, w
 8-bit:
 The AX, BX, CX, and DX registers are further subdivided into lower and upper parts, which are now 8-bit wide. The remaining general-purpose registers do not have such distinct one-byte subregisters.
 
-Names:
+| AH  | BH  | CH  | DH  |
+| --- | --- | --- | --- |
+| AL  | BL  | CL  | DL  | 
+Register names:
 - AX - accumulator
 - BX - base
 - CX - counter
@@ -32,11 +35,19 @@ Names:
 - BP - base pointer
 - SP - stack pointer
 ### Special registers
+- EIP - instruction pointer
+- FLAGS - flag register
+#### FLAGS register
+- ZF - zero flag
+- CF - carry flag
+- SF - sign flag
+- OF - overflow flag
+- DF - direction flag
+- PF - parity flag
+- AF - auxiliary carry flag
+- IF - interrupt flag
+- TF - trap flag
 
-
-| AH  | BH  | CH  | DH  |
-| --- | --- | --- | --- |
-| AL  | BL  | CL  | DL  | 
 ## Registers table:
 
 | 64-bit register | 32-bit sub-register | 16-bit sub-register | 8-bit sub-register |
@@ -58,5 +69,12 @@ Names:
 | r14             | r14d                | r14w                | r14b               |
 | r15             | r15d                | r15w                | r15b               |
 
+32-bit:
 ![[Pasted image 20260127141223.png]]
+
+# Segments
+Three main segments:
+- code segment
+- data segment
+- stack segment
 
