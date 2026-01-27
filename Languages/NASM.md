@@ -202,5 +202,16 @@ Three operands types:
 	count dd 0
 	
 	section .text
-	
+	    mov [count], eax
 	```
+### Indirect addressing
+Example:
+```nasm
+mov ebx, [eax]
+```
+This means: "Take the value in the EAX register, use this value as an address, access memory at that address, retrieve four bytes from there, and store them in the EBX register."
+Otherwise:
+```nasm
+mov ebx, eax
+```
+This means: "copy This means: "Copy the contents of the EAX register into the EBX register."
