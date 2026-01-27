@@ -300,7 +300,7 @@
     "settings": {
       "codeblock": {
         "lineNumbers": true,
-        "unwrapLines": true,
+        "unwrapLines": false,
         "wrapLinesActive": false,
         "curvature": 4
       },
@@ -445,8 +445,8 @@
   },
   "newTheme": "",
   "newHighlight": "",
-  "exampleCodeblockParameters": "python title:foo",
-  "exampleCodeblockContent": "print(\"This line is very long and should be used as an example for how the plugin deals with wrapping and unwrapping very long lines given the choice of codeblock parameters and settings.\")\nprint(\"This line is highlighted.\")\nfor i in range 10:\n    print",
+  "exampleCodeblockParameters": "c title:foo",
+  "exampleCodeblockContent": "#include <stdio.h>\n\nint main() {\n    printf(\"Hello world!\\n\");\n    return 0;\n}",
   "exampleInlineCode": "{python icon title:foo} print(\"This is inline code\")",
   "decoratePrint": true,
   "excludedLanguages": "ad-*, reference",
