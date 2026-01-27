@@ -122,3 +122,26 @@ Example:
 ```nasm
 fibon dw 1, 1, 2, 3, 5, 8, 13, 21
 ```
+### Specification of numeric values 
+Numeric values can be specified in:
+- binary
+- octal
+- decimal
+- hexadecimal
+#### Binary
+A binary number is indicated by the letter **b** at the end.
+```nasm
+10011011b
+```
+#### Octal
+Octal numbers are indicated by appending the letter **o** or **q** after the number.
+```nasm
+634o
+754q
+```
+#### Decimal
+Decimal numbers are represented as in standard mathematics.
+```nasm
+2026
+```
+#### Hexadecimal
