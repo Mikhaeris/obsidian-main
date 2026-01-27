@@ -306,3 +306,5 @@ The cmp instruction performs the same subtraction as the sub instruction, except
 cmp eax, 10
 je  some_label
 ```
+### Integer multiplication and division
+All integer multiplication and division instructions have only one operand, which specifies the second factor; this operand can be a register or a memory-type operand, but not an immediate value. 
