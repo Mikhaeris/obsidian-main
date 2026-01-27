@@ -104,10 +104,21 @@ These directives instruct the assembler to allocate a specified number of memory
 - resd
 - resq
 
-A label is usually placed before a memory reservation directive.
+A label is usually placed before a memory reservation directive.  
 Example:
 ```nasm
 string resb 20
 count  resw 256
 x      resd 1
+```
+#### Directives for specifying initial data
+These directives do not merely reserve memory but specify the values that should be present in memory at program startup. The corresponding values are listed separated by commas; memory is allocated according to the number of specified values.
+- db
+- dw
+- dd
+- dq
+
+Example:
+```nasm
+fibon dw 1, 1, 2, 3, 5, 8, 13, 21
 ```
