@@ -177,15 +177,15 @@ panic db 'So I say: "Don', "'", 't panic"'
 ```
 
 # Instructions
-### The mov instruction
+### The `mov` instruction
 `mov` instruction have two operands:
-1. The first operand specifies the location where the data will be stored.
-2. The second operand specifies the source from which the data will be taken.
+1) The first operand specifies the location where the data will be stored.
+2) The second operand specifies the source from which the data will be taken.
 
 ```nasm
 mov eax, ebx
 ```
-The mov instruction only copies data without performing any transformations.
+The `mov` instruction only copies data without performing any transformations.
 
 ### Operands types
 Three operands types:

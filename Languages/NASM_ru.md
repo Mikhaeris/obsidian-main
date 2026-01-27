@@ -152,12 +152,10 @@ fibon dw 1, 1, 2, 3, 5, 8, 13, 21
 - Добавление буквы **h** на конец слова
 	- Если число начинается с буквы, то цифра *0* должна быть поставлена в конце числа
 - Добавлением символа **$** в начало числа
-	- Если число начинается с буквы, то цифра *0* должна быть добавлена в начал
-- By prefixing the number with the symbol **$**
-	- If the number begins with a letter, a *0* must be added
-- By prefixing the number with **0x**
+	- Если число начинается с буквы, то цифра *0* должна быть добавлена в начало числа
+- Добавлением перед числом символов **0x**
 
-Example:
+Пример:
 ```nasm
 2af3h
 0a21h
@@ -167,30 +165,30 @@ $0f9
 
 0x2af3
 ```
-# Text strings
-The assembler allows a character to be specified directly by enclosing it in single or double quotation marks instead of using its code.
+# Текстовые строки
+Ассемблер позволяет вместо кода написать сам символ, взяв его в апострофы или двойные кавычки.
 ```nasm
 dig7 db '7'
 welmsg db 'Welcome to Cyberspace!'
 ```
-Within the context of double quotation marks, apostrophes are treated as literal characters; the same principle applies to the inclusion of double quotation marks within apostrophes.
+Внутри двойных кавычек апострофы рассматриваются как обычный символ; то же самое можно сказать и о символе двойных кавычек внутри апострофов.
 ```nasm
 panic db 'So I say: "Don', "'", 't panic"'
 ```
 
-# Instructions
-### The mov instruction
-`mov` instruction have two operands:
-1. The first operand specifies the location where the data will be stored.
-2. The second operand specifies the source from which the data will be taken.
+# Команды
+### Команда `mov`
+Команда `mov` имеет два операнда:
+1) Первый операнд задает то место, куда будут помещены данные.
+2) Второй операнд то, откуда данные будут взяты.
 
 ```nasm
 mov eax, ebx
 ```
-The mov instruction only copies data without performing any transformations.
+Команда `mov` только копирует данные, не выполняя никаких преобразований. Для преобразований данных существуют другие команды.
 
-### Operands types
-Three operands types:
+### Виды операндов
+Есть три вида операндов:
 1) **Immediate operand**
 	```nasm
 	mov edx, 40f2a008h
