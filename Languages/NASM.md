@@ -354,4 +354,15 @@ Instructions:
 
 Note that for division of unsigned integers, special instructions for extending the bit width are not required: it is sufficient to simply clear the higher part of the dividend, whether it be AH, DH, or EDX.
 ### Conditional and unconditional jumps
-The normal sequential execution of instructions can be altered by performing a control transfer, also referred to as a jump; a control-transfer instruction forcibly writes a new address into the EIP register, causing the processor to continue program execution from a different location.
+The normal sequential execution of instructions can be altered by performing a **control transfer**, also referred to as a **jump**; a control-transfer instruction forcibly writes a new address into the EIP register, causing the processor to continue program execution from a different location.
+
+The instructions are classified as follows:
+- **Unconditional jumps** – perform a control transfer to another location in the program without any checks.
+- **Conditional jumps** – may, depending on the result of a certain condition, either transfer control to a specified location or not perform the transfer.
+
+Control-transfer instructions are classified into three types depending on the “distance” of the transfer:
+- **Far jumps**(`far`) imply a control transfer to a program fragment located in a different segment. Since under the Unix operating system we use a “flat” memory model, such jumps are unnecessary because there are simply no other segments.
+- **Near jumps**(`near`) are control transfers to an arbitrary location within a single segment; essentially, these jumps represent an explicit change of the EIP value. In the “flat” memory model, this is the type of jump used to reach any location within our address space.
+- **Short jumps**(`short`) are used for optimization when the target location is no more than 127 bytes ahead or 128 bytes behind the current instruction. In machine code, the offset for such an instruction is encoded in a single byte, which imposes the corresponding limitation.
+
+The type of jump can be specified explicitly by placing the word `short` or `near` after the instruction (the assembler also recognizes the word `far`, of course, but we don't need it).
