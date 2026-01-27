@@ -85,7 +85,7 @@ Three main segments:
 
 ![[Pasted image 20260127144944.png]]
 # Memory allocation directives
-The assembler translates instruction mnemonics into binary code, forming a data array that is subsequently interpreted by the central processing unit (CPU) as a sequence of instructions. Program control is carried out by loading the address of the entry point into the instruction pointer register.
+The assembler translates instruction mnemonics into binary code, forming a data array that is subsequently interpreted by the central processing unit (CPU) as a sequence of instructions. Program control is carried out by loading the address of the entry point into the instruction pointer register. 
 ### Structure of memory sections
 To organize data and code within a program, specialized sections are used, which are declared using the section directive:
 - .text: Contains executable machine code.
@@ -125,7 +125,7 @@ Example:
 ```nasm
 fibon dw 1, 1, 2, 3, 5, 8, 13, 21
 ```
-### Specification of numeric values 
+# Specification of numeric values 
 Numeric values can be specified in:
 - binary
 - octal
@@ -165,7 +165,7 @@ $0f9
 
 0x2af3
 ```
-### Text strings
+# Text strings
 The assembler allows a character to be specified directly by enclosing it in single or double quotation marks instead of using its code.
 ```nasm
 dig7 db '7'
@@ -176,6 +176,31 @@ Within the context of double quotation marks, apostrophes are treated as literal
 panic db 'So I say: "Don', "'", 't panic"'
 ```
 
-### The mov instruction and operand types
-mov instruction have two operands
-- first - 
+### The mov instruction
+mov instruction have two operands:
+1. The first operand specifies the location where the data will be stored.
+2. The second operand specifies the source from which the data will be taken.
+
+```nasm
+mov eax, ebx
+```
+The mov instruction only copies data without performing any transformations.
+
+### Operands types
+Three operands types:
+1) Immediate operand
+	```nasm
+	mov edx, 40f2a008h
+	```
+2) Register operand
+	```nasm
+	mov eax, ebx
+	```
+3) Memory (address) operand 
+	```nasm
+	section .data
+	count dd 0
+	
+	section .text
+	
+	```
