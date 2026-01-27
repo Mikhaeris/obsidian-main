@@ -5,31 +5,31 @@
 - регистры общего назначения
 - специальные регистры
 
-### Segment registers
-Segment registers are not used in the “flat” memory model.
+### Сегментные регистры
+Сегментные регистры в "плоской" модели памяти не используются.
 
 | CS  | DS  | SS  | ES  | GS  | FS  | 
 | --- | --- | --- | --- | --- | --- |
-### General-purpose registers
+### Регистры общего назначения
 #### 32-bit:
 
 | EAX | EBX | ECX | EDX | ESI | EDI | EBP | ESP |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 
 #### 16-bit:  
-In each 32-bit register, a distinct lower half (the lower 16 bits) is defined, which has a separate name obtained by dropping the letter E. In other words, it is also possible to operate on the 16-bit registers AX, BX, CX, DX, SI, DI, BP, and SP, which represent the lower halves of the corresponding 32-bit registers.
+В каждом 32-битном регистре выделяется обособленная младшая половина (младшие 16 бит), имеющая отдельные названия, получаемые отбрасыванием буквы E; иначе говоря, мы можем работать также с 16-битными регистрами AX, BX, CX, DX, SI, DI, BP и SP, которые представляют собой младшие половины соответствующих 32-битных регистров.
 
 | AX  | BX  | CX  | DX  | SI  | DI  | BP  | SP  | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 
 #### 8-bit:
-The AX, BX, CX, and DX registers are further subdivided into lower and upper parts, which are now 8-bit wide. The remaining general-purpose registers do not have such distinct one-byte subregisters.
+Регистры AX, BX, CS и DX также делятся на младшие и старшие части, теперь уже восьмибитные. Остальные регистры общего назначения таких обособленных однобайтовых подрегистров не имеют.
 
 | AH  | BH  | CH  | DH  |
 | --- | --- | --- | --- |
 | AL  | BL  | CL  | DL  | 
-#### Register names:
-- AX - accumulator
+#### Названия регистров:
+- AX - аккумулятор (accumulator)
 - BX - base
 - CX - counter
 - DX - data
