@@ -255,25 +255,24 @@ mov dword [x], 25
 #### Команды `add` и `sub`
 Операции сложения и вычитания над целыми числами производятся соответственно командами `add` и `sub`.
 Обе инструкции имеют два операнда:
-- Первый из них задает и одно из чисел и место, куда следует записать результат
-- Второй задает второе число для операции 
-- the first specifies one of the numbers involved in the operation and the location where the result should be stored
-- the second operand specifies the other number for the operation (the second addend or the subtrahend). 
+- Первый из них задает и одно из чисел, участвующих в операции, и место, куда следует записать результат
+- Второй задает второе число для операции(второе слагаемое, либо вычитаемое)
 
-For these instructions, the same five forms as for the `mov` instruction are possible.
+Для этих команд возможны те же пять форм допустимых комбинаций типов операндов, что и для команды `mov`.
 ```nasm
 add eax, ebx
 
 sub [x], ecx
 ```
-From an implementation perspective, addition and subtraction of signed and unsigned numbers are performed in exactly the same way.
+Сложение и вычитание знаковых и беззнаковых чисел с точки зрения реализации выполняется абсолютно одинаково, так что при сложении и вычитании процессор может не знать (и не знает), со знаковым или беззнаковыми числами он работает.
 
-According to the result obtained, the add and sub instructions set the values of the OF, CF, ZF, and SF flags.
+В соответствии с полученным результатом команды `add` и `sub` выставляют значения флагов OF, CF, ZF, и SF.
 
-1) The ZF flag is set if the result of the last operation is zero; otherwise, the flag is cleared.
-2) The SF flag is set if the result is negative; otherwise, it is cleared (relevant only for signed numbers).
-3) The OF flag is set if an overflow occurs, meaning that the sign of the resulting value does not correspond to the mathematically expected sign (relevant only for signed numbers).
-4) The CF flag is set if a carry out of the most significant bit occurs, or if a borrow from a non-existent bit takes place (relevant only for unsigned numbers).
+1) Флаг ZF устанавливается, если в результате последней операции получился ноль, в противном случае флаг сбрасывается.
+2) Флаг SF устанавливается, если получено отрицательное число, иначе он сбрасывается (имеет смысл рассматривать только для знаковых чисел).
+3) Флаг OF устанваливается
+4) The OF flag is set if an overflow occurs, meaning that the sign of the resulting value does not correspond to the mathematically expected sign (relevant only for signed numbers).
+5) The CF flag is set if a carry out of the most significant bit occurs, or if a borrow from a non-existent bit takes place (relevant only for unsigned numbers).
 
 #### The `adc` and `sbb` instructions
 Addition and subtraction with carry are performed by the `adc` and `sbb` instructions, which take the CF flag into account.

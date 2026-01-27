@@ -266,7 +266,7 @@ sub [x], ecx
 ```
 From an implementation perspective, addition and subtraction of signed and unsigned numbers are performed in exactly the same way.
 
-According to the result obtained, the add and sub instructions set the values of the OF, CF, ZF, and SF flags.
+According to the result obtained, the `add` and `sub` instructions set the values of the OF, CF, ZF, and SF flags.
 
 1) The ZF flag is set if the result of the last operation is zero; otherwise, the flag is cleared.
 2) The SF flag is set if the result is negative; otherwise, it is cleared (relevant only for signed numbers).
