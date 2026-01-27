@@ -333,7 +333,7 @@
         "foldPlaceholder": ""
       },
       "highlights": {
-        "activeCodeblockLine": true,
+        "activeCodeblockLine": false,
         "activeEditorLine": false
       },
       "inline": {
