@@ -230,4 +230,19 @@ lea eax, [1000+ebx+8*ecx]
 ```
 
 ### Operand sizes and their permissible combinations
+Permissible operand type combinations for the **mov** instruction:
+- to register from register
+- to memory from register
+- to register from memory
+- to register from an immediate operand (i.e., from the instruction code)
+- to a memory location or memory area from an immediate operand
 
+
+```nasm
+mov [x], 25 ; ERROR!!!
+```
+To use such an instruction, it is necessary to inform the assembler of the exact operand size by placing a size specifier before any of the operands.
+- byte
+- word
+- dword
+- qword
