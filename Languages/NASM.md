@@ -310,6 +310,7 @@ je  some_label
 All integer multiplication and division instructions have only one operand, which specifies the second factor; this operand can be a register or a memory-type operand, but not an immediate value. The first factor and the dividend, as well as the location for storing the result, are **implicit operands**, represented by the AL, AX, or EAX registers, and, if necessary, the register pairs DX:AX and EDX:EAX.
 #### The `mul` and `imul` instructions
 The `mul` instruction is used for unsigned integer multiplication, while the `imul` instruction is used for signed multiplication. In both cases, depending on the operand size (the second factor), the first factor is taken from the appropriate register.
+|                |           |          |           |
 
 | number of bits | implicit multiplier | product |
 | -------------- | ------------------- | ------- |
@@ -327,10 +328,17 @@ mul bl       ; now ax store 6
 The mul and imul instructions clear the CF and OF flags if the upper half of the result is not effectively used, that is, if all significant bits of the result fit into the lower half. For mul, this means that all bits of the upper half of the result are zero; for imul, it means that all bits of the upper half of the result are equal to the most significant bit of the lower half of the result. Otherwise, both CF and OF are set. The states of the remaining flags after execution are undefined.
 
 #### The `div` and `idiv` instructions
-For integer division (and computation of the remainder), the div instruction is used for unsigned integers, and idiv for signed integers. The single operand of the instruction specifies the divisor. Depending on the bit width of this divisor, the dividend is taken from a register of the corresponding size. The quotient is always rounded toward zero (for unsigned and positive values, toward the smaller value; for negative values, toward the larger value). The sign of the remainder computed by idiv always matches the sign of the dividend, and the absolute value (magnitude) of the remainder is strictly less than the absolute value of the divisor. The values of the flags after integer division are undefined.
+For integer division (and computation of the remainder), the `div` instruction is used for unsigned integers, and `idiv` for signed integers. The single operand of the instruction specifies the divisor. Depending on the bit width of this divisor, the dividend is taken from a register of the corresponding size. The quotient is always rounded toward zero (for unsigned and positive values, toward the smaller value; for negative values, toward the larger value). The sign of the remainder computed by idiv always matches the sign of the dividend, and the absolute value (magnitude) of the remainder is strictly less than the absolute value of the divisor. The values of the flags after integer division are undefined.
 
-| number of bits | divisible | quotient | 
-| -------------- | --------- | -------- |
+| number of bits | divisible | quotient | remainder |
+| -------------- | --------- | -------- | --------- |
+| 8              | AX        | AL       | AH        |
+| 16             | DX:AX     | AX       | DX        |
+| 32             | EDX:EAX   | EAX      | EDX       |
+
 ```nasm
-xor 
+mov ax, 7
+mov bx, 3
+
+div bx       ; now al store 2 and ah store 1
 ```
