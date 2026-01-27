@@ -224,7 +224,7 @@ General form of the effective address:
 ![[Pasted image 20260127171352.png]]
 
 Each of the three components is optional. However, it is important to understand that the expression within the square brackets cannot be arbitrary in any way.
-#### The lea instruction
+#### The `lea` instruction
 The `lea` instruction allows the processor's capabilities for computing the effective address to be used without accessing memory. The instruction has two operands: the first must be a register, and the second must be a memory-type operand.
 ```nasm
 lea eax, [1000+ebx+8*ecx]

@@ -217,21 +217,21 @@ mov ebx, eax
 ```
 Это означает: "Скопируй содержимое регистра EAX в регистр EBX."
 ### Исполнительный адрес
-Адрес, по которому очередная машинная команда произведет обращение к памяти (неважно, задан этот адрес явно или вычислен) называется исполнительным адресом.
-An address at which the next machine instruction will access memory (whether the address is specified explicitly or computed) is called the **effective address**.
-The processor allows the effective address to be specified so that it is computed during program execution.
+Адрес, по которому очередная машинная команда произведет обращение к памяти (неважно, задан этот адрес явно или вычислен) называется **исполнительным адресом**.
+Процессор позволяет задать исполнительный адрес так, чтобы он вычислял *уже в ходе выполнения команды*.
 
-General form of the effective address:
+Общий вид исполнительного адреса:
 ![[Pasted image 20260127171352.png]]
 
-Each of the three components is optional. However, it is important to understand that the expression within the square brackets cannot be arbitrary in any way.
-#### The lea instruction
-The `lea` instruction allows the processor's capabilities for computing the effective address to be used without accessing memory. The instruction has two operands: the first must be a register, and the second must be a memory-type operand.
+Каждое из трех слагаемых, используемых в исполнительном адресе, является необязательным.
+#### Команда `lea`
+Команда `lea`использует возможности процессора по вычислению исполнительно адреса без обращения к памяти . Команда имеется два операнда: первый обязан быть регистровым, а второй операндом типа "память".
 ```nasm
 lea eax, [1000+ebx+8*ecx]
 ```
 
-### Operand sizes and their permissible combinations
+### Размеры операндов и их допустимые значения
+Допустимые комбинации типов 
 Permissible operand type combinations for the `mov` instruction:
 - to register from register
 - to memory from register
