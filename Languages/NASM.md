@@ -1,4 +1,20 @@
 # Register System
+
+Registers:
+- segment registers
+- general-purpose registers
+- special registers
+
+### Segment registers
+Segment registers (CS, DS, SS, ES, GS, and FS) are not used in the “flat” memory model.
+### General-purpose registers
+In 32-bit:
+
+| EAX | EBX | ECX | EDX | ESI | EDI | EBP | ESP |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
 Registers table:
 
 | 64-bit register | 32-bit sub-register | 16-bit sub-register | 8-bit sub-register |
@@ -22,5 +38,3 @@ Registers table:
 
 ![[Pasted image 20260127141223.png]]
 
-Registers:
-- 
