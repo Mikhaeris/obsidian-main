@@ -29,7 +29,7 @@
 | --- | --- | --- | --- |
 | AL  | BL  | CL  | DL  | 
 #### Названия регистров:
-- AX - аккумулятор (accumulator)
+- AX - accumulator
 - BX - base
 - CX - counter
 - DX - data
@@ -37,10 +37,10 @@
 - DI - destination index
 - BP - base pointer
 - SP - stack pointer
-### Special registers
+### Специальные регистры
 - EIP - instruction pointer
 - FLAGS - flag register
-#### FLAGS register
+#### Флаговый регистр
 - ZF - zero flag
 - CF - carry flag
 - SF - sign flag
@@ -51,7 +51,7 @@
 - IF - interrupt flag
 - TF - trap flag
 
-## Registers table:
+## Таблица регистров:
 
 | 64-bit register | 32-bit sub-register | 16-bit sub-register | 8-bit sub-register |
 | --------------- | ------------------- | ------------------- | ------------------ |
@@ -75,20 +75,20 @@
 32-bit:
 ![[Pasted image 20260127141223.png]]
 
-# Segments
-Three main segments:
-- code segment(.text)
-- data segment
-	- Initialized data section(.data)
-	- Uninitialized data section(.bss)
-- stack segment
+# Сегменты
+Три основных сегмента:
+- сегмент кода(.text)
+- сегмент данных
+	- секция инициализированных данных(.data)
+	- секция неинициализированных данных(.bss)
+- сегмент стека
 
 ![[Pasted image 20260127144944.png]]
-# Memory allocation directives
-The assembler translates instruction mnemonics into binary code, forming a data array that is subsequently interpreted by the central processing unit (CPU) as a sequence of instructions. Program control is carried out by loading the address of the entry point into the instruction pointer register. 
-### Structure of memory sections
-To organize data and code within a program, specialized sections are used, which are declared using the section directive:
-- **.text**: Contains executable machine code.
+# Директивы для отведения памяти
+Ассемблер осуществляет трансляцию мнемоник команд в бинарный код, формируя массив данных, который в дальнейшем интерпретируется центральным процессором (ЦП) как последовательность инструкций. Управление программой реализуется путем загрузки адреса точки входа в регистр указателя команд.
+### Структура сегмента памяти
+Для организации данных и кода внутри программы используются специализированные разделы, объявляемые с помощью директивы section:
+- **.text**: Содержит исполняемый машинный код.
 - **.data**: Intended for initialized data whose values are fixed at compile time and embedded into the executable file image.
 - **.bss**: Reserves space for uninitialized variables. Only information about the required size of this section is stored in the object file, which optimizes the file size on disk.
 ### Memory management directives
