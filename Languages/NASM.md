@@ -175,3 +175,7 @@ Within the context of double quotation marks, apostrophes are treated as literal
 ```nasm
 panic db 'So I say: "Don', "'", 't panic"'
 ```
+
+### The mov instruction and operand types
+mov instruction have two operands
+- first - 
