@@ -347,7 +347,11 @@ If the divisor contains the value zero at the time the div or idiv instruction i
 When performing integer division of signed numbers, it is often necessary to extend the dividend before the division.
 
 Instructions:
-- cbw (convert byte to word) - extends the value in the AL register to AX
-- cwd (convert word to doubleword) - extends the value in the AX register to DX:AX
-- cwde (convert word to dword, extended) - extends the value in the AX register to EAX
-- cdq ()
+- `cbw` (convert byte to word) - extends the value in the AL register to AX
+- `cwd` (convert word to doubleword) - extends the value in the AX register to DX:AX
+- `cwde` (convert word to dword, extended) - extends the value in the AX register to EAX
+- `cdq` (convert dword to qword) - Extends the value in the EAX register to EDX:EAX
+
+Note that for division of unsigned integers, special instructions for extending the bit width are not required: it is sufficient to simply clear the higher part of the dividend, whether it be AH, DH, or EDX.
+### Conditional and unconditional jumps
+The normal sequential execution of instructions can be altered by performing a control transfer, also referred to as a jump; a control-transfer instruction forcibly writes a new address into the EIP register, causing the processor to continue program execution from a different location.
