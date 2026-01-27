@@ -126,31 +126,33 @@ x      resd 1
 fibon dw 1, 1, 2, 3, 5, 8, 13, 21
 ```
 # Задание числовых значений
-Numeric values can be specified in:
-- binary
-- octal
-- decimal
-- hexadecimal
-#### Binary
-A binary number is indicated by the letter **b** at the end.
+Числовые значения могут быть заданы в:
+- двоичной
+- восьмиричной
+- десятичной
+- шестнадцатиричной
+#### Двоичная
+Двоичное число обозначается буквой **b** на конце.
 ```nasm
 10011011b
 ```
-#### Octal
-Octal numbers are indicated by appending the letter **o** or **q** after the number.
+#### Восьмиричная
+Восьмиричное число обозначается добавлением после числа буквы **o** или **q** в конце числа. 
 ```nasm
 634o
 754q
 ```
-#### Decimal
-Decimal numbers are represented as in standard mathematics.
+#### Десятичная
+Десятичное число обозначается в стандартной математической форме.
 ```nasm
 2026
 ```
-#### Hexadecimal
-A hexadecimal number can be specified in three ways:
-- By appending the letter **h** at the end
-	- If the number begins with a letter, a *0* must be placed before the number
+#### Шестандцатиричная
+Шестнадцатиричное число может быть задано тремя сособами:
+- Добавление буквы **h** на конец слова
+	- Если число начинается с буквы, то цифра *0* должна быть поставлена в конце числа
+- Добавлением символа **$** в начало числа
+	- Если число начинается с буквы, то цифра *0* должна быть добавлена в начал
 - By prefixing the number with the symbol **$**
 	- If the number begins with a letter, a *0* must be added
 - By prefixing the number with **0x**
