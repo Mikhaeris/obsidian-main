@@ -89,43 +89,43 @@
 ### Структура сегмента памяти
 Для организации данных и кода внутри программы используются специализированные разделы, объявляемые с помощью директивы section:
 - **.text**: Содержит исполняемый машинный код.
-- **.data**: Intended for initialized data whose values are fixed at compile time and embedded into the executable file image.
-- **.bss**: Reserves space for uninitialized variables. Only information about the required size of this section is stored in the object file, which optimizes the file size on disk.
-### Memory management directives
-The assembler (in particular, NASM) provides tools for memory allocation based on standard data units:
+- **.data**: Предназначена для инициализированных данных, значения которых определяются на этапе компиляции и включаются в образ исполняемого файла.
+- **.bss**: Резервирует пространство для неинициализированных переменных. В объектном файле сохраняется только информация о требуемом размере данного раздела, что позволяет оптимизировать объем файла на диске
+### Директивы управления памятью
+Ассемблер (в частности, NASM) предоставляет средства распределения памяти на основе стандартных единиц данных:
 
-| Unit type   | Size(byte) | Directives (Data/BSS) |
-| ----------- | ---------- | --------------------- |
-| Byte        | 1          | db/resb               |
-| Word        | 2          | dw/resw               |
-| Double Word | 4          | dd/resd               |
-| Quad Word   | 8          | dq/resq               | 
-#### Directives for reserving uninitialized memory
-These directives instruct the assembler to allocate a specified number of memory cells, without specifying any content other than the quantity.
+| Тип данных         | Размер(байты) | Директива (Data/BSS) |
+| ------------------ | ------------- | -------------------- |
+| Байт               | 1             | db/resb              |
+| Слово              | 2             | dw/resw              |
+| Двойное слово      | 4             | dd/resd              |
+| Учетверенное слово | 8             | dq/resq              |
+#### Директивы резервирования неинициализированной памяти
+Эти директивы приказывают ассемблеру выделить заданное количество ячеек памяти, причем ничего, кроме количества, не уточняется.
 - resb
 - resw
 - resd
 - resq
 
-A label is usually placed before a memory reservation directive.  
-Example:
+Обычно перед директивой резервирования памяти ставится метка.  
+Пример:
 ```nasm
 string resb 20
 count  resw 256
 x      resd 1
 ```
-#### Directives for specifying initial data
-These directives do not merely reserve memory but specify the values that should be present in memory at program startup. The corresponding values are listed separated by commas; memory is allocated according to the number of specified values.
+#### Директивы задания исходных данных
+Эти директивы не просто резервируют память, а указывают, какие значения в этой памяти должны находиться к моменту запуска программы. Соответствующие значение указывается после директивы через запятую; памяти отводится столько, сколько указано значений.
 - db
 - dw
 - dd
 - dq
 
-Example:
+Пример:
 ```nasm
 fibon dw 1, 1, 2, 3, 5, 8, 13, 21
 ```
-# Specification of numeric values 
+# Задание числовых значений
 Numeric values can be specified in:
 - binary
 - octal
