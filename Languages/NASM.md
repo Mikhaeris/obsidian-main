@@ -342,3 +342,12 @@ mov bx, 3
 
 div bx       ; now al store 2 and ah store 1
 ```
+If the divisor contains the value zero at the time the div or idiv instruction is executed, the processor triggers a so-called exception, also referred to as an internal interrupt, as a result of which control is transferred to the operating system. In most cases, the operating system reports an error and terminates the current task as abnormal. The same behavior occurs if the result of the division does not fit into the allocated bit width.
+#### Integer extension
+When performing integer division of signed numbers, it is often necessary to extend the dividend before the division.
+
+Instructions:
+- cbw (convert byte to word) - extends the value in the AL register to AX
+- cwd (convert word to doubleword) - extends the value in the AX register to DX:AX
+- cwde (convert word to dword, extended) - extends the value in the AX register to EAX
+- cdq ()
