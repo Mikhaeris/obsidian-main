@@ -376,14 +376,14 @@ div bx       ; теперь al хранит 2, а ah хранит 1
 - `cwde` (convert word to dword, extended) - расширяет число в регистре AX до регистра EAX
 - `cdq` (convert dword to qword) - расширяет число в регистре EAX до регистровой пары EDX:EAX
 
-При делении беззнаковых чисел специальные команды для расширения разрядности не нужны; достаточно просто обнулить старшую часть делимого, будь то AH, DX или EDX
-Note that for division of unsigned integers, special instructions for extending the bit width are not required: it is sufficient to simply clear the higher part of the dividend, whether it be AH, DH, or EDX.
+При делении беззнаковых чисел специальные команды для расширения разрядности не нужны; достаточно просто обнулить старшую часть делимого, будь то AH, DX или EDX.
 
 ### Conditional and unconditional jumps
-The normal sequential execution of instructions can be altered by performing a **control transfer**, also referred to as a **jump**; a control-transfer instruction forcibly writes a new address into the EIP register, causing the processor to continue program execution from a different location.
+В обычное последовательное выполнение команд можно вмешаться, выполнив **передачу управления**, называемую также **переходом**; команда передачи управления принудительно записывает новый адрес в регистр EIP, заставляя процессор продолжить выполнение программы с другого места.
 
-The instructions are classified as follows:
-- **Unconditional jumps** – perform a control transfer to another location in the program without any checks.
+Есть два типа команд перехода:
+- **Безусловный переход** - выполняет передачу управления в другое место программы без всяких всяких проверок.
+- **Условный переход** - 
 - **Conditional jumps** – may, depending on the result of a certain condition, either transfer control to a specified location or not perform the transfer.
 
 Control-transfer instructions are classified into three types depending on the “distance” of the transfer:
@@ -409,30 +409,30 @@ Here, the first instruction specifies a direct jump, while the remaining instruc
 
 It is important to note that, unlike unconditional jump instructions, conditional jump instructions are considered short by the assembler by default if the type of jump is not specified explicitly. Another nontrivial point is that all conditional jump instructions allow only an immediate operand (usually a label). The address for such a jump cannot be taken from a register or from memory.
 
-### Construction of branches and loops
-A standard Pascal-style loop with a precondition
+### Построение ветвлений и циклов
+Обычный паскалевский цикл с предусловием
 ```pascal
-while <condition> do <body>
+while <условие> do <тело>
 ```
-is implemented using machine instructions according to the following scheme:
+средствами машинных команд реализуется по следующей схеме:
 ```nasm
-cycle:   <evaluate condition>
-         JNx cycle_quit        ; exit
-         <execute body>
-         JMP cycle             ; repeat
+cycle:   <вычисление условия>
+         JNx cycle_quit        ; выход
+         <выполенение тела>
+         JMP cycle             ; повтор
 cycle_quit:
 ```
-and branching in its full form
+а ветвление в его полном варианте
 ```pascal
-if <condition> then <branch1> else <branch2>
+if <условие> then <ветвь1> else <ветвь2>
 ```
-is transformed into:
+превращается в:
 ```nasm
-         <evaluate condition>
-         JNx else_branch       ; to the else branch
-         <execute branch1>
-         JMP if_quit           ; bypassing the else branch
+         <вычисление условия>
+         JNx else_branch       ; на ветку else
+         <выполение ветви1>
+         JMP if_quit           ; обход ветки else
 else_branch:
-         <execute branch2>
+         <выполение ветки2>
 if_quit:
 ```
