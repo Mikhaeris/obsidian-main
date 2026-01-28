@@ -386,23 +386,24 @@ div bx       ; теперь al хранит 2, а ah хранит 1
 - **Условный переход** - в зависимости от результата проверки некоторого условия либо выполняет переход в заданную точку, либо не выполняет его, в этом случае выполнение программы, как обычно, продолжится со следующей команды.
 
 Команды передачи управления подразделяются на три типа в зависимости от "дальности" такой передачи.
-- **Дальние** (far) переходы подразумевают управление во фрагмент программы, расположенной в другом сегменте. Поскольку под управлением OC UNIX мы используем "плоскую" модель памяти, такие переходы нам понадобиться не могут; у нас просто нет других сегментов.
-- **Близкие** (near) переходы передают управление в произвольное место внутри одного сегмента; фактически такие переходы представляют собой явное изменение значения EIP. В "плоской" модели памяти это именно тот вид переходов, с помощью которого мы можем "прыгнуть" в произвольное место в адресном пространстве.
-- **Короткие** (short) переходы используются для оптимизации в случае, если точку куда надлежит "прыгнуть", отстоит от текущей команды не более чем на 127 байт вперед или 128 байт назад. В машинном коде такой команды смещение задается всего о
-- **Short jumps**(`short`) are used for optimization when the target location is no more than 127 bytes ahead or 128 bytes behind the current instruction. In machine code, the offset for such an instruction is encoded in a single byte, which imposes the corresponding limitation.
+- **Дальние** (`far`) переходы подразумевают управление во фрагмент программы, расположенной в другом сегменте. Поскольку под управлением OC UNIX мы используем "плоскую" модель памяти, такие переходы нам понадобиться не могут; у нас просто нет других сегментов.
+- **Близкие** (`near`) переходы передают управление в произвольное место внутри одного сегмента; фактически такие переходы представляют собой явное изменение значения EIP. В "плоской" модели памяти это именно тот вид переходов, с помощью которого мы можем "прыгнуть" в произвольное место в адресном пространстве.
+- **Короткие** (`short`) переходы используются для оптимизации в случае, если точку куда надлежит "прыгнуть", отстоит от текущей команды не более чем на 127 байт вперед или 128 байт назад. В машинном коде такой команды смещение задается всего одним байтом, отсюда соответственно ограничение.
 
-The type of jump can be specified explicitly by placing the word `short` or `near` after the instruction (the assembler also recognizes the word `far`, of course, but we don't need it).
+Вид перехода можно указать явно, поставив после команды слово `short` или `near` (ассмеблре понимает, разумеется, и слово `far`).
 
-The **unconditional jump** instruction is called `jmp`. The instruction has a single operand, which specifies the address to which control should be transferred. Most often, the jmp instruction is used with an immediate operand, that is, an address specified directly in the instruction; naturally, this is not a numeric address, which is usually unknown, but a label.
-It is also possible to use a register operand (in this case, the jump is made to the address contained in the register) or a memory-type operand (the address is read from a double word located at a specified memory location); such jumps are called indirect, in contrast to direct jumps, where the address is specified explicitly.
+Команда **безусловного перехода** называется `jmp`. У команды предусмотрен один операнд, определяющий собственно адрес, куда следует передать управление. Чаще всего используется форма команды jmp с непосредственным операндом, то есть адресом, указанным прямо в команде; естественно, указываем мы не числовой адрес, которого обычно просто не знаем, а метку.  
+Также возможно использовать регистровый операнд (в этом случае переход производится по адресу, взятому из регистра) или операнд типа "память" (адрес читается из двойного слова, расположенного в заданной позиции в памяти); такие переходы называются **косвенными**, в отличие от **прямых**, для которых адрес задается явно.
 ```nasm
-jmp cycle    ; Jump to the label cycle
-jmp eax      ; Jump to the address contained in the EAX register
-jmp [addr]   ; Jump to the address stored in memory labeled addr
-
-jmp [eax]    ; Jump to the address read from memory
-             ; located at the address contained in the EAX register
+jmp cycle    ; переход на метку cycle
+jmp eax      ; переход по адресу из регистра EAX
+jmp [addr]   ; переход по адресу, содержащемуся
+             ; в памяти которая помечена меткой addr
+jmp [eax]    ; переход по адресу, прочитанному из
+             ; памяти
+             ;
 ```
+Здесь первая команда задет **прямой** переход, а остальные **косвенный**.
 Here, the first instruction specifies a direct jump, while the remaining instructions specify indirect jumps.
 
 **Conditional jump** instructions are supported by the processor in a wide variety: a jump can be performed depending on the value of a single flag, a combination of flags, or even the value of a register.
