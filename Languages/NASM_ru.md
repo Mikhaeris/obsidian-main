@@ -383,12 +383,12 @@ div bx       ; теперь al хранит 2, а ah хранит 1
 
 Есть два типа команд перехода:
 - **Безусловный переход** - выполняет передачу управления в другое место программы без всяких всяких проверок.
-- **Условный переход** - 
-- **Conditional jumps** – may, depending on the result of a certain condition, either transfer control to a specified location or not perform the transfer.
+- **Условный переход** - в зависимости от результата проверки некоторого условия либо выполняет переход в заданную точку, либо не выполняет его, в этом случае выполнение программы, как обычно, продолжится со следующей команды.
 
-Control-transfer instructions are classified into three types depending on the “distance” of the transfer:
-- **Far jumps**(`far`) imply a control transfer to a program fragment located in a different segment. Since under the Unix operating system we use a “flat” memory model, such jumps are unnecessary because there are simply no other segments.
-- **Near jumps**(`near`) are control transfers to an arbitrary location within a single segment; essentially, these jumps represent an explicit change of the EIP value. In the “flat” memory model, this is the type of jump used to reach any location within our address space.
+Команды передачи управления подразделяются на три типа в зависимости от "дальности" такой передачи.
+- **Дальние** (far) переходы подразумевают управление во фрагмент программы, расположенной в другом сегменте. Поскольку под управлением OC UNIX мы используем "плоскую" модель памяти, такие переходы нам понадобиться не могут; у нас просто нет других сегментов.
+- **Близкие** (near) переходы передают управление в произвольное место внутри одного сегмента; фактически такие переходы представляют собой явное изменение значения EIP. В "плоской" модели памяти это именно тот вид переходов, с помощью которого мы можем "прыгнуть" в произвольное место в адресном пространстве.
+- **Короткие** (short) переходы используются для оптимизации в случае, если точку куда надлежит "прыгнуть", отстоит от текущей команды не более чем на 127 байт вперед или 128 байт назад. В машинном коде такой команды смещение задается всего о
 - **Short jumps**(`short`) are used for optimization when the target location is no more than 127 bytes ahead or 128 bytes behind the current instruction. In machine code, the offset for such an instruction is encoded in a single byte, which imposes the corresponding limitation.
 
 The type of jump can be specified explicitly by placing the word `short` or `near` after the instruction (the assembler also recognizes the word `far`, of course, but we don't need it).
