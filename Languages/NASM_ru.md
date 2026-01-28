@@ -332,8 +332,7 @@ je  some_label
 Все команды целочисленного умножения и деления имеют только один операнд(но есть некоторые исключения), задающий второй множитель в командах умножения и делитель в командах деления, причем этот операнд может быть регистровым или типа "память", но не непосредственным. В роли первого множителя и делимого, а также места для записи результата используется **неявный операнд**, в качестве которого выступают регистры AL, AX, EAX, а при необходимости - и регистровые пары DX:AX и EDX:EAX.
 
 #### Команды `mul` и `imul`
-Для умножения беззнаковых чисел применяют команду `mul`, для умножения знаковых команду `imul`. В обоих случаях в зависимости от разрядности оп
-The `mul` instruction is used for unsigned integer multiplication, while the `imul` instruction is used for signed multiplication. In both cases, depending on the operand size (the second factor), the first factor is taken from the appropriate register.
+Для умножения беззнаковых чисел применяют команду `mul`, для умножения знаковых команду `imul`. В обоих случаях в зависимости от разрядности операнда (второго множителя) первый берется из соответствующего по разрядности регистра.
 
 | number of bits | implicit multiplier | product |
 | -------------- | ------------------- | ------- |
@@ -345,12 +344,14 @@ The `mul` instruction is used for unsigned integer multiplication, while the `im
 mov al, 2
 mov bl, 3
 
-mul bl       ; now ax store 6
+mul bl       ; теперь ax хранит 6
 ```
 
-The mul and imul instructions clear the CF and OF flags if the upper half of the result is not effectively used, that is, if all significant bits of the result fit into the lower half. For mul, this means that all bits of the upper half of the result are zero; for imul, it means that all bits of the upper half of the result are equal to the most significant bit of the lower half of the result. Otherwise, both CF and OF are set. The states of the remaining flags after execution are undefined.
+Команды `mul` и `imul` сбрасывают флаги CF и OF, если старшая половина результата фактически не используется, то есть все значащие биты результата уместились в младшей половине. Для `mul` это означает, что все разряды старшей половины результата содержат нули, для `imul` что все разряды старшей половины результата равны старшему биту младшей половины половины результата. В противном случае CF и OF устанавливаются.
+Значения остальных регистров после выполнения `mul` и `imul` не определены.
 
-#### The `div` and `idiv` instructions
+#### Команды `div` и `idiv`
+Для деления (и нахождения остатка от деления) целых чисел применяют команду `div` (для знаковых) и `idiv` (для знаковых). Единственный операнд команды, как уже говорилось выше, задает делитель. В зависимости 
 For integer division (and computation of the remainder), the `div` instruction is used for unsigned integers, and `idiv` for signed integers. The single operand of the instruction specifies the divisor. Depending on the bit width of this divisor, the dividend is taken from a register of the corresponding size. The quotient is always rounded toward zero (for unsigned and positive values, toward the smaller value; for negative values, toward the larger value). The sign of the remainder computed by idiv always matches the sign of the dividend, and the absolute value (magnitude) of the remainder is strictly less than the absolute value of the divisor. The values of the flags after integer division are undefined.
 
 | number of bits | divisible | quotient | remainder |
