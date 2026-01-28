@@ -251,6 +251,7 @@ Count: 294
 | 3021 | [[Alice and Bob Playing Flower Game]]                                |
 | 3024 | [[Type of Triangle]]                                                 |
 | 3042 | [[Count Prefix and Suffix Pairs I]]                                  |
+| 3069 | [[Distribute Elements Into Two Arrays I]]                            |
 | 3074 | [[Apple Redistribution into Boxes]]                                  |
 | 3075 | [[Maximize Happiness of Selected Children]]                          |
 | 3083 | [[Existence of a Substring in a String and Its Reverse]]             |
@@ -295,4 +296,3 @@ Count: 294
 | 3668 | [[Restore Finishing Order]]                                          |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 3069 | [[Distribute Elements Into Two Arrays I]]                            |
