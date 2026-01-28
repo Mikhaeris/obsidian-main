@@ -322,19 +322,18 @@ neg eax
 ```
 
 #### Команда `cmp`
-Команда `cmp` производит точно такое же вычитание, как и команда `sub`, за исключением того, что результат нукуда не записывается. Команда вызывается ради установки флагов, обычно ср
-The cmp instruction performs the same subtraction as the sub instruction, except that the result is not stored anywhere. The instruction is used solely to set the flags, and it is usually followed immediately by a conditional jump instruction. The first operand of the cmp instruction cannot be an immediate value.
+Команда `cmp` производит точно такое же вычитание, как и команда `sub`, за исключением того, что результат никуда не записывается. Команда вызывается ради установки флагов, обычно сразу поле нее следует команда условного перехода. Первый операнд команды `cmp`  не может быть непосредственным(потому что команда `sub` не модет работать с непосредственным операндом).
 ```nasm
 cmp eax, 10
 je  some_label
 ```
 
-### Integer multiplication and division
-All integer multiplication and division instructions have only one operand, which specifies the second factor; this operand can be a register or a memory-type operand, but not an immediate value. The first factor and the dividend, as well as the location for storing the result, are **implicit operands**, represented by the AL, AX, or EAX registers, and, if necessary, the register pairs DX:AX and EDX:EAX.
+### Целочисленное умножение и деление
+Все команды целочисленного умножения и деления имеют только один операнд(но есть некоторые исключения), задающий второй множитель в командах умножения и делитель в командах деления, причем этот операнд может быть регистровым или типа "память", но не непосредственным. В роли первого множителя и делимого, а также места для записи результата используется **неявный операнд**, в качестве которого выступают регистры AL, AX, EAX, а при необходимости - и регистровые пары DX:AX и EDX:EAX.
 
-#### The `mul` and `imul` instructions
+#### Команды `mul` и `imul`
+Для умножения беззнаковых чисел применяют команду `mul`, для умножения знаковых команду `imul`. В обоих случаях в зависимости от разрядности оп
 The `mul` instruction is used for unsigned integer multiplication, while the `imul` instruction is used for signed multiplication. In both cases, depending on the operand size (the second factor), the first factor is taken from the appropriate register.
-|                |           |          |           |
 
 | number of bits | implicit multiplier | product |
 | -------------- | ------------------- | ------- |

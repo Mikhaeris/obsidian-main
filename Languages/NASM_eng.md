@@ -333,7 +333,6 @@ All integer multiplication and division instructions have only one operand, whic
 
 #### The `mul` and `imul` instructions
 The `mul` instruction is used for unsigned integer multiplication, while the `imul` instruction is used for signed multiplication. In both cases, depending on the operand size (the second factor), the first factor is taken from the appropriate register.
-|                |           |          |           |
 
 | number of bits | implicit multiplier | product |
 | -------------- | ------------------- | ------- |
