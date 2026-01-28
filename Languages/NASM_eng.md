@@ -322,7 +322,7 @@ neg eax
 ```
 
 #### The `cmp` instruction
-The cmp instruction performs the same subtraction as the sub instruction, except that the result is not stored anywhere. The instruction is used solely to set the flags, and it is usually followed immediately by a conditional jump instruction. The first operand of the cmp instruction cannot be an immediate value.
+The `cmp` instruction performs the same subtraction as the sub instruction, except that the result is not stored anywhere. The instruction is used solely to set the flags, and it is usually followed immediately by a conditional jump instruction. The first operand of the cmp instruction cannot be an immediate value.
 ```nasm
 cmp eax, 10
 je  some_label

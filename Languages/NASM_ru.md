@@ -292,7 +292,7 @@ sub [x], ecx
 4) Флаг CF устанавливается, если произошел перенос из старшего разряда, либо произошел заем из несуществующего разряда. (имеет смысл только для беззнаковых чисел).
 
 #### Команды `adc` и `sbb`
-Addition and subtraction with carry are performed by the `adc` and `sbb` instructions, which take the CF flag into account.
+Сложение и вычитание с учетом переноса выполняются инструкциями `adc` и `sbb`, которые учитывают значение флага переноса CF.
 
 Предположим у нас есть два 64-битных целых числа, причем первое записано в регистры EDX (старшие 32 бита) и EAX (младшие 32 бита), а второе точно так же записано в регистры EBX и EAX.  
 Тогда сложить эти два числа можно:
@@ -303,25 +303,26 @@ adc edx, ebx    ; теперь старшие, с учетом переноса
 Если же нам понадобится вычитание, то это делается командами:
 ```nasm
 sub eax, ecx    ; вычитаем младшие части
-sbb edx, ebx    ; теперь старшие, у
+sbb edx, ebx    ; теперь старшие, с учетом займа
 ```
 
-#### The `inc` and `dec` instructions
-The `inc` and `dec` instructions have a single operand (register or memory type) and perform increment and decrement by one, respectively. Both instructions set the ZF, OF, and SF flags, but do not affect the CF flag. When used with a memory-type operand, an explicit operand size specification is required.
+#### Команды `inc` и `dec`
+Команды `inc` и `dec` имеют один операнд (регистровый или типа "память") и производят соответственно увеличение и уменьшение на единицу. Обе команды устанавливают флаги ZF, OF и SF, но не затрагивают флаг CF.
 ```nasm
 mov eax, 0
 
-inc eax       ; now eax store 1
-dec eax       ; now eax store 0
+inc eax       ; теперь в eax хранится 1
+dec eax       ; теперь в eax хранится 0
 ```
 
-#### The `neg` instruction
-The neg instruction, which also has a single operand, performs sign negation, that is, a "unary minus" operation. It is usually applied to signed numbers; however, it sets all four flags: ZF, OF, SF, and CF.
+#### Команда `neg`
+Команда `neg`, также имеющая один операнд, обозначает смену знака, то есть операцию "унарный минус". Обычно ее применяют к знаковым числам; тем не менее она устанвливает все четыре флага ZF, OF и SF и CF.
 ```nasm
 neg eax
 ```
 
-#### The `cmp` instruction
+#### Команда `cmp`
+Команда `cmp` производит точно такое же вычитание, как и команда `sub`, за исключением того, что результат нукуда не записывается. Команда вызывается ради установки флагов, обычно ср
 The cmp instruction performs the same subtraction as the sub instruction, except that the result is not stored anywhere. The instruction is used solely to set the flags, and it is usually followed immediately by a conditional jump instruction. The first operand of the cmp instruction cannot be an immediate value.
 ```nasm
 cmp eax, 10
