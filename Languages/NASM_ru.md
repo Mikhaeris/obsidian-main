@@ -294,16 +294,16 @@ sub [x], ecx
 #### Команды `adc` и `sbb`
 Addition and subtraction with carry are performed by the `adc` and `sbb` instructions, which take the CF flag into account.
 
-Suppose we have two 64-bit integers, where the first is stored in the EDX (high 32 bits) and EAX (low 32 bits) registers, and the second is similarly stored in the EBX and ECX registers.  
-Then, these two numbers can be added using the instructions:
+Предположим у нас есть два 64-битных целых числа, причем первое записано в регистры EDX (старшие 32 бита) и EAX (младшие 32 бита), а второе точно так же записано в регистры EBX и EAX.  
+Тогда сложить эти два числа можно:
 ```nasm
-add eax, ecx    ; add the lower parts
-adc edx, ebx    ; now add the higher parts, taking the carry into account
+add eax, ecx    ; складываем младшие части
+adc edx, ebx    ; теперь старшие, с учетом переноса
 ```
-If subtraction is required, it is performed using the instructions:
+Если же нам понадобится вычитание, то это делается командами:
 ```nasm
-sub eax, ecx    ; subtract the lower parts
-sbb edx, ebx    ; now subtract the higher parts, taking the borrow into account
+sub eax, ecx    ; вычитаем младшие части
+sbb edx, ebx    ; теперь старшие, у
 ```
 
 #### The `inc` and `dec` instructions
