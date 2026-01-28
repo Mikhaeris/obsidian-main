@@ -373,7 +373,7 @@ Instructions:
 - `cbw` (convert byte to word) - extends the value in the AL register to AX
 - `cwd` (convert word to doubleword) - extends the value in the AX register to DX:AX
 - `cwde` (convert word to dword, extended) - extends the value in the AX register to EAX
-- `cdq` (convert dword to qword) - Extends the value in the EAX register to EDX:EAX
+- `cdq` (convert dword to qword) - extends the value in the EAX register to EDX:EAX
 
 Note that for division of unsigned integers, special instructions for extending the bit width are not required: it is sufficient to simply clear the higher part of the dividend, whether it be AH, DH, or EDX.
 

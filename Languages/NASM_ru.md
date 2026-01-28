@@ -363,19 +363,20 @@ mul bl       ; теперь ax хранит 6
 mov ax, 7
 mov bx, 3
 
-div bx       ; now al store 2 and ah store 1
+div bx       ; теперь al хранит 2, а ah хранит 1
 ```
 Если в делителе на момент выполнения команды `div` или `idiv` находится число ноль, то процессор инициирует *исключение*, называемое также *внутренним прерыванием*, в результате которого управление получает операционная система; в большинстве случаев она сообщает об ошибке и завершает текущую задачу как аварийную. То же самое произойдет и в случае, если результат деления не уместился в отведенные ему разряды.
 
-#### Integer extension
-When performing integer division of signed numbers, it is often necessary to extend the dividend before the division.
+#### Целочисленное расширение
+При выполнении целочисленного деления чисел со знаком часто требуется выполнить расширение делимого перед началом операции.
 
-Instructions:
-- `cbw` (convert byte to word) - extends the value in the AL register to AX
-- `cwd` (convert word to doubleword) - extends the value in the AX register to DX:AX
-- `cwde` (convert word to dword, extended) - extends the value in the AX register to EAX
-- `cdq` (convert dword to qword) - Extends the value in the EAX register to EDX:EAX
+Команды:
+- `cbw` (convert byte to word) - расширяет число в регистре AL до регистра AX
+- `cwd` (convert word to doubleword) - расширяет число в регистре AX до регистровой пары DX:AX
+- `cwde` (convert word to dword, extended) - расширяет число в регистре AX до регистра EAX
+- `cdq` (convert dword to qword) - расширяет число в регистре EAX до регистровой пары EDX:EAX
 
+При делении беззнаковых чисел специальные команды для расширения разрядности не нужны; достаточно просто обнулить старшую часть делимого, будь то AH, DX или EDX
 Note that for division of unsigned integers, special instructions for extending the bit width are not required: it is sufficient to simply clear the higher part of the dividend, whether it be AH, DH, or EDX.
 
 ### Conditional and unconditional jumps
