@@ -295,3 +295,4 @@ Count: 294
 | 3668 | [[Restore Finishing Order]]                                          |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
+| 3069 | [[Distribute Elements Into Two Arrays I]]                            |
