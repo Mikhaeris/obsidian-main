@@ -350,7 +350,7 @@ mul bl       ; now ax store 6
 The `mul` and `imul` instructions clear the CF and OF flags if the upper half of the result is not effectively used, that is, if all significant bits of the result fit into the lower half. For `mul`, this means that all bits of the upper half of the result are zero; for `imul`, it means that all bits of the upper half of the result are equal to the most significant bit of the lower half of the result. Otherwise, both CF and OF are set. The states of the remaining flags after execution are undefined.
 
 #### The `div` and `idiv` instructions
-For integer division (and computation of the remainder), the `div` instruction is used for unsigned integers, and `idiv` for signed integers. The single operand of the instruction specifies the divisor. Depending on the bit width of this divisor, the dividend is taken from a register of the corresponding size. The quotient is always rounded toward zero (for unsigned and positive values, toward the smaller value; for negative values, toward the larger value). The sign of the remainder computed by idiv always matches the sign of the dividend, and the absolute value (magnitude) of the remainder is strictly less than the absolute value of the divisor. The values of the flags after integer division are undefined.
+For integer division (and computation of the remainder), the `div` instruction is used for unsigned integers, and `idiv` for signed integers. The single operand of the instruction specifies the divisor. Depending on the bit width of this divisor, the dividend is taken from a register of the corresponding size. The quotient is always rounded toward zero (for unsigned and positive values, toward the smaller value; for negative values, toward the larger value). The sign of the remainder computed by `idiv` always matches the sign of the dividend, and the absolute value (magnitude) of the remainder is strictly less than the absolute value of the divisor. The values of the flags after integer division are undefined.
 
 | number of bits | divisible | quotient | remainder |
 | -------------- | --------- | -------- | --------- |
@@ -364,7 +364,7 @@ mov bx, 3
 
 div bx       ; now al store 2 and ah store 1
 ```
-If the divisor contains the value zero at the time the div or idiv instruction is executed, the processor triggers a so-called exception, also referred to as an internal interrupt, as a result of which control is transferred to the operating system. In most cases, the operating system reports an error and terminates the current task as abnormal. The same behavior occurs if the result of the division does not fit into the allocated bit width.
+If the divisor contains the value zero at the time the `div` or `idiv` instruction is executed, the processor triggers a so-called exception, also referred to as an internal interrupt, as a result of which control is transferred to the operating system. In most cases, the operating system reports an error and terminates the current task as abnormal. The same behavior occurs if the result of the division does not fit into the allocated bit width.
 
 #### Integer extension
 When performing integer division of signed numbers, it is often necessary to extend the dividend before the division.

@@ -334,11 +334,11 @@ je  some_label
 #### Команды `mul` и `imul`
 Для умножения беззнаковых чисел применяют команду `mul`, для умножения знаковых команду `imul`. В обоих случаях в зависимости от разрядности операнда (второго множителя) первый берется из соответствующего по разрядности регистра.
 
-| number of bits | implicit multiplier | product |
-| -------------- | ------------------- | ------- |
-| 8              | AL                  | AX      |
-| 16             | AX                  | DX:AX   |
-| 32             | EAX                 | EDX:EAX |
+| разрдность (бит) | неявный множитель | результат умножения | 
+| ---------------- | ----------------- | ------------------- |
+| 8                | AL                | AX                  |
+| 16               | AX                | DX:AX               |
+| 32               | EAX               | EDX:EAX             |
 
 ```nasm
 mov al, 2
@@ -351,14 +351,13 @@ mul bl       ; теперь ax хранит 6
 Значения остальных регистров после выполнения `mul` и `imul` не определены.
 
 #### Команды `div` и `idiv`
-Для деления (и нахождения остатка от деления) целых чисел применяют команду `div` (для знаковых) и `idiv` (для знаковых). Единственный операнд команды, как уже говорилось выше, задает делитель. В зависимости 
-For integer division (and computation of the remainder), the `div` instruction is used for unsigned integers, and `idiv` for signed integers. The single operand of the instruction specifies the divisor. Depending on the bit width of this divisor, the dividend is taken from a register of the corresponding size. The quotient is always rounded toward zero (for unsigned and positive values, toward the smaller value; for negative values, toward the larger value). The sign of the remainder computed by idiv always matches the sign of the dividend, and the absolute value (magnitude) of the remainder is strictly less than the absolute value of the divisor. The values of the flags after integer division are undefined.
+Для деления (и нахождения остатка от деления) целых чисел применяют команду `div` (для знаковых) и `idiv` (для знаковых). Единственный операнд команды, как уже говорилось выше, задает делитель. В зависимости от разрядности этого делителя делимое берется из регистра соответствующего разряда. Частное всегда округляется в сторону нуля (для беззнаковых и положительных - в меньшую, для отрицательных - в большую сторону). Знак остатка, вычисляемого командой `idiv`, всегда совпадает со знаком делимого, а абсолютная величина (модуль) остатка всегда строго меньше модуля делителя. Значения флагов после выполнения целочисленного деления не определены.
 
-| number of bits | divisible | quotient | remainder |
-| -------------- | --------- | -------- | --------- |
-| 8              | AX        | AL       | AH        |
-| 16             | DX:AX     | AX       | DX        |
-| 32             | EDX:EAX   | EAX      | EDX       |
+| разрядность (бит) | делимое | частное | остаток |
+| ----------------- | ------- | ------- | ------- |
+| 8                 | AX      | AL      | AH      |
+| 16                | DX:AX   | AX      | DX      |
+| 32                | EDX:EAX | EAX     | EDX     |
 
 ```nasm
 mov ax, 7
@@ -366,7 +365,7 @@ mov bx, 3
 
 div bx       ; now al store 2 and ah store 1
 ```
-If the divisor contains the value zero at the time the div or idiv instruction is executed, the processor triggers a so-called exception, also referred to as an internal interrupt, as a result of which control is transferred to the operating system. In most cases, the operating system reports an error and terminates the current task as abnormal. The same behavior occurs if the result of the division does not fit into the allocated bit width.
+Если в делителе на момент выполнения команды `div` или `idiv` находится число ноль, то процессор инициирует *исключение*, называемое также *внутренним прерыванием*, в результате которого управление получает операционная система; в большинстве случаев она сообщает об ошибке и завершает текущую задачу как аварийную. То же самое произойдет и в случае, если результат деления не уместился в отведенные ему разряды.
 
 #### Integer extension
 When performing integer division of signed numbers, it is often necessary to extend the dividend before the division.
