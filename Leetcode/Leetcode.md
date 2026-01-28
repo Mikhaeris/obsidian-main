@@ -143,6 +143,7 @@ Count: 292
 | 1528 | [[Shuffle String]]                                                   |
 | 1550 | [[Three Consecutive Odds]]                                           |
 | 1603 | [[Design Parking System]]                                            |
+| 1624 | [[Largest Substring Between Two Equal Characters]]                   |
 | 1672 | [[Richest Customer Wealth]]                                          |
 | 1679 | [[Max Number of K-Sum Pairs]]                                        |
 | 1684 | [[Count the Number of Consistent Strings]]                           |
