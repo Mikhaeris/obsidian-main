@@ -6,7 +6,7 @@
 
 «Introduction to 64 Bit Intel Assembly Language Programming for Linux» — Ray Seyfarth
 
-https://nasm.us/doc/?hl=ru-RU
+https://nasm.us/doc/
 
 «Beginning x64 Assembly Programming» — Jo Van Hoey
 
