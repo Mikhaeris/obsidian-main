@@ -81,7 +81,7 @@ official documentation: https://nasm.us/doc/
 | r15             | r15d                | r15w                | r15b               |
 
 32-bit:
-![registers](./Languages/static/registers.png)
+![registers](./static/registers.png)
 
 # Сегменты
 Три основных сегмента:
