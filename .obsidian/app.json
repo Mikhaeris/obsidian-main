@@ -5,5 +5,6 @@
   "foldHeading": true,
   "showIndentGuide": false,
   "livePreview": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true
 }
