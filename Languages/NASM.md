@@ -2,6 +2,14 @@
 main source: http://www.stolyarov.info/books/programming_intro (издание 2.9, том 1, глава 3)  
 official documentation: https://nasm.us/doc/  
 
+cheat sheet:
+https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf  
+https://web.stanford.edu/class/cs107/resources/x86-64-reference.pdf  
+https://wiki.osdev.org/CPU_Registers_x86-64  
+
+instructions:
+https://www.felixcloutier.com/x86/  
+
 # Система регистров
 
 Типы регистров:
