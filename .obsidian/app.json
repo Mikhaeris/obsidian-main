@@ -4,5 +4,6 @@
   "strictLineBreaks": true,
   "foldHeading": true,
   "showIndentGuide": false,
-  "livePreview": false
+  "livePreview": false,
+  "alwaysUpdateLinks": true
 }
