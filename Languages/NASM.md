@@ -1,6 +1,6 @@
 # INFO
-main source: http://www.stolyarov.info/books/programming_intro (издание 2.9, том 1, глава 3)
-official documentation: https://nasm.us/doc/
+main source: http://www.stolyarov.info/books/programming_intro (издание 2.9, том 1, глава 3)  
+official documentation: https://nasm.us/doc/  
 
 # Система регистров
 
