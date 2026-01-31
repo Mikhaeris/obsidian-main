@@ -15,6 +15,9 @@ https://wiki.osdev.org/CPU_Registers_x86-64
 instructions:  
 https://www.felixcloutier.com/x86/  
 
+processor documentation:  
+https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html
+
 # Система регистров
 
 Типы регистров:
