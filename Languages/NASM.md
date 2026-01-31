@@ -2,6 +2,11 @@
 main source: http://www.stolyarov.info/books/programming_intro (издание 2.9, том 1, глава 3)  
 official documentation: https://nasm.us/doc/  
 
+syscalls:  
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/plain/arch/x86/entry/syscalls/  
+https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/  
+https://syscalls.mebeim.net/?table=x86/32/ia32/latest  
+
 cheat sheet:  
 https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf  
 https://web.stanford.edu/class/cs107/resources/x86-64-reference.pdf  
