@@ -16,7 +16,8 @@ instructions:
 https://www.felixcloutier.com/x86/  
 
 processor documentation:  
-https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html
+https://docs.amd.com/v/u/en-US/40332-PUB_4.08  
+https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html  
 
 # Система регистров
 
