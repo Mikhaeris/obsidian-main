@@ -1,5 +1,5 @@
 #leetcode
-Count: 296
+Count: 297
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -86,6 +86,7 @@ Count: 296
 | 724  | [[Find Pivot Index]]                                                 |
 | 728  | [[Self Dividing Numbers]]                                            |
 | 735  | [[Asteroid Collision]]                                               |
+| 744  | [[Find Smallest Letter Greater Than Target]]                         |
 | 747  | [[Largest Number At Least Twice of Others]]                          |
 | 748  | [[Shortest Completing Word]]                                         |
 | 766  | [[Toeplitz Matrix]]                                                  |
