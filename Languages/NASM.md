@@ -12,7 +12,7 @@ https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
 https://web.stanford.edu/class/cs107/resources/x86-64-reference.pdf  
 https://wiki.osdev.org/CPU_Registers_x86-64  
 
-instructions:
+instructions:  
 https://www.felixcloutier.com/x86/  
 
 # Система регистров
