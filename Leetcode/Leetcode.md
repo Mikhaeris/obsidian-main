@@ -1,5 +1,5 @@
 #leetcode
-Count: 297
+Count: 298
 
 | N    | link                                                                 |
 | ---- | -------------------------------------------------------------------- |
@@ -299,3 +299,4 @@ Count: 297
 | 3668 | [[Restore Finishing Order]]                                          |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
+| 3010 | [[Divide an Array Into Subarrays With Minimum Cost I]]               |
