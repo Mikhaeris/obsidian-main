@@ -932,7 +932,7 @@ mov eax, arg1
 Нужно писать так:
 ```nasm
 %define arg(n) ebp+(4*n)+4
-$define local(n) ebp-(4*n)
+%define local(n) ebp-(4*n)
 
 mov [arg(7)], edx
 ```
