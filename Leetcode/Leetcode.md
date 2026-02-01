@@ -251,6 +251,7 @@ Count: 298
 | 2965 | [[Find Missing and Repeated Values]]                                 |
 | 3000 | [[Maximum Area of Longest Diagonal Rectangle]]                       |
 | 3005 | [[Count Elements With Maximum Frequency]]                            |
+| 3010 | [[Divide an Array Into Subarrays With Minimum Cost I]]               |
 | 3021 | [[Alice and Bob Playing Flower Game]]                                |
 | 3024 | [[Type of Triangle]]                                                 |
 | 3042 | [[Count Prefix and Suffix Pairs I]]                                  |
@@ -299,4 +300,3 @@ Count: 298
 | 3668 | [[Restore Finishing Order]]                                          |
 | 3683 | [[Earliest Time to Finish One Task]]                                 |
 | 3684 | [[Maximize Sum of At Most K Distinct Elements]]                      |
-| 3010 | [[Divide an Array Into Subarrays With Minimum Cost I]]               |
